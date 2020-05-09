@@ -1,0 +1,8 @@
+To find a specific model in your block:
+	1. Find the position of the model in the "ModelReferenceList"
+	2. Count which entry the model is in that list. 
+		In Notepad++, select that model's entry plus all the ones above. Look for number of lines selected.
+		Index number = lines selected / 5 - 1
+	3. Count how many of that model is in the block's model list and which number the one you want to edit is (1st, 2nd, etc)
+	4. Search for ["ModelIndex": <index number>,]
+	5. The model you are looking for will be the Nth search result.

@@ -1,0 +1,401 @@
+==== Fixed Models ====
+239
+	- Description: Settlement - Building - 3 levels - stair-step structure
+	- e.g. Daggerfall - Hortale - Lord Agryctor's Mail exterior
+	- Applied wood texture to roof's edge.
+
+9004
+	- Description: Dungeon - Door - Bronze with triangle shapes designed on it and steel studs
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
+	- Raised door so that half of it isn't in the floor.
+	- Expanded to fill gaps between door and it's frame.
+	- Applied bronze texture to edges of door.
+
+41128
+	- Description: Settlement - Corner counter
+	- e.g. Daggerfall - Oxwick - The Feather and Cat
+	- Replaced a solid brown texture on the edges with wood grain textures.
+	- Closed gaps on the back of the model.
+	- Expanded to fill gaps between this model and the walls it is attached to.
+	- Removed excess vertices (from 32 to 24)
+
+41316
+	- Description: Dungeon - Coffin with it's lid opened, revealing a decayed human body.
+	- e.g. Daggerfall - Gondyrick Laboratory - In a room right above the large alter room next to entrance
+	- Adjusted collision so that it is no longer possible for characters to fall inside the coffin and get stuck (fixes Issue #1736).
+
+41402
+	- Description: Dungeon - Wood platform on supports
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
+	- Replaced a number of solid brown textures with wood grain textures.
+	- Closed numerous gaps in the model.
+	- Removed excess vertices (from 136 to 100)
+
+41500
+	- Description: Dungeon - Small simple boat
+	- e.g. Daggerfall - Ruins of Ashwing Manor - Upper floors on East side
+	- Added texture to both sides of the boat's model so that the boat's inside surfaces are no longer invisible.
+	- Fixed collision so that player doesn't get stuck inside the boat.
+
+41902
+	- Description: Settlement - Wood pillar
+	- e.g. Daggerfall - Hortale - Lord Agryctor's Mail exterior
+	- Extended pillar to close gaps between the objects it's resting on and supporting.
+	- Removed excess vertices (from 24 to 16)
+
+54001
+	- Description: Dungeon - Trapdoor
+	- e.g. Daggerfall - Trogker - Bottom of large room just below dungeon exit.
+	- Applied wood texture to edges of trapdoor (previously solid colour).
+	- Applied trapdoor texture to underside (previously solid colour).
+
+55000
+	- Description: Dungeon - Door - plain wood slats and beams with iron hoop for handle
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance (but very common overall)
+	- Applied wood texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Expanded to fill gaps between door and it's frame.
+
+55001
+	- Description: Dungeon - Door - wood beams with reddish panels, window with iron bars, 3 hinges and latch
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
+	- Applied wood texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Expanded to fill gaps between door and it's frame.
+
+55002
+	- Description: Dungeon - Door - plain wood slats and beams with iron hoop for handle
+	- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Both doors to the sides of thrones
+	- Applied wood texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Expanded to fill gaps between door and it's frame.
+
+55003
+	- Description: Dungeon - Door - wood beams with reddish panels, window with iron bars, 3 hinges and latch
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
+	- Applied wood texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Expanded to fill gaps between door and it's frame.
+
+55004
+	- DO NOT FIX. Required to leave Daggerfall's castle. https://github.com/Interkarma/daggerfall-unity/issues/1584
+	- Description: General - Door - plain wood slats and beams with iron hoop for handle (extremely common though)
+	- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Entrance to throne room and are magically locked
+		- Also Daggerfall - Ruins of Hearthston Manor - Turn right after entering dungeon and the door is behind that movable wall
+	- Applied wood texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Expanded to fill gaps between door and it's frame.
+
+55005
+	- Description: Dungeon - Door - wood beams with reddish panels, window with iron bars, 3 hinges and latch
+	- e.g. Daggerfall - The Vannona Coven - Underwater corridor leading off large room close to entrance from a platform just above water surface.
+	- Applied wood texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Expanded to fill gaps between door and it's frame.
+
+55007
+	- Description: Dungeon - Secret door for curved stone walls
+	- e.g. Daggerfall - The Citadel of Yeomcroft - End of short corridor near entrance
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Removed excess vertices (from 44 to 28)
+
+55012
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - Privateer's Hold - First secret door encountered.
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
+
+56000
+	- Description: Dungeon - Spiral Staircase with wall blocking underside of staircase
+	- e.g. Daggerfall - Trogker - West of the large room and entrance
+	- Applied stone tile texture to steps (previously solid colour).
+	- Closed gaps between staircase steps + lower landing and room's walls.
+
+56002
+	- Description: Dungeon - Upper landing for Spiral Staircase (model #56000)
+	- e.g. Daggerfall - Trogker - West of the large room and entrance
+	- Moved model to close gap between model and room's wall.
+	- Applied stone tile and ceiling textures to side and bottom, respectively (previously solid colour).
+
+56008
+	- Description: Dungeon - Room used to hold spiral staircases
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Switched doorway texture from stone to correct wood one.
+	- Removed excess vertices (from 40 to 20)
+
+56300
+	- Description: Dungeon - Spiral Staircase with underside open and lower landing for ground floor
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between staircase steps + lower landing and room's walls.
+
+56301
+	- Description: Dungeon - Spiral Staircase with underside open and no landing for upper floors
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between staircase steps and room's walls.
+
+56304
+	- Description: Dungeon - Mid floor landing for Spiral Staircase (model #56301)
+	- e.g. Daggerfall - Trogker - West of the large room and entrance
+	- Replaced underside's pink texture with a proper ceiling texture.
+
+58008
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower doorway
+	- e.g. Daggerfall - Privateer's Hold - First set of stairs after starting game.
+	- Widened steps to close gaps between stairs and walls.
+	- Moved steps forward slightly to stop characters from colliding with the lower doorway's lintel.
+	- Corrected UV map of bottom floor.
+
+58009
+	- Description: Dungeon - Corridor and staircase making up South side of platform for Privateer's Hold's throne
+	- e.g. Daggerfall - Privateer's Hold - See above
+	- Closed gaps between steps and walls.
+
+58033
+	- Description: Dungeon - Top piece of tower holding staircase
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Fixed Z-buffer fighting in doorway.
+	- Removed excess vertices (from 44 to 16)
+
+58036
+	- Description: Dungeon - Mid piece of tower holding staircase
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Fixed Z-buffer fighting in doorway.
+	- Removed excess vertices (from 40 to 12)
+
+58043
+	- Description: Dungeon - Open balcony with connection point on one side for another model
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Corrected floor's bad UV mapping.
+	- Closed gaps between this model and room's walls.
+
+58045
+	- Description: Dungeon - Open platform that connects to bottom of stairs 59004
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between this model and room's walls.
+	- Removed excess vertices (from 32 to 12)
+
+58049
+	- Description: Dungeon - North West portion of Privateer's Hold's throne room
+	- e.g. Daggerfall - Privateer's Hold - See above
+	- Removed wood textured faces from doorway as these were causing Z-buffer fighting with the corridor model connected to this doorway.
+
+58050
+	- Description: Dungeon - Corridor and staircase making up North side of platform for Privateer's Hold's throne
+	- e.g. Daggerfall - Privateer's Hold - See above
+	- Closed gaps between steps and walls.
+	- Fixed Z-buffer fighting in doorway.
+
+58055
+	- Description: 2 small walls joined at 90 degrees
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gap between the bottom of the model and the models below it.
+
+59004
+	- Description: Dungeon - Two staircases connected end-to-end at a 90° angle
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between steps and walls.
+	- Closed gaps between this model and room's walls.
+
+59007
+	- Description: Dungeon - Giant Staircase - walls block off access to underside of stairs, no walls along sides of stairs.
+	- e.g. Daggerfall - Privateer's Hold - Staircase in Throne room leading up to throne.
+	- Closed gaps between steps and walls.
+
+59011
+	- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
+	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+	- Closed gaps between steps and walls.
+	- Removed extraneous piece of ceiling.
+
+59012
+	- Description: Dungeon - Giant Staircase - No walls
+	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+	- Closed gaps between steps and walls.
+
+59013
+	- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
+	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+	- Closed gaps between steps and walls.
+	- Removed extraneous piece of ceiling.
+
+59017
+	- Description: Dungeon - Giant staircase in Daggerfall castle
+	- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Giant staircase leading up to thrones
+	- Closed gaps between steps and walls.
+
+60110
+	- Description: Dungeon - Cave tunnel piece with 45° bend
+	- e.g. Ilessan Hills - Castle Buckington - Upper floors on SE side
+	- Elevated portion of the floor to stop it from clipping with the ceiling of model 60106 in some dungeons.
+		- This solves these reports: https://forums.dfworkshop.net/viewtopic.php?p=17165 and https://forums.dfworkshop.net/viewtopic.php?p=41771
+	- Closed a gap that formed between one end of this model and neighbouring models.
+	- Improved the UV mapping of it's walls.
+	- Removed excess vertices (from 66 to 25)
+
+61004
+	- Description: Dungeon - Passageway piece with 90° tight bend
+	- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right into the next room. On the other side of the room's other door is the model.
+	- Closed 2 large gaps and many microscopic ones that formed between the ends of this model and neighbouring models.
+
+61017
+	- Description: Dungeon - 15° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - The Tomb of Baroghoth - At end of long passage that starts next to room with coffins near entrance.
+	- Closed gaps between steps and walls.
+	- Improved the UV mapping of the walls just next to the steps.
+	- Removed excess vertices (from 156 to 148)
+
+61018
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - The Alabore Prison - Staircase within spitting distance to the left of entrance.
+	- Closed gaps between steps and walls.
+
+61025
+	- Description: Dungeon - Moving stone wall
+	- e.g. Daggerfall - Ruins of Hearthston Manor - Turn right after entering dungeon and the wall is at the end of corridor.
+	- Applied stone texture to edges of wall.
+	- Expanded to fill gaps between movable wall and surrounding static walls.
+	- Closed gap on the bottom edge of wall.
+	- Removed excess vertices (from 36 to 24)
+
+61118
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - Castle Wooding - Bottom of the North West part of the dungeon.
+	- Closed gaps between steps and walls.
+	- Removed excess vertices (from 168 to 156)
+
+61218
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - Privateer's Hold - Staircase in corridor just before room with archer and tables.
+	- Improved the UV mapping of the lower parts of the walls just next to the steps.
+	- Closed gaps between steps and walls.
+	- Removed excess vertices (from 168 to 146)
+
+62319
+	- Description: Dungeon - Square wood beam
+	- e.g. Daggerfall - The Tomb of Baroghoth - Inside long passage that starts next to room with coffins near entrance.
+	- Applied tree ring texture to beam's ends.
+	- Removed excess vertices (from 24 to 16)
+
+63005
+	- Description: Dungeon - End of passageway with doorway on left side
+	- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right.
+	- Corrected bad UV mapping on floor.
+
+63022
+	- Description: Dungeon - Passageway with two wood pillars or ceiling supports
+	- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
+	- Closed gaps between the pillars' ends and the ceiling + floor.
+	- Removed excess vertices (from 56 to 40)
+
+63026
+	- Description: Dungeon - 30° Staircase inside curved passageway with upper and lower part open
+	- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
+	- Closed gaps between steps and walls.
+	- Removed excess vertices (from 112 to 70)
+
+67025
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open and ceiling at a more gentle slope
+	- e.g. Daggerfall - Trogker - Short distance along passage that comes off the North side of the large room's ground floor.
+	- Closed gaps between steps and walls.
+
+70809
+	- Description: Dungeon - 2 rooms side-by-side - One much larger than other
+	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+	- Applied stone texture to edges of wall that had a solid brown texture.
+	- Applied wood grain texture to doorways.
+	- Fixed bad UV mapping on floor.
+	- Closed gaps between ceiling and trusses.
+	- Removed excess vertices (from 281 to 146)
+
+71101
+	- Description: Dungeon - Small square room with 2 doorways at 90° from each other
+	- e.g. Daggerfall - The Belladausa Coven - The room behind the door you are looking at after entering the dungeon.
+	
+	- Removed excess vertices (from 72 to 40)
+
+74009
+	- Description: Dungeon - Long white/grey marble pillar with magenta caps
+	- e.g. Daggerfall - Privateer's Hold - Throne room
+	- Closed gaps between the caps and base + ceiling
+	- Removed excess vertices (from 72 to 36)
+
+
+==== Fixed Dungeon Block Records ====
+N0000005.RDB
+	- e.g. Daggerfall - Trogker - Sarcophagus inside large room just below dungeon entrance.
+	- Corrected position of sarcophagus (model #41319 - ModelIndex: 46 - Position: 22223) as it was floating above the ground.
+
+N0000027.RDB
+	- e.g. Daggerfall - Trogker - Corridor found outside torture room that you teleport into after activating a skull found in passageway that comes off west side of large room.
+	- Corrected rotation of a corridor corner piece (model #63133 - ModelIndex: 12 - Position: 14455) as it's rotation was causing both gaps between models and Z-buffer fighting.
+
+W0000005.RDB
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
+	- Nudged 90° short stone wall (model #58055 - ModelIndex: 86 - Position: 24863) slightly to stop it clipping with the stairs.
+
+
+==== Fixed Map Block Records ====
+ALCHAM01.RMB
+	- e.g. Daggerfall - Crosstry - Crosstry Provisions
+	- Made two changes that together turn the General Store into a functional shop.
+		- Assigned Merchant to the "Merchant" faction (line 13666).
+		- Added general store shelves to the store (lines 13200 - 13232).
+	- Moved the Dining Room furniture and fireplace into a neighbouring room to make space for the above shelves (lines 13155 - 13198).
+	- Grounded all objects in the General Store as they were slightly floating above the floor.
+	- Grounded a cart outside that was floating above the ground.
+	- Moved a fence to close a gap between it and a wall.
+
+ARMRAM00.RMB
+	- e.g. Daggerfall - Hortale - Lord Agryctor's Mail exterior
+	- Corrected position of a pillar (Model #41902 - 2nd entry in Block3dObjectRecords - Line 2913) that was hanging off the side of a building.
+
+ARMRAM03.RMB
+	- e.g. Daggerfall - Oxwick - Doctor Rodynak's Weapons & The Feather and Cat
+	- Corrected Building Data List that incorrectly labelled a weapon smith as a residence. (line 291 - index #14)
+	- Corrected AutoMap data that was incorrectly labelling the weapon smith as a residence.
+	- Corrected position of a corner counter (Model #41128 - 71st entry in Block3dObjectRecords - Line 4924) that was not touching the walls.
+
+CUSTAA02.RMB
+	- e.g. Daggerfall - Daggerfall (city) - House for Sale: Next building West of Edwyn's General Pawnbrokers
+	- Removed model #31000 (line 4985-4995) as it causes characters to get stuck on the 1st floor of a particular house in this Map Block Record.
+		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42929
+
+GEMSAL03.RMB
+	- e.g. Daggerfall - Daggerfall (city) - The Emperor's Jewelers
+	- Corrected AutoMap data that was incorrectly labelling one of the Jewellery stores as a residence.
+	- Added a jewellery store sign near the above store's door.
+
+LIBRAL03.RMB
+	- e.g. Daggerfall - Burgwall - former Bargain Bookstall (small square house 2 building SW of the library)
+	- Corrected Building Data List that incorrectly labelled a house as a bookstore. (line 195 - index #2)
+	- Corrected automap data that incorrectly labelled a house as a bookstore.
+
+MAGEAA10.RMB
+	- e.g. Daggerfall - Gallotale - Mages Guild - Room through door left of entrance
+	- Removed model #3230 (line 3180-3190) as it was placed on top of model #13205 (line 3213) and causing Z-buffer fighting.
+	- Filled notch in the Mages Guild's automap image.
+
+RESIBM01.RMB
+	- e.g. Sentinel - Cudadkat - NE Corner - House in the centre of block between some horses and some camels
+	- Removed model #31000 (line 13320-13330) as it causes characters to get stuck on the 1st floor of a particular house in this Map Block Record.
+		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42929
+
+TVRNAM00.RMB
+	- e.g. Daggerfall - Gothway Gardens - ??
+	- Corrected Building Data List that incorrectly labelled a tavern as a house. (line 179 - index #0)
+	- Corrected automap data that incorrectly labelled a tavern as a house.
+	- Gave this new tavern a random name seed to ensure it doesn't get the same name as the tavern at index #6 (line 175).
+
+TVRNAM03.RMB
+	- e.g. Daggerfall - Charway Rock - SW Corner - West of the three taverns
+	- Corrected AutoMap data that had a line of green pixels where a tavern didn't exist.
+
+
+
+==== Known issues ====
+	LIBRAL03.RMB
+		- Container inside the house will still sell books if they've already entered this building before applying this patch.
+	
+	TVRNAM00.RMB
+		- Innkeeper will still refuse to talk to player if they've already entered this building before applying this patch.
