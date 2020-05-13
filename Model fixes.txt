@@ -19,6 +19,27 @@
 	- Expanded to fill gaps between this model and the walls it is attached to.
 	- Removed excess vertices (from 32 to 24)
 
+41206
+	- Description: General - Fence post with 2 fence poles attached and pointing one way
+	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+	- Replaced solid brown texture from 3 post ends with a tree ring texture.
+	- Closed gaps on 3 post ends.
+	- Removed excess vertices (from 45 to 36).
+
+41207
+	- Description: General - Fence post with 2 fence poles attached and pointing one way
+	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+	- Replaced solid brown texture from 1 post end with a tree ring texture.
+	- Closed gaps on 5 post ends.
+	- Removed excess vertices (from 39 to 36).
+
+41208
+	- Description: General - Fence post with 2 fence poles attached and pointing one way
+	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+	- Replaced solid brown texture from 3 post ends with a tree ring texture.
+	- Closed gaps on 3 post ends.
+	- Removed excess vertices (from 45 to 36).
+
 41316
 	- Description: Dungeon - Coffin with it's lid opened, revealing a decayed human body.
 	- e.g. Daggerfall - Gondyrick Laboratory - In a room right above the large alter room next to entrance
@@ -105,6 +126,12 @@
 	- e.g. Daggerfall - Privateer's Hold - First secret door encountered.
 	- Applied stone texture to edges of door.
 	- Closed gap on the bottom edge of door.
+
+55028
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - Hearthsly's Guard - Somewhere in moss brick maze
+	- Closed gap on the bottom edge of door.
+	- Applied stone texture to edges of door.
 
 56000
 	- Description: Dungeon - Spiral Staircase with wall blocking underside of staircase
@@ -311,7 +338,7 @@
 71101
 	- Description: Dungeon - Small square room with 2 doorways at 90° from each other
 	- e.g. Daggerfall - The Belladausa Coven - The room behind the door you are looking at after entering the dungeon.
-	
+	- Corrected the height of the 2 doorways' lintels as they were too low.
 	- Removed excess vertices (from 72 to 40)
 
 74009
@@ -324,15 +351,68 @@
 ==== Fixed Dungeon Block Records ====
 N0000005.RDB
 	- e.g. Daggerfall - Trogker - Sarcophagus inside large room just below dungeon entrance.
-	- Corrected position of sarcophagus (model #41319 - ModelIndex: 46 - Position: 22223) as it was floating above the ground.
+	- Corrected position of sarcophagus ("ModelIdNum": 41319 - "ModelIndex": 46 - "Position": 22223) as it was floating above the ground.
+	- Corrected position of 3 altars as they were floating above the ground:
+		- "ModelIdNum": 41311 - "ModelIndex": 11 - "Position": 28061
+		- "ModelIdNum": 41311 - "ModelIndex": 11 - "Position": 28468
+		- "ModelIdNum": 41311 - "ModelIndex": 11 - "Position": 27750
+	- Corrected position of 4 bookshelves as they were floating above the ground:
+		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28754
+		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28706
+		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28658
+		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28587
+	- Corrected position of 4 beds as they were floating above the ground:
+		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27846
+		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27942
+		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27894
+		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27798
+	- Corrected position of 2 statues as they were floating above the ground and moved one back as it was hanging off the balcony's edge:
+		- "ModelIdNum": 62329 - "ModelIndex": 49 - "Position": 22726
+		- "ModelIdNum": 62329 - "ModelIndex": 49 - "Position": 22726
+	- Corrected position of torture table ("ModelIdNum": 41303 - "ModelIndex": 56 - "Position": 28420) as it was floating above the ground.
+	- Corrected position of 4 crates as they were floating above the ground:
+		- "ModelIdNum": 41827 - "ModelIndex": 63 - "Position": 29086
+		- "ModelIdNum": 41833 - "ModelIndex": 60 - "Position": 28873
+		- "ModelIdNum": 41832 - "ModelIndex": 61 - "Position": 28944
+		- "ModelIdNum": 41834 - "ModelIndex": 59 - "Position": 28802
+	- Corrected position of 8 torches as they were floating above the ground:	"YPos": -1066,
+		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22988
+		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22845
+		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22917
+		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22881
+		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22343
+		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22271
+		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22379
+		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22307
+	- Corrected position of doorway brick wall ("ModelIdNum": 72100 - "ModelIndex": 64 - "Position": 29332) as there were gaps between the model and doorway.
 
 N0000027.RDB
 	- e.g. Daggerfall - Trogker - Corridor found outside torture room that you teleport into after activating a skull found in passageway that comes off west side of large room.
-	- Corrected rotation of a corridor corner piece (model #63133 - ModelIndex: 12 - Position: 14455) as it's rotation was causing both gaps between models and Z-buffer fighting.
+	- Corrected rotation of a corridor corner piece ("ModelIdNum": 63133 - "ModelIndex": 12 - "Position": 14455) as it's rotation was causing both gaps between models and Z-buffer fighting.
+
+N0000074.RDB
+	- e.g. Daggerfall - Castle Wooding - Dungeon's entrance
+	- Corrected position of dungeon entrance ("ModelIdNum": 70300 - "ModelIndex": 32 - "Position": 27078) as it was clearly some distance away from the wall.
+	- Corrected position of torture table ("ModelIdNum": 41302 - "ModelIndex": 63 - "Position": 23822) as it was floating above the ground.
+	- Corrected position of sarcophagus ("ModelIdNum": 41319 - "ModelIndex": 29 - "Position": 26851) as it was floating above the ground.
+
+N0000075.RDB
+	- e.g. Daggerfall - Castle Wooding - ??
+
+N0000090.RDB
+	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+	- Corrected position of water trough ("ModelIdNum": 41209 - "ModelIndex": 61 - "Position": 37354) as it was floating above the ground.
+	- Corrected position of a fence model ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38691) as it was clipping into another fence model and causing Z-buffer fighting.
+	- Corrected position of a fence post ("ModelIdNum": 62319 - "ModelIndex": 74 - "Position": 39171) as the fence post above ("Position": 38691) was now clipping into it.
+	- Corrected position of the following fence models as there were gaps between them and other parts of the fence:
+		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 39075)
+		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 39027)
+		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38979)
+		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38835)
 
 W0000005.RDB
 	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
-	- Nudged 90° short stone wall (model #58055 - ModelIndex: 86 - Position: 24863) slightly to stop it clipping with the stairs.
+	- Nudged 90° short stone wall ("ModelIdNum": 58055 - "ModelIndex": 86 - "Position": 24863) slightly to stop it clipping with the stairs.
 
 
 ==== Fixed Map Block Records ====
