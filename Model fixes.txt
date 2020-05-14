@@ -121,6 +121,12 @@
 	- Closed gap on the bottom edge of door.
 	- Removed excess vertices (from 44 to 28)
 
+55011
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - Castle Wooding - From entrance, turn left at crossroad, turn right at end of corridor and look for door on 1st bend.
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
+
 55012
 	- Description: Dungeon - Secret door for straight stone walls
 	- e.g. Daggerfall - Privateer's Hold - First secret door encountered.
@@ -260,6 +266,11 @@
 	- Improved the UV mapping of it's walls.
 	- Removed excess vertices (from 66 to 25)
 
+60606
+	- Description: Dungeon - Wood Portcullis gate
+	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+	- 
+
 61004
 	- Description: Dungeon - Passageway piece with 90° tight bend
 	- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right into the next room. On the other side of the room's other door is the model.
@@ -325,6 +336,17 @@
 	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open and ceiling at a more gentle slope
 	- e.g. Daggerfall - Trogker - Short distance along passage that comes off the North side of the large room's ground floor.
 	- Closed gaps between steps and walls.
+
+63234
+	- Description: Dungeon - Level passageway with a gentle 45° turn
+	- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
+	- Closed gaps created between walls of this and neighbouring models.
+
+63243
+	- Description: Dungeon - Corridor with sharp 180° bend and incline
+	- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
+	- Fixed bad UV mapping on floor.
+	- Removed excess vertices (from 106 to 95) - More possible
 
 70809
 	- Description: Dungeon - 2 rooms side-by-side - One much larger than other
@@ -398,6 +420,10 @@ N0000074.RDB
 
 N0000075.RDB
 	- e.g. Daggerfall - Castle Wooding - ??
+	- Corrected position of 3 torture tables as they were floating above the ground.
+		- ("ModelIdNum": 41301 - "ModelIndex": 65 - "Position": 24523)
+		- ("ModelIdNum": 41303 - "ModelIndex": 66 - "Position": 24594)
+		- ("ModelIdNum": 41302 - "ModelIndex": 62 - "Position": 23699)
 
 N0000090.RDB
 	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
