@@ -87,14 +87,14 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
-  - {fileID: 2100002, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
-  - {fileID: 2100004, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
-  - {fileID: 2100006, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
-  - {fileID: 2100008, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
-  - {fileID: 2100010, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
-  - {fileID: 2100012, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
-  - {fileID: 2100014, guid: b0c9aada39b1ef6479dc548304b84a4d, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -148,35 +148,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasAppliedMaterials: 0
   Materials:
-  - Index: 67
-    Archive: 14
+  - Index: 0
+    Archive: 171
+    Record: 3
+    ApplyClimate: 0
+  - Index: 1
+    Archive: 112
+    Record: 0
+    ApplyClimate: 1
+  - Index: 2
+    Archive: 112
+    Record: 1
+    ApplyClimate: 1
+  - Index: 3
+    Archive: 112
+    Record: 3
+    ApplyClimate: 1
+  - Index: 4
+    Archive: 74
     Record: 0
     ApplyClimate: 0
-  - Index: 74
-    Archive: 0
-    Record: 0
-    ApplyClimate: 1
-  - Index: 112
-    Archive: 0
-    Record: 0
-    ApplyClimate: 1
-  - Index: 112
-    Archive: 1
-    Record: 0
-    ApplyClimate: 1
-  - Index: 112
-    Archive: 3
-    Record: 0
-    ApplyClimate: 1
-  - Index: 169
-    Archive: 0
-    Record: 0
-    ApplyClimate: 1
-  - Index: 171
-    Archive: 3
+  - Index: 5
+    Archive: 169
     Record: 0
     ApplyClimate: 0
-  - Index: 171
-    Archive: 4
-    Record: 0
+  - Index: 6
+    Archive: 67
+    Record: 14
+    ApplyClimate: 0
+  - Index: 7
+    Archive: 171
+    Record: 4
     ApplyClimate: 0

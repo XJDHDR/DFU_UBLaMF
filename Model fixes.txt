@@ -18,6 +18,7 @@
 	- Closed gaps on the back of the model.
 	- Expanded to fill gaps between this model and the walls it is attached to.
 	- Removed excess vertices (from 32 to 24)
+	- XJDHDR: Need to undo stretching and position in blocks instead.
 
 41206
 	- Description: General - Fence post with 2 fence poles attached and pointing one way
@@ -99,13 +100,13 @@
 	- Expanded to fill gaps between door and it's frame.
 
 55004
-	- DO NOT FIX. Required to leave Daggerfall's castle. https://github.com/Interkarma/daggerfall-unity/issues/1584
 	- Description: General - Door - plain wood slats and beams with iron hoop for handle (extremely common though)
 	- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Entrance to throne room and are magically locked
 		- Also Daggerfall - Ruins of Hearthston Manor - Turn right after entering dungeon and the door is behind that movable wall
 	- Applied wood texture to edges of door.
 	- Closed gap on the bottom edge of door.
 	- Expanded to fill gaps between door and it's frame.
+		- Known issue: This fix can stop player from leaving Daggerfall Castle: https://github.com/Interkarma/daggerfall-unity/issues/1584
 
 55005
 	- Description: Dungeon - Door - wood beams with reddish panels, window with iron bars, 3 hinges and latch
@@ -113,6 +114,13 @@
 	- Applied wood texture to edges of door.
 	- Closed gap on the bottom edge of door.
 	- Expanded to fill gaps between door and it's frame.
+
+55006
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - The Vannona Coven - Start of underwater corridor leading off large room close to entrance just below the water's surface.
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Removed excess vertices (from 20 to 16)
 
 55007
 	- Description: Dungeon - Secret door for curved stone walls
@@ -269,7 +277,9 @@
 60606
 	- Description: Dungeon - Wood Portcullis gate
 	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
-	- 
+	- Closed gaps between bars, spikes and trusses.
+	- Closed holes on the sides of the trusses.
+	- Removed excess vertices (from 137 to 93).
 
 61004
 	- Description: Dungeon - Passageway piece with 90° tight bend
@@ -348,6 +358,20 @@
 	- Fixed bad UV mapping on floor.
 	- Removed excess vertices (from 106 to 95) - More possible
 
+67219
+	- Description: Dungeon - Corridor piece - start of corridor - doorway at end
+	- e.g. Daggerfall - The Belladausa Coven - Passageway that leads out the pigsty room you start in.
+	- Fixed bad UV mapping on floor.
+	- Removed excess vertices (from 47 to 36)
+
+67313
+	- Description: Dungeon - Upper floor corridor corner with one side open
+	- e.g. Daggerfall - Daggerfall (City) - Daggerfall Castle - Large room NW of throne room entered from upper levels on North side of large room containing 2 spiral staircases in towers and floating walkways above water that is West of the throne room.
+	- Removed the overhang that this model creates with model #58020.
+		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42760
+	- Fixed problematic UV mapping on ceiling.
+	- Removed excess vertices (from 33 to 22)
+
 70809
 	- Description: Dungeon - 2 rooms side-by-side - One much larger than other
 	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
@@ -419,7 +443,7 @@ N0000074.RDB
 	- Corrected position of sarcophagus ("ModelIdNum": 41319 - "ModelIndex": 29 - "Position": 26851) as it was floating above the ground.
 
 N0000075.RDB
-	- e.g. Daggerfall - Castle Wooding - ??
+	- e.g. Daggerfall - Castle Wooding - Torture rooms on opposite side of the dungeon from entrance
 	- Corrected position of 3 torture tables as they were floating above the ground.
 		- ("ModelIdNum": 41301 - "ModelIndex": 65 - "Position": 24523)
 		- ("ModelIdNum": 41303 - "ModelIndex": 66 - "Position": 24594)
@@ -447,7 +471,8 @@ ALCHAM01.RMB
 	- Made two changes that together turn the General Store into a functional shop.
 		- Assigned Merchant to the "Merchant" faction (line 13666).
 		- Added general store shelves to the store (lines 13200 - 13232).
-	- Moved the Dining Room furniture and fireplace into a neighbouring room to make space for the above shelves (lines 13155 - 13198).
+			- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=44156
+	- Moved the dining room furniture and fireplace into a neighbouring room to make space for the above shelves (lines 13155 - 13198).
 	- Grounded all objects in the General Store as they were slightly floating above the floor.
 	- Grounded a cart outside that was floating above the ground.
 	- Moved a fence to close a gap between it and a wall.
@@ -488,7 +513,7 @@ RESIBM01.RMB
 		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42929
 
 TVRNAM00.RMB
-	- e.g. Daggerfall - Gothway Gardens - ??
+	- e.g. Daggerfall - Gothway Gardens - E of Mages Guild & WNW of Resolution of Zen
 	- Corrected Building Data List that incorrectly labelled a tavern as a house. (line 179 - index #0)
 	- Corrected automap data that incorrectly labelled a tavern as a house.
 	- Gave this new tavern a random name seed to ensure it doesn't get the same name as the tavern at index #6 (line 175).
@@ -497,6 +522,11 @@ TVRNAM03.RMB
 	- e.g. Daggerfall - Charway Rock - SW Corner - West of the three taverns
 	- Corrected AutoMap data that had a line of green pixels where a tavern didn't exist.
 
+WEAPAL02.RMB
+	- e.g. Wrothgarian Mountains - Dunlain Falls - Dunlain Falls's Best Arms (added by the "New Canon Locations" mod: https://www.nexusmods.com/daggerfallunity/mods/83 )
+		- Block is not used in the vanilla game. It is only used in mods.
+	- Corrected position of the floor and ceiling models in smaller weaponsmith to close large gaps between them and wall models.
+		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=43690
 
 
 ==== Known issues ====
