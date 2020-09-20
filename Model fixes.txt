@@ -4,12 +4,12 @@
 	- e.g. Daggerfall - Hortale - Lord Agryctor's Mail exterior
 	- Applied wood texture to roof's edge.
 
-9004
-	- Description: Dungeon - Door - Bronze with triangle shapes designed on it and steel studs
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
-	- Raised door so that half of it isn't in the floor.
-	- Expanded to fill gaps between door and it's frame.
-	- Applied bronze texture to edges of door.
+	9004		XJDHDR: Redo side textures (dungeon variation applied to it)
+		- Description: Dungeon - Door - Bronze with triangle shapes designed on it and steel studs
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
+		- Raised door so that half of it isn't in the floor.
+		- Expanded to fill gaps between door and it's frame.
+		- Applied bronze texture to edges of door.
 
 41128
 	- Description: Settlement - Corner counter
@@ -18,7 +18,6 @@
 	- Closed gaps on the back of the model.
 	- Expanded to fill gaps between this model and the walls it is attached to.
 	- Removed excess vertices (from 32 to 24)
-	- XJDHDR: Need to undo stretching and position in blocks instead.
 
 41206
 	- Description: General - Fence post with 2 fence poles attached and pointing one way
@@ -41,11 +40,6 @@
 	- Closed gaps on 3 post ends.
 	- Removed excess vertices (from 45 to 36).
 
-41316
-	- Description: Dungeon - Coffin with it's lid opened, revealing a decayed human body.
-	- e.g. Daggerfall - Gondyrick Laboratory - In a room right above the large alter room next to entrance
-	- Adjusted collision so that it is no longer possible for characters to fall inside the coffin and get stuck (fixes Issue #1736).
-
 41402
 	- Description: Dungeon - Wood platform on supports
 	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
@@ -57,7 +51,7 @@
 	- Description: Dungeon - Small simple boat
 	- e.g. Daggerfall - Ruins of Ashwing Manor - Upper floors on East side
 	- Added texture to both sides of the boat's model so that the boat's inside surfaces are no longer invisible.
-	- Fixed collision so that player doesn't get stuck inside the boat.
+		- Fixes these reports: https://forums.dfworkshop.net/viewtopic.php?f=5&t=3490 and https://forums.dfworkshop.net/viewtopic.php?f=5&t=3852
 
 41902
 	- Description: Settlement - Wood pillar
@@ -106,7 +100,6 @@
 	- Applied wood texture to edges of door.
 	- Closed gap on the bottom edge of door.
 	- Expanded to fill gaps between door and it's frame.
-		- Known issue: This fix can stop player from leaving Daggerfall Castle: https://github.com/Interkarma/daggerfall-unity/issues/1584
 
 55005
 	- Description: Dungeon - Door - wood beams with reddish panels, window with iron bars, 3 hinges and latch
@@ -115,49 +108,49 @@
 	- Closed gap on the bottom edge of door.
 	- Expanded to fill gaps between door and it's frame.
 
-55006
-	- Description: Dungeon - Secret door for straight stone walls
-	- e.g. Daggerfall - The Vannona Coven - Start of underwater corridor leading off large room close to entrance just below the water's surface.
-	- Applied stone texture to edges of door.
-	- Closed gap on the bottom edge of door.
-	- Removed excess vertices (from 20 to 16)
+	55006		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Secret door for straight stone walls
+		- e.g. Daggerfall - The Vannona Coven - Start of underwater corridor leading off large room close to entrance just below the water's surface.
+		- Applied stone texture to edges of door.
+		- Closed gap on the bottom edge of door.
+		- Removed excess vertices (from 20 to 16)
 
-55007
-	- Description: Dungeon - Secret door for curved stone walls
-	- e.g. Daggerfall - The Citadel of Yeomcroft - End of short corridor near entrance
-	- Applied stone texture to edges of door.
-	- Closed gap on the bottom edge of door.
-	- Removed excess vertices (from 44 to 28)
+	55007		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Secret door for curved stone walls
+		- e.g. Daggerfall - The Citadel of Yeomcroft - End of short corridor near entrance
+		- Applied stone texture to edges of door.
+		- Closed gap on the bottom edge of door.
+		- Removed excess vertices (from 44 to 28)
 
-55011
-	- Description: Dungeon - Secret door for straight stone walls
-	- e.g. Daggerfall - Castle Wooding - From entrance, turn left at crossroad, turn right at end of corridor and look for door on 1st bend.
-	- Applied stone texture to edges of door.
-	- Closed gap on the bottom edge of door.
+	55011		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Secret door for straight stone walls
+		- e.g. Daggerfall - Castle Wooding - From entrance, turn left at crossroad, turn right at end of corridor and look for door on 1st bend.
+		- Applied stone texture to edges of door.
+		- Closed gap on the bottom edge of door.
 
-55012
-	- Description: Dungeon - Secret door for straight stone walls
-	- e.g. Daggerfall - Privateer's Hold - First secret door encountered.
-	- Applied stone texture to edges of door.
-	- Closed gap on the bottom edge of door.
+	55012		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Secret door for straight stone walls
+		- e.g. Daggerfall - Privateer's Hold - First secret door encountered.
+		- Applied stone texture to edges of door.
+		- Closed gap on the bottom edge of door.
 
-55028
-	- Description: Dungeon - Secret door for straight stone walls
-	- e.g. Daggerfall - Hearthsly's Guard - Somewhere in moss brick maze
-	- Closed gap on the bottom edge of door.
-	- Applied stone texture to edges of door.
+	55028		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Secret door for straight stone walls
+		- e.g. Daggerfall - Hearthsly's Guard - Somewhere in moss brick maze
+		- Closed gap on the bottom edge of door.
+		- Applied stone texture to edges of door.
 
-56000
-	- Description: Dungeon - Spiral Staircase with wall blocking underside of staircase
-	- e.g. Daggerfall - Trogker - West of the large room and entrance
-	- Applied stone tile texture to steps (previously solid colour).
-	- Closed gaps between staircase steps + lower landing and room's walls.
+	56000		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Spiral Staircase with wall blocking underside of staircase
+		- e.g. Daggerfall - Trogker - West of the large room and entrance
+		- Applied stone tile texture to steps (previously solid colour).
+		- Closed gaps between staircase steps + lower landing and room's walls.
 
-56002
-	- Description: Dungeon - Upper landing for Spiral Staircase (model #56000)
-	- e.g. Daggerfall - Trogker - West of the large room and entrance
-	- Moved model to close gap between model and room's wall.
-	- Applied stone tile and ceiling textures to side and bottom, respectively (previously solid colour).
+	56002		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Upper landing for Spiral Staircase (model #56000)
+		- e.g. Daggerfall - Trogker - West of the large room and entrance
+		- Moved model to close gap between model and room's wall.
+		- Applied stone tile and ceiling textures to side and bottom, respectively (previously solid colour).
 
 56008
 	- Description: Dungeon - Room used to hold spiral staircases
@@ -165,38 +158,38 @@
 	- Switched doorway texture from stone to correct wood one.
 	- Removed excess vertices (from 40 to 20)
 
-56300
-	- Description: Dungeon - Spiral Staircase with underside open and lower landing for ground floor
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-	- Closed gaps between staircase steps + lower landing and room's walls.
+	56300		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Spiral Staircase with underside open and lower landing for ground floor
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+		- Closed gaps between staircase steps + lower landing and room's walls.
 
-56301
-	- Description: Dungeon - Spiral Staircase with underside open and no landing for upper floors
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-	- Closed gaps between staircase steps and room's walls.
+	56301		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Spiral Staircase with underside open and no landing for upper floors
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+		- Closed gaps between staircase steps and room's walls.
 
-56304
-	- Description: Dungeon - Mid floor landing for Spiral Staircase (model #56301)
-	- e.g. Daggerfall - Trogker - West of the large room and entrance
-	- Replaced underside's pink texture with a proper ceiling texture.
+	56304		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Mid floor landing for Spiral Staircase (model #56301)
+		- e.g. Daggerfall - Trogker - West of the large room and entrance
+		- Replaced underside's pink texture with a proper ceiling texture.
 
-58008
-	- Description: Dungeon - 45° Staircase inside passageway with upper and lower doorway
-	- e.g. Daggerfall - Privateer's Hold - First set of stairs after starting game.
-	- Widened steps to close gaps between stairs and walls.
-	- Moved steps forward slightly to stop characters from colliding with the lower doorway's lintel.
-	- Corrected UV map of bottom floor.
+	58008		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 45° Staircase inside passageway with upper and lower doorway
+		- e.g. Daggerfall - Privateer's Hold - First set of stairs after starting game.
+		- Widened steps to close gaps between stairs and walls.
+		- Moved steps forward slightly to stop characters from colliding with the lower doorway's lintel.
+		- Corrected UV map of bottom floor.
 
-58009
-	- Description: Dungeon - Corridor and staircase making up South side of platform for Privateer's Hold's throne
-	- e.g. Daggerfall - Privateer's Hold - See above
-	- Closed gaps between steps and walls.
+	58009		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Corridor and staircase making up South side of platform for Privateer's Hold's throne
+		- e.g. Daggerfall - Privateer's Hold - See above
+		- Closed gaps between steps and walls.
 
-58033
-	- Description: Dungeon - Top piece of tower holding staircase
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-	- Fixed Z-buffer fighting in doorway.
-	- Removed excess vertices (from 44 to 16)
+	58033		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Top piece of tower holding staircase
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+		- Fixed Z-buffer fighting in doorway.
+		- Removed excess vertices (from 44 to 16)
 
 58036
 	- Description: Dungeon - Mid piece of tower holding staircase
@@ -204,72 +197,72 @@
 	- Fixed Z-buffer fighting in doorway.
 	- Removed excess vertices (from 40 to 12)
 
-58043
-	- Description: Dungeon - Open balcony with connection point on one side for another model
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-	- Corrected floor's bad UV mapping.
-	- Closed gaps between this model and room's walls.
+	58043		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Open balcony with connection point on one side for another model
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+		- Corrected floor's bad UV mapping.
+		- Closed gaps between this model and room's walls.
 
-58045
-	- Description: Dungeon - Open platform that connects to bottom of stairs 59004
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-	- Closed gaps between this model and room's walls.
-	- Removed excess vertices (from 32 to 12)
+	58045		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Open platform that connects to bottom of stairs 59004
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+		- Closed gaps between this model and room's walls.
+		- Removed excess vertices (from 32 to 12)
 
-58049
-	- Description: Dungeon - North West portion of Privateer's Hold's throne room
-	- e.g. Daggerfall - Privateer's Hold - See above
-	- Removed wood textured faces from doorway as these were causing Z-buffer fighting with the corridor model connected to this doorway.
+	58049		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - North West portion of Privateer's Hold's throne room
+		- e.g. Daggerfall - Privateer's Hold - See above
+		- Removed wood textured faces from doorway as these were causing Z-buffer fighting with the corridor model connected to this doorway.
 
-58050
-	- Description: Dungeon - Corridor and staircase making up North side of platform for Privateer's Hold's throne
-	- e.g. Daggerfall - Privateer's Hold - See above
-	- Closed gaps between steps and walls.
-	- Fixed Z-buffer fighting in doorway.
+	58050		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Corridor and staircase making up North side of platform for Privateer's Hold's throne
+		- e.g. Daggerfall - Privateer's Hold - See above
+		- Closed gaps between steps and walls.
+		- Fixed Z-buffer fighting in doorway.
 
-58055
-	- Description: 2 small walls joined at 90 degrees
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-	- Closed gap between the bottom of the model and the models below it.
+	58055		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: 2 small walls joined at 90 degrees
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+		- Closed gap between the bottom of the model and the models below it.
 
-59004
-	- Description: Dungeon - Two staircases connected end-to-end at a 90° angle
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-	- Closed gaps between steps and walls.
-	- Closed gaps between this model and room's walls.
+	59004		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Two staircases connected end-to-end at a 90° angle
+		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+		- Closed gaps between steps and walls.
+		- Closed gaps between this model and room's walls.
 
-59007
-	- Description: Dungeon - Giant Staircase - walls block off access to underside of stairs, no walls along sides of stairs.
-	- e.g. Daggerfall - Privateer's Hold - Staircase in Throne room leading up to throne.
-	- Closed gaps between steps and walls.
+	59007		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Giant Staircase - walls block off access to underside of stairs, no walls along sides of stairs.
+		- e.g. Daggerfall - Privateer's Hold - Staircase in Throne room leading up to throne.
+		- Closed gaps between steps and walls.
 
-59011
-	- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
-	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
-	- Closed gaps between steps and walls.
-	- Removed extraneous piece of ceiling.
+	59011		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
+		- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+		- Closed gaps between steps and walls.
+		- Removed extraneous piece of ceiling.
 
-59012
-	- Description: Dungeon - Giant Staircase - No walls
-	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
-	- Closed gaps between steps and walls.
+	59012		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Giant Staircase - No walls
+		- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+		- Closed gaps between steps and walls.
 
-59013
-	- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
-	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
-	- Closed gaps between steps and walls.
-	- Removed extraneous piece of ceiling.
+	59013		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
+		- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+		- Closed gaps between steps and walls.
+		- Removed extraneous piece of ceiling.
 
-59017
-	- Description: Dungeon - Giant staircase in Daggerfall castle
-	- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Giant staircase leading up to thrones
-	- Closed gaps between steps and walls.
+	59017		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Giant staircase in Daggerfall castle
+		- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Giant staircase leading up to thrones
+		- Closed gaps between steps and walls.
 
 60110
 	- Description: Dungeon - Cave tunnel piece with 45° bend
 	- e.g. Ilessan Hills - Castle Buckington - Upper floors on SE side
 	- Elevated portion of the floor to stop it from clipping with the ceiling of model 60106 in some dungeons.
-		- This solves these reports: https://forums.dfworkshop.net/viewtopic.php?p=17165 and https://forums.dfworkshop.net/viewtopic.php?p=41771
+		- This solves these reports: https://forums.dfworkshop.net/viewtopic.php?p=17165 and https://forums.dfworkshop.net/viewtopic.php?p=41771 and https://forums.dfworkshop.net/viewtopic.php?f=5&t=3852
 	- Closed a gap that formed between one end of this model and neighbouring models.
 	- Improved the UV mapping of it's walls.
 	- Removed excess vertices (from 66 to 25)
@@ -281,43 +274,43 @@
 	- Closed holes on the sides of the trusses.
 	- Removed excess vertices (from 137 to 93).
 
-61004
-	- Description: Dungeon - Passageway piece with 90° tight bend
-	- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right into the next room. On the other side of the room's other door is the model.
-	- Closed 2 large gaps and many microscopic ones that formed between the ends of this model and neighbouring models.
+	61004		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Passageway piece with 90° tight bend
+		- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right into the next room. On the other side of the room's other door is the model.
+		- Closed 2 large gaps and many microscopic ones that formed between the ends of this model and neighbouring models.
 
-61017
-	- Description: Dungeon - 15° Staircase inside passageway with upper and lower part open
-	- e.g. Daggerfall - The Tomb of Baroghoth - At end of long passage that starts next to room with coffins near entrance.
-	- Closed gaps between steps and walls.
-	- Improved the UV mapping of the walls just next to the steps.
-	- Removed excess vertices (from 156 to 148)
+	61017		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 15° Staircase inside passageway with upper and lower part open
+		- e.g. Daggerfall - The Tomb of Baroghoth - At end of long passage that starts next to room with coffins near entrance.
+		- Closed gaps between steps and walls.
+		- Improved the UV mapping of the walls just next to the steps.
+		- Removed excess vertices (from 156 to 148)
 
-61018
-	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
-	- e.g. Daggerfall - The Alabore Prison - Staircase within spitting distance to the left of entrance.
-	- Closed gaps between steps and walls.
+	61018		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+		- e.g. Daggerfall - The Alabore Prison - Staircase within spitting distance to the left of entrance.
+		- Closed gaps between steps and walls.
 
-61025
-	- Description: Dungeon - Moving stone wall
-	- e.g. Daggerfall - Ruins of Hearthston Manor - Turn right after entering dungeon and the wall is at the end of corridor.
-	- Applied stone texture to edges of wall.
-	- Expanded to fill gaps between movable wall and surrounding static walls.
-	- Closed gap on the bottom edge of wall.
-	- Removed excess vertices (from 36 to 24)
+	61025		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Moving stone wall
+		- e.g. Daggerfall - Ruins of Hearthston Manor - Turn right after entering dungeon and the wall is at the end of corridor.
+		- Applied stone texture to edges of wall.
+		- Expanded to fill gaps between movable wall and surrounding static walls.
+		- Closed gap on the bottom edge of wall.
+		- Removed excess vertices (from 36 to 24)
 
-61118
-	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
-	- e.g. Daggerfall - Castle Wooding - Bottom of the North West part of the dungeon.
-	- Closed gaps between steps and walls.
-	- Removed excess vertices (from 168 to 156)
+	61118		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+		- e.g. Daggerfall - Castle Wooding - Bottom of the North West part of the dungeon.
+		- Closed gaps between steps and walls.
+		- Removed excess vertices (from 168 to 156)
 
-61218
-	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
-	- e.g. Daggerfall - Privateer's Hold - Staircase in corridor just before room with archer and tables.
-	- Improved the UV mapping of the lower parts of the walls just next to the steps.
-	- Closed gaps between steps and walls.
-	- Removed excess vertices (from 168 to 146)
+	61218		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+		- e.g. Daggerfall - Privateer's Hold - Staircase in corridor just before room with archer and tables.
+		- Improved the UV mapping of the lower parts of the walls just next to the steps.
+		- Closed gaps between steps and walls.
+		- Removed excess vertices (from 168 to 146)
 
 62319
 	- Description: Dungeon - Square wood beam
@@ -325,67 +318,67 @@
 	- Applied tree ring texture to beam's ends.
 	- Removed excess vertices (from 24 to 16)
 
-63005
-	- Description: Dungeon - End of passageway with doorway on left side
-	- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right.
-	- Corrected bad UV mapping on floor.
+	63005		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - End of passageway with doorway on left side
+		- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right.
+		- Corrected bad UV mapping on floor.
 
-63022
-	- Description: Dungeon - Passageway with two wood pillars or ceiling supports
-	- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
-	- Closed gaps between the pillars' ends and the ceiling + floor.
-	- Removed excess vertices (from 56 to 40)
+	63022		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Passageway with two wood pillars or ceiling supports
+		- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
+		- Closed gaps between the pillars' ends and the ceiling + floor.
+		- Removed excess vertices (from 56 to 40)
 
-63026
-	- Description: Dungeon - 30° Staircase inside curved passageway with upper and lower part open
-	- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
-	- Closed gaps between steps and walls.
-	- Removed excess vertices (from 112 to 70)
+	63026		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 30° Staircase inside curved passageway with upper and lower part open
+		- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
+		- Closed gaps between steps and walls.
+		- Removed excess vertices (from 112 to 70)
 
-67025
-	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open and ceiling at a more gentle slope
-	- e.g. Daggerfall - Trogker - Short distance along passage that comes off the North side of the large room's ground floor.
-	- Closed gaps between steps and walls.
+	67025		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open and ceiling at a more gentle slope
+		- e.g. Daggerfall - Trogker - Short distance along passage that comes off the North side of the large room's ground floor.
+		- Closed gaps between steps and walls.
 
-63234
-	- Description: Dungeon - Level passageway with a gentle 45° turn
-	- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
-	- Closed gaps created between walls of this and neighbouring models.
+	63234		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Level passageway with a gentle 45° turn
+		- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
+		- Closed gaps created between walls of this and neighbouring models.
 
-63243
-	- Description: Dungeon - Corridor with sharp 180° bend and incline
-	- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
-	- Fixed bad UV mapping on floor.
-	- Removed excess vertices (from 106 to 95) - More possible
+	63243		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Corridor with sharp 180° bend and incline
+		- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
+		- Fixed bad UV mapping on floor.
+		- Removed excess vertices (from 106 to 95) - More possible
 
-67219
-	- Description: Dungeon - Corridor piece - start of corridor - doorway at end
-	- e.g. Daggerfall - The Belladausa Coven - Passageway that leads out the pigsty room you start in.
-	- Fixed bad UV mapping on floor.
-	- Removed excess vertices (from 47 to 36)
+	67219		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Corridor piece - start of corridor - doorway at end
+		- e.g. Daggerfall - The Belladausa Coven - Passageway that leads out the pigsty room you start in.
+		- Fixed bad UV mapping on floor.
+		- Removed excess vertices (from 47 to 36)
 
-67313
-	- Description: Dungeon - Upper floor corridor corner with one side open
-	- e.g. Daggerfall - Daggerfall (City) - Daggerfall Castle - Large room NW of throne room entered from upper levels on North side of large room containing 2 spiral staircases in towers and floating walkways above water that is West of the throne room.
-	- Removed the overhang that this model creates with model #58020.
-		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42760
-	- Fixed problematic UV mapping on ceiling.
-	- Removed excess vertices (from 33 to 22)
+	67313		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Upper floor corridor corner with one side open
+		- e.g. Daggerfall - Daggerfall (City) - Daggerfall Castle - Large room NW of throne room entered from upper levels on North side of large room containing 2 spiral staircases in towers and floating walkways above water that is West of the throne room.
+		- Removed the overhang that this model creates with model #58020.
+			- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42760
+		- Fixed problematic UV mapping on ceiling.
+		- Removed excess vertices (from 33 to 22)
 
-70809
-	- Description: Dungeon - 2 rooms side-by-side - One much larger than other
-	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
-	- Applied stone texture to edges of wall that had a solid brown texture.
-	- Applied wood grain texture to doorways.
-	- Fixed bad UV mapping on floor.
-	- Closed gaps between ceiling and trusses.
-	- Removed excess vertices (from 281 to 146)
+	70809		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - 2 rooms side-by-side - One much larger than other
+		- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+		- Applied stone texture to edges of wall that had a solid brown texture.
+		- Applied wood grain texture to doorways.
+		- Fixed bad UV mapping on floor.
+		- Closed gaps between ceiling and trusses.
+		- Removed excess vertices (from 281 to 146)
 
-71101
-	- Description: Dungeon - Small square room with 2 doorways at 90° from each other
-	- e.g. Daggerfall - The Belladausa Coven - The room behind the door you are looking at after entering the dungeon.
-	- Corrected the height of the 2 doorways' lintels as they were too low.
-	- Removed excess vertices (from 72 to 40)
+	71101		XJDHDR: Can't test this until Dungeon Variations done
+		- Description: Dungeon - Small square room with 2 doorways at 90° from each other
+		- e.g. Daggerfall - The Belladausa Coven - The room behind the door you are looking at after entering the dungeon.
+		- Corrected the height of the 2 doorways' lintels as they were too low.
+		- Removed excess vertices (from 72 to 40)
 
 74009
 	- Description: Dungeon - Long white/grey marble pillar with magenta caps
@@ -436,6 +429,11 @@ N0000027.RDB
 	- e.g. Daggerfall - Trogker - Corridor found outside torture room that you teleport into after activating a skull found in passageway that comes off west side of large room.
 	- Corrected rotation of a corridor corner piece ("ModelIdNum": 63133 - "ModelIndex": 12 - "Position": 14455) as it's rotation was causing both gaps between models and Z-buffer fighting.
 
+N0000040.RDB
+	- e.g. Anticlere - The Cabal of Carolara
+	- Corrected position of a staircase piece ("ModelIdNum": 61018 - "ModelIndex": 18 - "Position": 20090) as it was positioned a bit too high.
+		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?f=31&t=2706
+
 N0000074.RDB
 	- e.g. Daggerfall - Castle Wooding - Dungeon's entrance
 	- Corrected position of dungeon entrance ("ModelIdNum": 70300 - "ModelIndex": 32 - "Position": 27078) as it was clearly some distance away from the wall.
@@ -460,9 +458,269 @@ N0000090.RDB
 		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38979)
 		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38835)
 
+S0000160.RDB
+	- e.g. Daggerfall - Daggerfall - Castle Daggerfall - Throne room
+	- Corrected positions of magically locked entrance doors as there were gaps between them and the doorways and they were cliping into each other.
+		- ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22818)
+		- ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22866)
+	- Can't do this without replacing the model or somehow changing rotation direction.
+		- Also rotated the one door ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22866) as it was upside down.
+
 W0000005.RDB
 	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
 	- Nudged 90° short stone wall ("ModelIdNum": 58055 - "ModelIndex": 86 - "Position": 24863) slightly to stop it clipping with the stairs.
+
+
+==== Fixed Locations ====
+location-0-15
+	- Location: Alik'r Desert - Berbaaqnia
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1968)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-33
+	- Location: Alik'r Desert - Kaloguja
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1912)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-52
+	- Location: Alik'r Desert - Mogandaton
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1808)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-64
+	- Location: Alik'r Desert - Rhogila
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1624)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-78
+	- Location: Alik'r Desert - Ceriburea
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1848)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-144
+	- Location: Alik'r Desert - Ceranda-Kom
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1672)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-165
+	- Location: Alik'r Desert - Alik'ra
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1904)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-171
+	- Location: Alik'r Desert - Ramoaweyn
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1496)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-192
+	- Location: Alik'r Desert - Mettula
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-240
+	- Location: Alik'r Desert - Tsetissiara
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-257
+	- Location: Alik'r Desert - Agogurana
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #208 - line 1688)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-324
+	- Location: Alik'r Desert - Isfunnusa
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #148 - line 1208)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-0-331
+	- Location: Alik'r Desert - Anteliiga
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-53
+	- Location: Dragontail Mountains - Bubogureg
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #277 - line 2240)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-54
+	- Location: Dragontail Mountains - Jaluh-Thar
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #189 - line 1536)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-101
+	- Location: Dragontail Mountains - Ramyryzar
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-226
+	- Location: Dragontail Mountains - Tsetoaret
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #202 - line 1640)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-243
+	- Location: Dragontail Mountains - Mesajer
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-320
+	- Location: Dragontail Mountains - Berbemijet
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #260 - line 2104)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-394
+	- Location: Dragontail Mountains - Baghajweyn
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #269 - line 2176)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-399
+	- Location: Dragontail Mountains - Baghad-Thar
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #251 - line 2032)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-467
+	- Location: Dragontail Mountains - Papakalah
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #194 - line 1576)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-514
+	- Location: Dragontail Mountains - Sederania
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-536
+	- Location: Dragontail Mountains - Appera-Gora
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #149 - line 1216)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-561
+	- Location: Dragontail Mountains - Makilliweyn
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #188 - line 1528)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-634
+	- Location: Dragontail Mountains - Umberadax
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-650
+	- Location: Dragontail Mountains - Atrahaga
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-651
+	- Location: Dragontail Mountains - Atrohala
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #241 - line 1952)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-684
+	- Location: Dragontail Mountains - Wadijirius
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #241 - line 1952)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-698
+	- Location: Dragontail Mountains - Rhogandarea
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #147 - line 1200)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-802
+	- Location: Dragontail Mountains - Bubadja
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #269 - line 2176)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-1-853
+	- Location: Dragontail Mountains - Dragontail
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #309 - line 2496)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-9
+	- Location: Dwynnen - Chesterlech
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #243 - line 1968)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-12
+	- Location: Dwynnen - Tunhead
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #322 - line 2600)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-60
+	- Location: Dwynnen - Gallomore
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-124
+	- Location: Dwynnen - Eastville Derry
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #310 - line 2504)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-184
+	- Location: Dwynnen - Upbridge
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #187 - line 1520)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-255
+	- Location: Dwynnen - Whitewold
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #176 - line 1432)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-276
+	- Location: Dwynnen - Wildercroft
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-278
+	- Location: Dwynnen - Wildertower
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #180 - line 1464)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-408
+	- Location: Dwynnen - Burghead
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #289 - line 2336)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-488
+	- Location: Dwynnen - Oxborne
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-514
+	- Location: Dwynnen - Deerwood
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #259 - line 2096)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-517
+	- Location: Dwynnen - Charengate
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #174 - line 1416)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-522
+	- Location: Dwynnen - Dwynnen
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #320 - line 2584)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-526
+	- Location: Dwynnen - Aldton
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #276 - line 2232)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-670
+	- Location: Dwynnen - Baelwood
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-5-704
+	- Location: Dwynnen - Crossbrugh
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #245 - line 1984)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-16-42
+	- Location: Wrothgarian Mountains - Knightshead
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
+		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
+
+location-17-593
+	- Location: Daggerfall - Ripmarket
+	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1824)
+		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=46405
 
 
 ==== Fixed Map Block Records ====
@@ -492,10 +750,18 @@ CUSTAA02.RMB
 	- Removed model #31000 (line 4985-4995) as it causes characters to get stuck on the 1st floor of a particular house in this Map Block Record.
 		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42929
 
+	FIGHBL00.RMB
+		- Location: Alik'r Desert - Ramoaweyn - City's Fighter's Guild
+		- Corrected Building Data List that incorrectly labelled a Fighter's Guild as a temple. (line 179 - index #0)
+
 GEMSAL03.RMB
 	- e.g. Daggerfall - Daggerfall (city) - The Emperor's Jewelers
 	- Corrected AutoMap data that was incorrectly labelling one of the Jewellery stores as a residence.
 	- Added a jewellery store sign near the above store's door.
+
+KRAVAL00.RMB
+	- e.g. Dwynnen - Tunhead - The Order of the Raven
+	- Corrected AutoMap data that was incorrectly labelling The Order of the Raven as a residence.
 
 LIBRAL03.RMB
 	- e.g. Daggerfall - Burgwall - former Bargain Bookstall (small square house 2 building SW of the library)
@@ -522,6 +788,10 @@ TVRNAM03.RMB
 	- e.g. Daggerfall - Charway Rock - SW Corner - West of the three taverns
 	- Corrected AutoMap data that had a line of green pixels where a tavern didn't exist.
 
+WALLAA08.RMB
+	- e.g. Alik'r Desert - Ramoaweyn - Gatehouse on North side of town
+	- Corrected Building Data List that incorrectly assigned one of the wall's rooms to the Zen faction. (line 184 - index #1)
+
 WEAPAL02.RMB
 	- e.g. Wrothgarian Mountains - Dunlain Falls - Dunlain Falls's Best Arms (added by the "New Canon Locations" mod: https://www.nexusmods.com/daggerfallunity/mods/83 )
 		- Block is not used in the vanilla game. It is only used in mods.
@@ -530,8 +800,21 @@ WEAPAL02.RMB
 
 
 ==== Known issues ====
+	General
+		- Due to a bug in Daggerfall Unity ( https://github.com/Interkarma/daggerfall-unity/issues/1706 ) that is caused by loading a save game that was made in a settlement interior location which uses models that I have fixed that was made before installing or updating this mod. If this happens, you can get stuck in that interior. The solution is to make sure don't load a save made in a settlement interior after installing or updating this mod.
+		- If you load a save inside a dungeon after installing or updating this mod, any models in that dungeon that I added or changed will disappear from the dungeon map. This is simply the way Daggerfall Unity behaves and the solution is to explore that missing piece of dungeon again. After doing that, the model will render on the map once more.
+	
+	Model #239
+		- There is a visible seam on some of the building's walls. Some texture packs also exasperate the problem. Unfortunately, this can't be fixed by modifying the model but instead needs a fixed texture.
+	
+	Model #55004 & S0000160.RDB
+		- Due to a bug in both Daggerfall Unity and the original game ( https://github.com/Interkarma/daggerfall-unity/issues/1584 ), it is possible to teleport inside Castle Daggerfall and get stuck inside with no way to leave because the magically locked doors are closed. It is possible to open those doors by activating the guard using a gap between the door and it's frame. With this bugfix mod installed, that gap is closed and so, it becomes impossible to escape. 
+			- If you manage to get stuck, uninstall this mod temporarily until you have opened those doors (using the method explained here: https://github.com/Interkarma/daggerfall-unity/issues/1584#issuecomment-568935292 ).
+		- One of the magically locked doors is upside down. The fix for this requires a new door model that is inverted.
+
 	LIBRAL03.RMB
-		- Container inside the house will still sell books if they've already entered this building before applying this patch.
+		- One container inside the house will still sell books if the player has already identified this building before installing this patch.
 	
 	TVRNAM00.RMB
-		- Innkeeper will still refuse to talk to player if they've already entered this building before applying this patch.
+		- Innkeeper will still refuse to talk to player if they've already identified this building before installing this patch.
+		- If you have already identified either of the inns in this block before installing this patch, they will both have the same name.
