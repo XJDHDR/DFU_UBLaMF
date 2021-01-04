@@ -1,0 +1,20 @@
+
+
+When exporting FBX:
+	Set object up that it looks correct in the viewport.
+		If object has been transformed, apply transformations (Ctrl+A)
+	Make sure "Apply Transform" is ticked, even if you didn't do transformations.
+	Scale must be set to "0.025"
+
+When exporting OBJ:
+	Set object up that it looks correct in the viewport.
+		If object has been transformed, apply transformations (Ctrl+A)
+	Make sure "Apply Modifiers" is ticked, even if you didn't do transformations.
+	Scale must be set to "0.025"
+
+Creating prefabs in Unity Editor:
+	Set all Position and Rotation values to 0.
+	Set all Scale values to 1.
+	Add the Runtime Materials script. "Use Dungeon Texture Table" option only applies to Materials with "Apply Climate" ticked.
+		"Use Dungeon Texture Table" is required for materials that use textures from archives 74, 119, 120, 122, 123, 124 and 168.
+	Doors need the "Daggerfall Action Door", "Serializable Action Door" and "Daggerfall Audio Source" scripts attached.

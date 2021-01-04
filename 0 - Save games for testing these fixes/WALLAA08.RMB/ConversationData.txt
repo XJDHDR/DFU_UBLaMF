@@ -619,2444 +619,7 @@
             }
         }
     ],
-    "listRumorMill": [
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Persons of %fx2 are to be",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " detained upon sight. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 210,
-            "faction2": 839,
-            "regionID": 34,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 839,
-            "faction2": 210,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 841,
-            "faction2": 475,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 83,
-            "faction2": 497,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 463,
-            "faction2": 468,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 243,
-            "faction2": 226,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 89,
-            "faction2": 408,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 470,
-            "faction2": 475,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "For crimes against %reg, %fx2",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " is the sworn enemy of %nrn.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 224,
-            "faction2": 470,
-            "regionID": 48,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 470,
-            "faction2": 224,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "For crimes against %reg, %fx2",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " is the sworn enemy of %nrn.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 234,
-            "faction2": 473,
-            "regionID": 58,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 473,
-            "faction2": 234,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 474,
-            "faction2": 213,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 474,
-            "faction2": 410,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 95,
-            "faction2": 226,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 95,
-            "faction2": 803,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 99,
-            "faction2": 505,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 99,
-            "faction2": 473,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 107,
-            "faction2": 220,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 491,
-            "faction2": 358,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 has formal relations with %fx2.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 212,
-            "faction2": 491,
-            "regionID": 36,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 491,
-            "faction2": 212,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 492,
-            "faction2": 226,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 252,
-            "faction2": 60,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Persons of %fx2 are to be",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " detained upon sight. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 591,
-            "faction2": 497,
-            "regionID": 11,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 497,
-            "faction2": 591,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 60,
-            "faction2": 1005,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 61,
-            "faction2": 1005,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx2 is formally allied to %fx1.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 232,
-            "faction2": 62,
-            "regionID": 56,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 62,
-            "faction2": 232,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 64,
-            "faction2": 408,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I heard that %fx1 and %fx2 have patched up their differences.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 67,
-            "faction2": 231,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 802,
-            "faction2": 1004,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I heard that %fx1 and %fx2 have patched up their differences.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 850,
-            "faction2": 306,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 850,
-            "faction2": 372,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 222,
-            "faction2": 805,
-            "regionID": 46,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 805,
-            "faction2": 222,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Any person from %fx2 will be persecuted",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " to the full extent of the law. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 201,
-            "faction2": 228,
-            "regionID": 17,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Persons of %fx2 are to be",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " detained upon sight. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 228,
-            "faction2": 201,
-            "regionID": 52,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 201,
-            "faction2": 228,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 372,
-            "faction2": 204,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 372,
-            "faction2": 807,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 202,
-            "faction2": 231,
-            "regionID": 18,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 231,
-            "faction2": 202,
-            "regionID": 55,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 202,
-            "faction2": 231,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 411,
-            "faction2": 417,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx2 is formally allied to %fx1.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 216,
-            "faction2": 411,
-            "regionID": 40,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 411,
-            "faction2": 216,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Any person from %fx2 will be persecuted",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " to the full extent of the law. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 207,
-            "faction2": 490,
-            "regionID": 23,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 207,
-            "faction2": 490,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 409,
-            "faction2": 490,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 has formal relations with %fx2.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 208,
-            "faction2": 496,
-            "regionID": 32,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 208,
-            "faction2": 496,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Bewarned all visitors. Our fair",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " town is beset by the plague.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 208,
-            "faction2": 0,
-            "regionID": 32,
-            "flags": 1,
-            "type": 4
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Persons of %fx2 are to be",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " detained upon sight. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 211,
-            "faction2": 806,
-            "regionID": 35,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 211,
-            "faction2": 806,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 218,
-            "faction2": 842,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 218,
-            "faction2": 201,
-            "regionID": 42,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 201,
-            "faction2": 218,
-            "regionID": 17,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 218,
-            "faction2": 201,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Persons of %fx2 are to be",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " detained upon sight. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 222,
-            "faction2": 202,
-            "regionID": 46,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Persons of %fx2 are to be",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " detained upon sight. -- %nrn",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 202,
-            "faction2": 222,
-            "regionID": 18,
-            "flags": 1,
-            "type": 27
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 222,
-            "faction2": 202,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 228,
-            "faction2": 1006,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 has formal relations with %fx2.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 228,
-            "faction2": 415,
-            "regionID": 52,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 228,
-            "faction2": 415,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 229,
-            "faction2": 1004,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 230,
-            "faction2": 232,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "The noble ruler, %ol1 %olf.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " Long live %fl1, newly made %lt1 of %reg.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 230,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 12
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "The noble ruler, %ol1 %olf.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " Long live %fl1, newly made %lt1 of %reg.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 234,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 12
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 235,
-            "faction2": 88,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 306,
-            "faction2": 803,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 358,
-            "faction2": 414,
-            "regionID": 26,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 358,
-            "faction2": 414,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "By order of %nrn, no person showing sign",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " of plague may enter or leave this town.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 358,
-            "faction2": 0,
-            "regionID": 26,
-            "flags": 1,
-            "type": 4
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 362,
-            "faction2": 233,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 362,
-            "faction2": 418,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 362,
-            "faction2": 247,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 515,
-            "faction2": 806,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 505,
-            "faction2": 362,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "By the order of %nrn, for the duration",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " of the war between %fx1 and %fx2,",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " military rule is in effect.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 505,
-            "faction2": 226,
-            "regionID": 1,
-            "flags": 8,
-            "type": 0
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "By the order of %nrn, for the duration",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " of the war between %fx1 and %fx2,",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "Text",
-                        "text": " military rule is in effect.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 226,
-            "faction2": 505,
-            "regionID": 50,
-            "flags": 8,
-            "type": 0
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 508,
-            "faction2": 409,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 508,
-            "faction2": 95,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 508,
-            "faction2": 37,
-            "regionID": 0,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 508,
-            "faction2": 37,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Lock your doors at night. Nobody is safe anymore from the criminals. They just take anything they want.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": 0,
-            "flags": 8,
-            "type": 11
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx2 is formally allied to %fx1.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 591,
-            "faction2": 1002,
-            "regionID": 11,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 591,
-            "faction2": 1002,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 1000,
-            "faction2": 462,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 1000,
-            "faction2": 1005,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fx1 and %fx2 have signed an agreement.",
-                        "x": 0,
-                        "y": 0
-                    },
-                    {
-                        "formatting": "JustifyCenter",
-                        "text": null,
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 204,
-            "faction2": 1003,
-            "regionID": 20,
-            "flags": 1,
-            "type": 26
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 1003,
-            "faction2": 204,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 1007,
-            "faction2": 204,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 1007,
-            "faction2": 488,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "The witches are causing trouble again. Those bitches in the hills better watch out, or there'll be burnings soon.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "The vampires are not just mindless monsters. The clans meet in secret and plot to control all of mankind!",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Be good to your fellow man, or the Daedra's will take you away to Oblivion.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Some drunken knight was claiming to have lost the Warlock's Ring. Of course, if he really did have that artifact, he would be a king and not a drunk.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "Although most folk deny it, all thieves in %reg belong to a secret Thieves Guild. Any thief refusing to join ends up dead.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "If you really want revenge, contact the Dark Brotherhood. They are professional assassins.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        },
-        {
-            "rumorType": "CommonRumor",
-            "listRumorVariants": [
-                [
-                    {
-                        "formatting": "Text",
-                        "text": "They say we will have new cobblestone streets before the year is out.",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            ],
-            "questID": 0,
-            "timeLimit": 705875,
-            "faction1": 0,
-            "faction2": 0,
-            "regionID": -1,
-            "flags": 8,
-            "type": 100
-        }
-    ],
+    "listRumorMill": [],
     "dictQuestorPostQuestMessage": [
         {
             "Key": 33554867,
@@ -3516,385 +1079,542 @@
                     "y": 0
                 }
             ]
+        },
+        {
+            "Key": 33575845,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Error -- 1009 called",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33575895,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Error -- 1009 called",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33575925,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Error -- 1009 called",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
         }
     ],
     "npcsWithWork": [
         {
-            "Key": 76148,
+            "Key": 100857,
             "Value": {
                 "npc": {
-                    "hash": 38,
-                    "flags": 13,
-                    "factionID": 510,
-                    "nameSeed": 76148,
-                    "gender": "Male",
-                    "context": "Custom",
-                    "mapID": 0,
-                    "locationID": 0,
-                    "buildingKey": 65792,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 182,
-                    "billboardRecordIndex": 0
-                },
-                "socialGroup": "Merchants",
-                "buildingName": "Perard's Quality Equipment Store"
-            }
-        },
-        {
-            "Key": 129051,
-            "Value": {
-                "npc": {
-                    "hash": 458,
-                    "flags": 5,
-                    "factionID": 510,
-                    "nameSeed": 129051,
-                    "gender": "Male",
-                    "context": "Custom",
-                    "mapID": 0,
-                    "locationID": 0,
-                    "buildingKey": 65799,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 182,
-                    "billboardRecordIndex": 1
-                },
-                "socialGroup": "Merchants",
-                "buildingName": "The Laughing Castle"
-            }
-        },
-        {
-            "Key": 141071,
-            "Value": {
-                "npc": {
-                    "hash": -46,
-                    "flags": 13,
-                    "factionID": 510,
-                    "nameSeed": 141071,
-                    "gender": "Male",
-                    "context": "Custom",
-                    "mapID": 0,
-                    "locationID": 0,
-                    "buildingKey": 131328,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 183,
-                    "billboardRecordIndex": 5
-                },
-                "socialGroup": "Merchants",
-                "buildingName": "Lady Agrane's Jewels"
-            }
-        },
-        {
-            "Key": 207018,
-            "Value": {
-                "npc": {
-                    "hash": -712,
+                    "hash": -436,
                     "flags": 33,
-                    "factionID": 590,
-                    "nameSeed": 207018,
+                    "factionID": 518,
+                    "nameSeed": 100857,
                     "gender": "Female",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 196864,
-                    "nameBank": "Redguard",
+                    "buildingKey": 65808,
+                    "nameBank": "Breton",
                     "billboardArchiveIndex": 184,
-                    "billboardRecordIndex": 8
+                    "billboardRecordIndex": 10
                 },
                 "socialGroup": "Commoners",
-                "buildingName": "The Adventurer's General Store"
+                "buildingName": "The Black Dragon"
             }
         },
         {
-            "Key": 228461,
+            "Key": 147742,
             "Value": {
                 "npc": {
-                    "hash": -106,
-                    "flags": 13,
-                    "factionID": 510,
-                    "nameSeed": 228461,
+                    "hash": 70,
+                    "flags": 1,
+                    "factionID": 518,
+                    "nameSeed": 147742,
                     "gender": "Male",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 196868,
-                    "nameBank": "Redguard",
+                    "buildingKey": 131586,
+                    "nameBank": "Breton",
                     "billboardArchiveIndex": 182,
-                    "billboardRecordIndex": 2
+                    "billboardRecordIndex": 13
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Laughing Barbarian"
+            }
+        },
+        {
+            "Key": 147725,
+            "Value": {
+                "npc": {
+                    "hash": -320,
+                    "flags": 33,
+                    "factionID": 518,
+                    "nameSeed": 147725,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 131586,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 26
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Laughing Barbarian"
+            }
+        },
+        {
+            "Key": 234061,
+            "Value": {
+                "npc": {
+                    "hash": -346,
+                    "flags": 13,
+                    "factionID": 510,
+                    "nameSeed": 234061,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197135,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 1
                 },
                 "socialGroup": "Merchants",
                 "buildingName": "The Howling Barbarian"
             }
         },
         {
-            "Key": 170153,
+            "Key": 279565,
             "Value": {
                 "npc": {
-                    "hash": -286,
-                    "flags": 33,
-                    "factionID": 590,
-                    "nameSeed": 170153,
-                    "gender": "Female",
+                    "hash": -678,
+                    "flags": 9,
+                    "factionID": 595,
+                    "nameSeed": 279565,
+                    "gender": "Male",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 131590,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 182,
-                    "billboardRecordIndex": 12
+                    "buildingKey": 262656,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 183,
+                    "billboardRecordIndex": 5
                 },
-                "socialGroup": "Commoners",
-                "buildingName": "The Unfortunate Dungeon"
+                "socialGroup": "Nobility",
+                "buildingName": "Palace"
             }
         },
         {
-            "Key": 129612,
+            "Key": 279599,
             "Value": {
                 "npc": {
-                    "hash": -440,
-                    "flags": 9,
-                    "factionID": 590,
-                    "nameSeed": 129612,
+                    "hash": -584,
+                    "flags": 1,
+                    "factionID": 595,
+                    "nameSeed": 279599,
                     "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 262656,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 183,
+                    "billboardRecordIndex": 3
+                },
+                "socialGroup": "Nobility",
+                "buildingName": "Palace"
+            }
+        },
+        {
+            "Key": 100104,
+            "Value": {
+                "npc": {
+                    "hash": -12,
+                    "flags": 13,
+                    "factionID": 510,
+                    "nameSeed": 100104,
+                    "gender": "Male",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
                     "buildingKey": 66311,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 182,
-                    "billboardRecordIndex": 14
-                },
-                "socialGroup": "Commoners",
-                "buildingName": "The Queen's Huntsman"
-            }
-        },
-        {
-            "Key": 206646,
-            "Value": {
-                "npc": {
-                    "hash": -226,
-                    "flags": 33,
-                    "factionID": 590,
-                    "nameSeed": 206646,
-                    "gender": "Female",
-                    "context": "Custom",
-                    "mapID": 0,
-                    "locationID": 0,
-                    "buildingKey": 197376,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 182,
-                    "billboardRecordIndex": 45
-                },
-                "socialGroup": "Commoners",
-                "buildingName": "The Pig and Dog"
-            }
-        },
-        {
-            "Key": 206597,
-            "Value": {
-                "npc": {
-                    "hash": -80,
-                    "flags": 1,
-                    "factionID": 590,
-                    "nameSeed": 206597,
-                    "gender": "Male",
-                    "context": "Custom",
-                    "mapID": 0,
-                    "locationID": 0,
-                    "buildingKey": 197376,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 184,
-                    "billboardRecordIndex": 24
-                },
-                "socialGroup": "Commoners",
-                "buildingName": "The Pig and Dog"
-            }
-        },
-        {
-            "Key": 213024,
-            "Value": {
-                "npc": {
-                    "hash": -14,
-                    "flags": 13,
-                    "factionID": 510,
-                    "nameSeed": 213024,
-                    "gender": "Male",
-                    "context": "Custom",
-                    "mapID": 0,
-                    "locationID": 0,
-                    "buildingKey": 197379,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 184,
-                    "billboardRecordIndex": 17
-                },
-                "socialGroup": "Merchants",
-                "buildingName": "Lady Andard's Retail Store"
-            }
-        },
-        {
-            "Key": 215434,
-            "Value": {
-                "npc": {
-                    "hash": -94,
-                    "flags": 13,
-                    "factionID": 510,
-                    "nameSeed": 215434,
-                    "gender": "Male",
-                    "context": "Custom",
-                    "mapID": 0,
-                    "locationID": 0,
-                    "buildingKey": 197380,
-                    "nameBank": "Redguard",
+                    "nameBank": "Breton",
                     "billboardArchiveIndex": 182,
                     "billboardRecordIndex": 0
                 },
                 "socialGroup": "Merchants",
-                "buildingName": "Perore's Finest Library"
+                "buildingName": "Ripmarket Remedies"
             }
         },
         {
-            "Key": 218368,
+            "Key": 182667,
             "Value": {
                 "npc": {
-                    "hash": -80,
-                    "flags": 33,
+                    "hash": -52,
+                    "flags": 13,
                     "factionID": 510,
-                    "nameSeed": 218368,
-                    "gender": "Female",
+                    "nameSeed": 182667,
+                    "gender": "Male",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 197381,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 182,
-                    "billboardRecordIndex": 11
+                    "buildingKey": 131858,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 183,
+                    "billboardRecordIndex": 5
                 },
                 "socialGroup": "Merchants",
-                "buildingName": "The Adventurer's Gemcutter"
+                "buildingName": "The Superior Bijoutry"
             }
         },
         {
-            "Key": 226282,
+            "Key": 205124,
             "Value": {
                 "npc": {
-                    "hash": 142,
-                    "flags": 41,
-                    "factionID": 512,
-                    "nameSeed": 226282,
+                    "hash": 350,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 205124,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197376,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 1
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The Pig and Dragon"
+            }
+        },
+        {
+            "Key": 205260,
+            "Value": {
+                "npc": {
+                    "hash": -226,
+                    "flags": 33,
+                    "factionID": 518,
+                    "nameSeed": 205260,
                     "gender": "Female",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 197382,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 184,
-                    "billboardRecordIndex": 9
+                    "buildingKey": 197376,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 45
                 },
                 "socialGroup": "Commoners",
-                "buildingName": "The Black Muskrat"
+                "buildingName": "The Pig and Dragon"
             }
         },
         {
-            "Key": 226252,
+            "Key": 205185,
             "Value": {
                 "npc": {
-                    "hash": 166,
-                    "flags": 9,
-                    "factionID": 590,
-                    "nameSeed": 226252,
-                    "gender": "Male",
+                    "hash": 366,
+                    "flags": 33,
+                    "factionID": 518,
+                    "nameSeed": 205185,
+                    "gender": "Female",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 197382,
-                    "nameBank": "Redguard",
+                    "buildingKey": 197376,
+                    "nameBank": "Breton",
                     "billboardArchiveIndex": 184,
-                    "billboardRecordIndex": 17
+                    "billboardRecordIndex": 10
                 },
                 "socialGroup": "Commoners",
-                "buildingName": "The Black Muskrat"
+                "buildingName": "The Pig and Dragon"
             }
         },
         {
-            "Key": 272331,
+            "Key": 229106,
             "Value": {
                 "npc": {
-                    "hash": -676,
-                    "flags": 1,
-                    "factionID": 850,
-                    "nameSeed": 272331,
+                    "hash": -160,
+                    "flags": 13,
+                    "factionID": 510,
+                    "nameSeed": 229106,
                     "gender": "Male",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 262912,
-                    "nameBank": "Redguard",
+                    "buildingKey": 197383,
+                    "nameBank": "Breton",
                     "billboardArchiveIndex": 182,
                     "billboardRecordIndex": 59
                 },
-                "socialGroup": "Commoners",
-                "buildingName": "Fighter Trainers"
+                "socialGroup": "Merchants",
+                "buildingName": "The Champion Metalsmith"
             }
         },
         {
-            "Key": 272346,
+            "Key": 77304,
+            "Value": {
+                "npc": {
+                    "hash": 1040,
+                    "flags": 1,
+                    "factionID": 518,
+                    "nameSeed": 77304,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66560,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 20
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Superior Bookstore"
+            }
+        },
+        {
+            "Key": 175833,
+            "Value": {
+                "npc": {
+                    "hash": -178,
+                    "flags": 1,
+                    "factionID": 518,
+                    "nameSeed": 175833,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132110,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 14
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Fox and Gnome"
+            }
+        },
+        {
+            "Key": 175816,
+            "Value": {
+                "npc": {
+                    "hash": -14,
+                    "flags": 1,
+                    "factionID": 518,
+                    "nameSeed": 175816,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132110,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 16
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Fox and Gnome"
+            }
+        },
+        {
+            "Key": 175863,
+            "Value": {
+                "npc": {
+                    "hash": -146,
+                    "flags": 33,
+                    "factionID": 518,
+                    "nameSeed": 175863,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132110,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 6
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Fox and Gnome"
+            }
+        },
+        {
+            "Key": 175846,
+            "Value": {
+                "npc": {
+                    "hash": -278,
+                    "flags": 33,
+                    "factionID": 518,
+                    "nameSeed": 175846,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132110,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 12
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Fox and Gnome"
+            }
+        },
+        {
+            "Key": 270880,
             "Value": {
                 "npc": {
                     "hash": 526,
                     "flags": 33,
                     "factionID": 849,
-                    "nameSeed": 272346,
+                    "nameSeed": 270880,
                     "gender": "Female",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 262912,
-                    "nameBank": "Redguard",
+                    "buildingKey": 263168,
+                    "nameBank": "Breton",
                     "billboardArchiveIndex": 184,
                     "billboardRecordIndex": 18
                 },
                 "socialGroup": "Commoners",
-                "buildingName": "Fighter Trainers"
+                "buildingName": "The Fighters Guild"
             }
         },
         {
-            "Key": 272169,
+            "Key": 271059,
             "Value": {
                 "npc": {
                     "hash": -28,
                     "flags": 1,
                     "factionID": 41,
-                    "nameSeed": 272169,
+                    "nameSeed": 271059,
                     "gender": "Male",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 262912,
-                    "nameBank": "Redguard",
+                    "buildingKey": 263168,
+                    "nameBank": "Breton",
                     "billboardArchiveIndex": 182,
                     "billboardRecordIndex": 17
                 },
                 "socialGroup": "Commoners",
-                "buildingName": "Fighter Trainers"
+                "buildingName": "The Fighters Guild"
             }
         },
         {
-            "Key": 205386,
+            "Key": 284261,
             "Value": {
                 "npc": {
-                    "hash": 786,
+                    "hash": 272,
                     "flags": 41,
-                    "factionID": 509,
-                    "nameSeed": 205386,
+                    "factionID": 518,
+                    "nameSeed": 284261,
                     "gender": "Female",
+                    "race": "Breton",
                     "context": "Custom",
                     "mapID": 0,
                     "locationID": 0,
-                    "buildingKey": 197632,
-                    "nameBank": "Redguard",
-                    "billboardArchiveIndex": 184,
-                    "billboardRecordIndex": 5
+                    "buildingKey": 263176,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 12
                 },
-                "socialGroup": "Nobility",
-                "buildingName": "Palace"
+                "socialGroup": "Commoners",
+                "buildingName": "The King's Cat"
+            }
+        },
+        {
+            "Key": 206362,
+            "Value": {
+                "npc": {
+                    "hash": 252,
+                    "flags": 13,
+                    "factionID": 510,
+                    "nameSeed": 206362,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197888,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 59
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The Superior Armor"
+            }
+        },
+        {
+            "Key": 308282,
+            "Value": {
+                "npc": {
+                    "hash": 44,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 308282,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 263442,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 0
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The King's Wares"
             }
         }
     ],

@@ -1,15 +1,15 @@
 ==== Fixed Models ====
 239
 	- Description: Settlement - Building - 3 levels - stair-step structure
-	- e.g. Daggerfall - Hortale - Lord Agryctor's Mail exterior
+	- e.g. Daggerfall - Hortale - Lord Agryctor's Mail
 	- Applied wood texture to roof's edge.
 
-	9004		XJDHDR: Redo side textures (dungeon variation applied to it)
-		- Description: Dungeon - Door - Bronze with triangle shapes designed on it and steel studs
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
-		- Raised door so that half of it isn't in the floor.
-		- Expanded to fill gaps between door and it's frame.
-		- Applied bronze texture to edges of door.
+9004
+	- Description: Dungeon - Door - Bronze with triangle shapes designed on it and steel studs. Texture changes based on dungeon's random seed.
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
+	- Raised door so that half of it isn't in the floor.
+	- Expanded to fill gaps between door and it's frame.
+	- Applied wood texture to edges of door.
 
 41128
 	- Description: Settlement - Corner counter
@@ -108,49 +108,49 @@
 	- Closed gap on the bottom edge of door.
 	- Expanded to fill gaps between door and it's frame.
 
-	55006		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Secret door for straight stone walls
-		- e.g. Daggerfall - The Vannona Coven - Start of underwater corridor leading off large room close to entrance just below the water's surface.
-		- Applied stone texture to edges of door.
-		- Closed gap on the bottom edge of door.
-		- Removed excess vertices (from 20 to 16)
+55006
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - The Vannona Coven - Start of underwater corridor leading off large room close to entrance just below the water's surface.
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Removed excess vertices (from 20 to 16)
 
-	55007		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Secret door for curved stone walls
-		- e.g. Daggerfall - The Citadel of Yeomcroft - End of short corridor near entrance
-		- Applied stone texture to edges of door.
-		- Closed gap on the bottom edge of door.
-		- Removed excess vertices (from 44 to 28)
+55007
+	- Description: Dungeon - Secret door for curved stone walls
+	- e.g. Daggerfall - The Citadel of Yeomcroft - End of short corridor near entrance
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
+	- Removed excess vertices (from 44 to 28)
 
-	55011		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Secret door for straight stone walls
-		- e.g. Daggerfall - Castle Wooding - From entrance, turn left at crossroad, turn right at end of corridor and look for door on 1st bend.
-		- Applied stone texture to edges of door.
-		- Closed gap on the bottom edge of door.
+55011
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - Castle Wooding - From entrance, turn left at crossroad, turn right at end of corridor and look for door on 1st bend.
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
 
-	55012		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Secret door for straight stone walls
-		- e.g. Daggerfall - Privateer's Hold - First secret door encountered.
-		- Applied stone texture to edges of door.
-		- Closed gap on the bottom edge of door.
+55012
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - Privateer's Hold - First secret door encountered.
+	- Applied stone texture to edges of door.
+	- Closed gap on the bottom edge of door.
 
-	55028		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Secret door for straight stone walls
-		- e.g. Daggerfall - Hearthsly's Guard - Somewhere in moss brick maze
-		- Closed gap on the bottom edge of door.
-		- Applied stone texture to edges of door.
+55028
+	- Description: Dungeon - Secret door for straight stone walls
+	- e.g. Daggerfall - Hearthsly's Guard - Somewhere in moss brick maze
+	- Closed gap on the bottom edge of door.
+	- Applied stone texture to edges of door.
 
-	56000		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Spiral Staircase with wall blocking underside of staircase
-		- e.g. Daggerfall - Trogker - West of the large room and entrance
-		- Applied stone tile texture to steps (previously solid colour).
-		- Closed gaps between staircase steps + lower landing and room's walls.
+56000
+	- Description: Dungeon - Spiral Staircase with wall blocking underside of staircase
+	- e.g. Daggerfall - Trogker - West of the large room and entrance
+	- Applied stone tile texture to steps (previously solid colour).
+	- Closed gaps between staircase steps + lower landing and room's walls.
 
-	56002		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Upper landing for Spiral Staircase (model #56000)
-		- e.g. Daggerfall - Trogker - West of the large room and entrance
-		- Moved model to close gap between model and room's wall.
-		- Applied stone tile and ceiling textures to side and bottom, respectively (previously solid colour).
+56002
+	- Description: Dungeon - Upper landing for Spiral Staircase (model #56000)
+	- e.g. Daggerfall - Trogker - West of the large room and entrance
+	- Moved model to close gap between model and room's wall.
+	- Applied stone tile and ceiling textures to side and bottom, respectively (previously solid colour).
 
 56008
 	- Description: Dungeon - Room used to hold spiral staircases
@@ -158,38 +158,38 @@
 	- Switched doorway texture from stone to correct wood one.
 	- Removed excess vertices (from 40 to 20)
 
-	56300		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Spiral Staircase with underside open and lower landing for ground floor
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-		- Closed gaps between staircase steps + lower landing and room's walls.
+56300
+	- Description: Dungeon - Spiral Staircase with underside open and lower landing only
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between staircase steps + lower landing and room's walls.
 
-	56301		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Spiral Staircase with underside open and no landing for upper floors
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-		- Closed gaps between staircase steps and room's walls.
+56301
+	- Description: Dungeon - Spiral Staircase with underside open and no upper or lower landing
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between staircase steps and room's walls.
 
-	56304		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Mid floor landing for Spiral Staircase (model #56301)
-		- e.g. Daggerfall - Trogker - West of the large room and entrance
-		- Replaced underside's pink texture with a proper ceiling texture.
+56304
+	- Description: Dungeon - Mid floor landing for Spiral Staircase (model #56301)
+	- e.g. Daggerfall - Trogker - West of the large room and entrance
+	- Replaced underside's pink texture with a proper ceiling texture.
 
-	58008		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 45° Staircase inside passageway with upper and lower doorway
-		- e.g. Daggerfall - Privateer's Hold - First set of stairs after starting game.
-		- Widened steps to close gaps between stairs and walls.
-		- Moved steps forward slightly to stop characters from colliding with the lower doorway's lintel.
-		- Corrected UV map of bottom floor.
+58008
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower doorway
+	- e.g. Daggerfall - Privateer's Hold - First set of stairs after starting game.
+	- Widened steps to close gaps between stairs and walls.
+	- Moved steps forward slightly to stop characters from colliding with the lower doorway's lintel.
+	- Corrected UV map of bottom floor.
 
-	58009		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Corridor and staircase making up South side of platform for Privateer's Hold's throne
-		- e.g. Daggerfall - Privateer's Hold - See above
-		- Closed gaps between steps and walls.
+58009
+	- Description: Dungeon - Corridor and staircase making up South side of platform for Privateer's Hold's throne
+	- e.g. Daggerfall - Privateer's Hold - See above
+	- Closed gaps between steps and walls.
 
-	58033		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Top piece of tower holding staircase
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-		- Fixed Z-buffer fighting in doorway.
-		- Removed excess vertices (from 44 to 16)
+58033
+	- Description: Dungeon - Top piece of tower holding staircase
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Fixed Z-buffer fighting in doorway.
+	- Removed excess vertices (from 44 to 16)
 
 58036
 	- Description: Dungeon - Mid piece of tower holding staircase
@@ -197,66 +197,66 @@
 	- Fixed Z-buffer fighting in doorway.
 	- Removed excess vertices (from 40 to 12)
 
-	58043		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Open balcony with connection point on one side for another model
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-		- Corrected floor's bad UV mapping.
-		- Closed gaps between this model and room's walls.
+58043
+	- Description: Dungeon - Open balcony with connection point on one side for another model
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Corrected floor's bad UV mapping.
+	- Closed gaps between this model and room's walls.
 
-	58045		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Open platform that connects to bottom of stairs 59004
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-		- Closed gaps between this model and room's walls.
-		- Removed excess vertices (from 32 to 12)
+58045
+	- Description: Dungeon - Open platform that connects to bottom of stairs 59004
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between this model and room's walls.
+	- Removed excess vertices (from 32 to 12)
 
-	58049		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - North West portion of Privateer's Hold's throne room
-		- e.g. Daggerfall - Privateer's Hold - See above
-		- Removed wood textured faces from doorway as these were causing Z-buffer fighting with the corridor model connected to this doorway.
+58049
+	- Description: Dungeon - North West portion of Privateer's Hold's throne room
+	- e.g. Daggerfall - Privateer's Hold - See above
+	- Removed wood textured faces from doorway as these were causing Z-buffer fighting with the corridor model connected to this doorway.
 
-	58050		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Corridor and staircase making up North side of platform for Privateer's Hold's throne
-		- e.g. Daggerfall - Privateer's Hold - See above
-		- Closed gaps between steps and walls.
-		- Fixed Z-buffer fighting in doorway.
+58050
+	- Description: Dungeon - Corridor and staircase making up North side of platform for Privateer's Hold's throne
+	- e.g. Daggerfall - Privateer's Hold - See above
+	- Closed gaps between steps and walls.
+	- Fixed Z-buffer fighting in doorway.
 
-	58055		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: 2 small walls joined at 90 degrees
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-		- Closed gap between the bottom of the model and the models below it.
+58055
+	- Description: 2 small walls joined at 90 degrees
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gap between the bottom of the model and the models below it.
 
-	59004		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Two staircases connected end-to-end at a 90° angle
-		- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
-		- Closed gaps between steps and walls.
-		- Closed gaps between this model and room's walls.
+59004
+	- Description: Dungeon - Two staircases connected end-to-end at a 90° angle
+	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance.
+	- Closed gaps between steps and walls.
+	- Closed gaps between this model and room's walls.
 
-	59007		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Giant Staircase - walls block off access to underside of stairs, no walls along sides of stairs.
-		- e.g. Daggerfall - Privateer's Hold - Staircase in Throne room leading up to throne.
-		- Closed gaps between steps and walls.
+59007
+	- Description: Dungeon - Giant Staircase - walls block off access to underside of stairs, no walls along sides of stairs.
+	- e.g. Daggerfall - Privateer's Hold - Staircase in Throne room leading up to throne.
+	- Closed gaps between steps and walls.
 
-	59011		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
-		- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
-		- Closed gaps between steps and walls.
-		- Removed extraneous piece of ceiling.
+59011
+	- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
+	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+	- Closed gaps between steps and walls.
+	- Removed extraneous piece of ceiling.
 
-	59012		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Giant Staircase - No walls
-		- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
-		- Closed gaps between steps and walls.
+59012
+	- Description: Dungeon - Giant Staircase - No walls
+	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+	- Closed gaps between steps and walls.
 
-	59013		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
-		- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
-		- Closed gaps between steps and walls.
-		- Removed extraneous piece of ceiling.
+59013
+	- Description: Dungeon - Large Staircase inside corridor. Top has large doorway and bottom has open area
+	- e.g. Daggerfall - Trogker - Large room just below dungeon entrance.
+	- Closed gaps between steps and walls.
+	- Removed extraneous piece of ceiling.
 
-	59017		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Giant staircase in Daggerfall castle
-		- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Giant staircase leading up to thrones
-		- Closed gaps between steps and walls.
+59017
+	- Description: Dungeon - Giant staircase in Daggerfall castle
+	- e.g. Daggerfall - Daggerfall (city) - Castle Daggerfall - Giant staircase leading up to thrones
+	- Closed gaps between steps and walls.
 
 60110
 	- Description: Dungeon - Cave tunnel piece with 45° bend
@@ -274,43 +274,43 @@
 	- Closed holes on the sides of the trusses.
 	- Removed excess vertices (from 137 to 93).
 
-	61004		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Passageway piece with 90° tight bend
-		- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right into the next room. On the other side of the room's other door is the model.
-		- Closed 2 large gaps and many microscopic ones that formed between the ends of this model and neighbouring models.
+61004
+	- Description: Dungeon - Passageway piece with 90° tight bend
+	- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right into the next room. On the other side of the room's other door is the model.
+	- Closed 2 large gaps and many microscopic ones that formed between the ends of this model and neighbouring models.
 
-	61017		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 15° Staircase inside passageway with upper and lower part open
-		- e.g. Daggerfall - The Tomb of Baroghoth - At end of long passage that starts next to room with coffins near entrance.
-		- Closed gaps between steps and walls.
-		- Improved the UV mapping of the walls just next to the steps.
-		- Removed excess vertices (from 156 to 148)
+61017
+	- Description: Dungeon - 15° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - The Tomb of Baroghoth - At end of long passage that starts next to room with coffins near entrance.
+	- Closed gaps between steps and walls.
+	- Improved the UV mapping of the walls just next to the steps.
+	- Removed excess vertices (from 156 to 148)
 
-	61018		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
-		- e.g. Daggerfall - The Alabore Prison - Staircase within spitting distance to the left of entrance.
-		- Closed gaps between steps and walls.
+61018
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - The Alabore Prison - Staircase within spitting distance to the left of entrance.
+	- Closed gaps between steps and walls.
 
-	61025		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Moving stone wall
-		- e.g. Daggerfall - Ruins of Hearthston Manor - Turn right after entering dungeon and the wall is at the end of corridor.
-		- Applied stone texture to edges of wall.
-		- Expanded to fill gaps between movable wall and surrounding static walls.
-		- Closed gap on the bottom edge of wall.
-		- Removed excess vertices (from 36 to 24)
+61025
+	- Description: Dungeon - Moving stone wall
+	- e.g. Daggerfall - Ruins of Hearthston Manor - Turn right after entering dungeon and the wall is at the end of corridor.
+	- Applied stone texture to edges of wall.
+	- Expanded to fill gaps between movable wall and surrounding static walls.
+	- Closed gap on the bottom edge of wall.
+	- Removed excess vertices (from 36 to 24)
 
-	61118		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
-		- e.g. Daggerfall - Castle Wooding - Bottom of the North West part of the dungeon.
-		- Closed gaps between steps and walls.
-		- Removed excess vertices (from 168 to 156)
+61118
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - Castle Wooding - Bottom of the North West part of the dungeon.
+	- Closed gaps between steps and walls.
+	- Removed excess vertices (from 168 to 156)
 
-	61218		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
-		- e.g. Daggerfall - Privateer's Hold - Staircase in corridor just before room with archer and tables.
-		- Improved the UV mapping of the lower parts of the walls just next to the steps.
-		- Closed gaps between steps and walls.
-		- Removed excess vertices (from 168 to 146)
+61218
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open
+	- e.g. Daggerfall - Privateer's Hold - Staircase in corridor just before room with archer and tables.
+	- Improved the UV mapping of the lower parts of the walls just next to the steps.
+	- Closed gaps between steps and walls.
+	- Removed excess vertices (from 168 to 146)
 
 62319
 	- Description: Dungeon - Square wood beam
@@ -318,67 +318,67 @@
 	- Applied tree ring texture to beam's ends.
 	- Removed excess vertices (from 24 to 16)
 
-	63005		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - End of passageway with doorway on left side
-		- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right.
-		- Corrected bad UV mapping on floor.
+63005
+	- Description: Dungeon - End of passageway with doorway on left side
+	- e.g. Daggerfall - Ruins of Moorford Manor - From the large square-ring-shaped room with a water filled trench, go through the West door then turn right.
+	- Corrected bad UV mapping on floor.
 
-	63022		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Passageway with two wood pillars or ceiling supports
-		- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
-		- Closed gaps between the pillars' ends and the ceiling + floor.
-		- Removed excess vertices (from 56 to 40)
+63022
+	- Description: Dungeon - Passageway with two wood pillars or ceiling supports
+	- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
+	- Closed gaps between the pillars' ends and the ceiling + floor.
+	- Removed excess vertices (from 56 to 40)
 
-	63026		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 30° Staircase inside curved passageway with upper and lower part open
-		- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
-		- Closed gaps between steps and walls.
-		- Removed excess vertices (from 112 to 70)
+63026
+	- Description: Dungeon - 30° Staircase inside curved passageway with upper and lower part open
+	- e.g. Daggerfall - The Alabore Prison - Inside one of the areas you have to teleport to reach
+	- Closed gaps between steps and walls.
+	- Removed excess vertices (from 112 to 70)
 
-	67025		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open and ceiling at a more gentle slope
-		- e.g. Daggerfall - Trogker - Short distance along passage that comes off the North side of the large room's ground floor.
-		- Closed gaps between steps and walls.
+63234
+	- Description: Dungeon - Level passageway with a gentle 45° turn
+	- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
+	- Closed gaps created between walls of this and neighbouring models.
 
-	63234		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Level passageway with a gentle 45° turn
-		- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
-		- Closed gaps created between walls of this and neighbouring models.
+63243
+	- Description: Dungeon - Corridor with sharp 180° bend and incline
+	- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
+	- Fixed bad UV mapping on floor.
+	- Removed excess vertices (from 106 to 95) - More possible
 
-	63243		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Corridor with sharp 180° bend and incline
-		- e.g. Daggerfall - Castle Wooding - Take elevator right in area above entrance.
-		- Fixed bad UV mapping on floor.
-		- Removed excess vertices (from 106 to 95) - More possible
+67025
+	- Description: Dungeon - 45° Staircase inside passageway with upper and lower part open and ceiling at a more gentle slope
+	- e.g. Daggerfall - Trogker - Short distance along passage that comes off the North side of the large room's ground floor.
+	- Closed gaps between steps and walls.
 
-	67219		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Corridor piece - start of corridor - doorway at end
-		- e.g. Daggerfall - The Belladausa Coven - Passageway that leads out the pigsty room you start in.
-		- Fixed bad UV mapping on floor.
-		- Removed excess vertices (from 47 to 36)
+67219
+	- Description: Dungeon - Corridor piece - start of corridor - doorway at end
+	- e.g. Daggerfall - The Belladausa Coven - Passageway that leads out the pigsty room you start in.
+	- Fixed bad UV mapping on floor.
+	- Removed excess vertices (from 47 to 36)
 
-	67313		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Upper floor corridor corner with one side open
-		- e.g. Daggerfall - Daggerfall (City) - Daggerfall Castle - Large room NW of throne room entered from upper levels on North side of large room containing 2 spiral staircases in towers and floating walkways above water that is West of the throne room.
-		- Removed the overhang that this model creates with model #58020.
-			- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42760
-		- Fixed problematic UV mapping on ceiling.
-		- Removed excess vertices (from 33 to 22)
+67313
+	- Description: Dungeon - Upper floor corridor corner with one side open
+	- e.g. Daggerfall - Daggerfall (City) - Daggerfall Castle - Large room NW of throne room entered from upper levels on North side of large room containing 2 spiral staircases in towers and floating walkways above water that is West of the throne room.
+	- Removed the overhang that this model creates with model #58020.
+		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42760
+	- Fixed problematic UV mapping on ceiling.
+	- Removed excess vertices (from 33 to 22)
 
-	70809		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - 2 rooms side-by-side - One much larger than other
-		- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
-		- Applied stone texture to edges of wall that had a solid brown texture.
-		- Applied wood grain texture to doorways.
-		- Fixed bad UV mapping on floor.
-		- Closed gaps between ceiling and trusses.
-		- Removed excess vertices (from 281 to 146)
+70809
+	- Description: Dungeon - 2 rooms side-by-side - One much larger than other
+	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
+	- Applied stone texture to edges of wall that had a solid brown texture.
+	- Applied wood grain texture to doorways.
+	- Fixed bad UV mapping on floor.
+	- Closed gaps between ceiling and trusses.
+	- Removed excess vertices (from 281 to 146)
 
-	71101		XJDHDR: Can't test this until Dungeon Variations done
-		- Description: Dungeon - Small square room with 2 doorways at 90° from each other
-		- e.g. Daggerfall - The Belladausa Coven - The room behind the door you are looking at after entering the dungeon.
-		- Corrected the height of the 2 doorways' lintels as they were too low.
-		- Removed excess vertices (from 72 to 40)
+71101
+	- Description: Dungeon - Small square room with 2 doorways at 90° from each other
+	- e.g. Daggerfall - The Belladausa Coven - The room behind the door you are looking at after entering the dungeon.
+	- Corrected the height of the 2 doorways' lintels as they were too low.
+	- Removed excess vertices (from 72 to 40)
 
 74009
 	- Description: Dungeon - Long white/grey marble pillar with magenta caps
@@ -388,2166 +388,19 @@
 
 
 ==== Fixed Dungeon Block Records ====
-N0000005.RDB
-	- e.g. Daggerfall - Trogker - Sarcophagus inside large room just below dungeon entrance.
-	- Corrected position of sarcophagus ("ModelIdNum": 41319 - "ModelIndex": 46 - "Position": 22223) as it was floating above the ground.
-	- Corrected position of 3 altars as they were floating above the ground:
-		- "ModelIdNum": 41311 - "ModelIndex": 11 - "Position": 28061
-		- "ModelIdNum": 41311 - "ModelIndex": 11 - "Position": 28468
-		- "ModelIdNum": 41311 - "ModelIndex": 11 - "Position": 27750
-	- Corrected position of 4 bookshelves as they were floating above the ground:
-		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28754
-		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28706
-		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28658
-		- "ModelIdNum": 41046 - "ModelIndex": 58 - "Position": 28587
-	- Corrected position of 4 beds as they were floating above the ground:
-		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27846
-		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27942
-		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27894
-		- "ModelIdNum": 41000 - "ModelIndex": 0 - "Position": 27798
-	- Corrected position of 2 statues as they were floating above the ground and moved one back as it was hanging off the balcony's edge:
-		- "ModelIdNum": 62329 - "ModelIndex": 49 - "Position": 22726
-		- "ModelIdNum": 62329 - "ModelIndex": 49 - "Position": 22726
-	- Corrected position of torture table ("ModelIdNum": 41303 - "ModelIndex": 56 - "Position": 28420) as it was floating above the ground.
-	- Corrected position of 4 crates as they were floating above the ground:
-		- "ModelIdNum": 41827 - "ModelIndex": 63 - "Position": 29086
-		- "ModelIdNum": 41833 - "ModelIndex": 60 - "Position": 28873
-		- "ModelIdNum": 41832 - "ModelIndex": 61 - "Position": 28944
-		- "ModelIdNum": 41834 - "ModelIndex": 59 - "Position": 28802
-	- Corrected position of 8 torches as they were floating above the ground:	"YPos": -1066,
-		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22988
-		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22845
-		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22917
-		- "TextureArchive": 210 - "TextureRecord": 20 - "Position": 22881
-		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22343
-		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22271
-		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22379
-		- "TextureArchive": 210 - "TextureRecord": 6 - "Position": 22307
-	- Corrected position of doorway brick wall ("ModelIdNum": 72100 - "ModelIndex": 64 - "Position": 29332) as there were gaps between the model and doorway.
-
-N0000027.RDB
-	- e.g. Daggerfall - Trogker - Corridor found outside torture room that you teleport into after activating a skull found in passageway that comes off west side of large room.
-	- Corrected rotation of a corridor corner piece ("ModelIdNum": 63133 - "ModelIndex": 12 - "Position": 14455) as it's rotation was causing both gaps between models and Z-buffer fighting.
-
-N0000040.RDB
-	- e.g. Anticlere - The Cabal of Carolara
-	- Corrected position of a staircase piece ("ModelIdNum": 61018 - "ModelIndex": 18 - "Position": 20090) as it was positioned a bit too high.
-		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?f=31&t=2706
-
-N0000074.RDB
-	- e.g. Daggerfall - Castle Wooding - Dungeon's entrance
-	- Corrected position of dungeon entrance ("ModelIdNum": 70300 - "ModelIndex": 32 - "Position": 27078) as it was clearly some distance away from the wall.
-	- Corrected position of torture table ("ModelIdNum": 41302 - "ModelIndex": 63 - "Position": 23822) as it was floating above the ground.
-	- Corrected position of sarcophagus ("ModelIdNum": 41319 - "ModelIndex": 29 - "Position": 26851) as it was floating above the ground.
-
-N0000075.RDB
-	- e.g. Daggerfall - Castle Wooding - Torture rooms on opposite side of the dungeon from entrance
-	- Corrected position of 3 torture tables as they were floating above the ground.
-		- ("ModelIdNum": 41301 - "ModelIndex": 65 - "Position": 24523)
-		- ("ModelIdNum": 41303 - "ModelIndex": 66 - "Position": 24594)
-		- ("ModelIdNum": 41302 - "ModelIndex": 62 - "Position": 23699)
-
-N0000090.RDB
-	- e.g. Daggerfall - The Belladausa Coven - The room you start in after entering the dungeon.
-	- Corrected position of water trough ("ModelIdNum": 41209 - "ModelIndex": 61 - "Position": 37354) as it was floating above the ground.
-	- Corrected position of a fence model ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38691) as it was clipping into another fence model and causing Z-buffer fighting.
-	- Corrected position of a fence post ("ModelIdNum": 62319 - "ModelIndex": 74 - "Position": 39171) as the fence post above ("Position": 38691) was now clipping into it.
-	- Corrected position of the following fence models as there were gaps between them and other parts of the fence:
-		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 39075)
-		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 39027)
-		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38979)
-		- ("ModelIdNum": 41207 - "ModelIndex": 70 - "Position": 38835)
-
-S0000160.RDB
-	- e.g. Daggerfall - Daggerfall - Castle Daggerfall - Throne room
-	- Corrected positions of magically locked entrance doors as there were gaps between them and the doorways and they were cliping into each other.
-		- ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22818)
-		- ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22866)
-	- Can't do this without replacing the model or somehow changing rotation direction.
-		- Also rotated the one door ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22866) as it was upside down.
-
-W0000005.RDB
-	- e.g. Daggerfall - The Vannona Coven - Large room to the South of entrance within spitting distance
-	- Nudged 90° short stone wall ("ModelIdNum": 58055 - "ModelIndex": 86 - "Position": 24863) slightly to stop it clipping with the stairs.
 
 
 ==== Fixed Locations ====
-location-0-15
-	- Location: Alik'r Desert - Berbaaqnia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1968)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-33
-	- Location: Alik'r Desert - Kaloguja
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1912)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-52
-	- Location: Alik'r Desert - Mogandaton
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1808)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-64
-	- Location: Alik'r Desert - Rhogila
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1624)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-78
-	- Location: Alik'r Desert - Ceriburea
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1848)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-144
-	- Location: Alik'r Desert - Ceranda-Kom
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1672)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-165
-	- Location: Alik'r Desert - Alik'ra
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1904)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-171
-	- Location: Alik'r Desert - Ramoaweyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (line 1496)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-192
-	- Location: Alik'r Desert - Mettula
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-240
-	- Location: Alik'r Desert - Tsetissiara
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-257
-	- Location: Alik'r Desert - Agogurana
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #208 - line 1688)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-324
-	- Location: Alik'r Desert - Isfunnusa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #148 - line 1208)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-0-331
-	- Location: Alik'r Desert - Anteliiga
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-53
-	- Location: Dragontail Mountains - Bubogureg
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #277 - line 2240)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-54
-	- Location: Dragontail Mountains - Jaluh-Thar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #189 - line 1536)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-101
-	- Location: Dragontail Mountains - Ramyryzar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-226
-	- Location: Dragontail Mountains - Tsetoaret
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #202 - line 1640)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-243
-	- Location: Dragontail Mountains - Mesajer
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-320
-	- Location: Dragontail Mountains - Berbemijet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #260 - line 2104)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-394
-	- Location: Dragontail Mountains - Baghajweyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #269 - line 2176)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-399
-	- Location: Dragontail Mountains - Baghad-Thar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #251 - line 2032)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-467
-	- Location: Dragontail Mountains - Papakalah
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #194 - line 1576)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-514
-	- Location: Dragontail Mountains - Sederania
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-536
-	- Location: Dragontail Mountains - Appera-Gora
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #149 - line 1216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-561
-	- Location: Dragontail Mountains - Makilliweyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #188 - line 1528)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-634
-	- Location: Dragontail Mountains - Umberadax
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-650
-	- Location: Dragontail Mountains - Atrahaga
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-651
-	- Location: Dragontail Mountains - Atrohala
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #241 - line 1952)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-684
-	- Location: Dragontail Mountains - Wadijirius
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #241 - line 1952)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-698
-	- Location: Dragontail Mountains - Rhogandarea
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #147 - line 1200)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-802
-	- Location: Dragontail Mountains - Bubadja
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #269 - line 2176)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-1-853
-	- Location: Dragontail Mountains - Dragontail
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #309 - line 2496)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-9
-	- Location: Dwynnen - Chesterlech
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #243 - line 1968)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-12
-	- Location: Dwynnen - Tunhead
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #322 - line 2600)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-60
-	- Location: Dwynnen - Gallomore
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-124
-	- Location: Dwynnen - Eastville Derry
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #310 - line 2504)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-184
-	- Location: Dwynnen - Upbridge
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #187 - line 1520)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-255
-	- Location: Dwynnen - Whitewold
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #176 - line 1432)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-276
-	- Location: Dwynnen - Wildercroft
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-278
-	- Location: Dwynnen - Wildertower
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #180 - line 1464)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-408
-	- Location: Dwynnen - Burghead
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #289 - line 2336)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-488
-	- Location: Dwynnen - Oxborne
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-514
-	- Location: Dwynnen - Deerwood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #259 - line 2096)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-517
-	- Location: Dwynnen - Charengate
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #174 - line 1416)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-522
-	- Location: Dwynnen - Dwynnen
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #320 - line 2584)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-526
-	- Location: Dwynnen - Aldton
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #276 - line 2232)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-670
-	- Location: Dwynnen - Baelwood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-5-704
-	- Location: Dwynnen - Crossbrugh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #245 - line 1984)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-42
-	- Location: Wrothgarian Mountains - Knightshead
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-		
-location-16-58
-	- Location: Wrothgarian Mountains - Merlech
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #278 - line 2248)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-111
-	- Location: Wrothgarian Mountains - Gothwark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #234 - line 1896)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-147
-	- Location: Wrothgarian Mountains - Reywark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #274 - line 2216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-297
-	- Location: Wrothgarian Mountains - Wrothgaria
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #302 - line 2440)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-300
-	- Location: Wrothgarian Mountains - Ipston
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #205 - line 1664)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-352
-	- Location: Wrothgarian Mountains - Longwall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #228 - line 1848)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-372
-	- Location: Wrothgarian Mountains - Oxcart
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-377
-	- Location: Wrothgarian Mountains - Newing
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #308 - line 2488)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-385
-	- Location: Wrothgarian Mountains - Newwark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #140 - line 1144)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-406
-	- Location: Wrothgarian Mountains - Longborne
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #197 - line 1600)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-427
-	- Location: Wrothgarian Mountains - Longfort
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #286 - line 2312)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-443
-	- Location: Wrothgarian Mountains - Fontvale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #288 - line 2328)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-478
-	- Location: Wrothgarian Mountains - Charenwood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #213 - line 1728)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-482
-	- Location: Wrothgarian Mountains - Cromwark Hamlet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #228 - line 1848)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-485
-	- Location: Wrothgarian Mountains - Cromcastle
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #232 - line 1880)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-556
-	- Location: Wrothgarian Mountains - Aldhope
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #190 - line 1544)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-596
-	- Location: Wrothgarian Mountains - Reycastle
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #180 - line 1464)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-602
-	- Location: Wrothgarian Mountains - Aldingworth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #162 - line 1320)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-608
-	- Location: Wrothgarian Mountains - Burgshire
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #190 - line 1544)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-645
-	- Location: Wrothgarian Mountains - Tuntale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-649
-	- Location: Wrothgarian Mountains - Lamcester
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #216 - line 1752)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-676
-	- Location: Wrothgarian Mountains - Singham
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #195 - line 1584)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-691
-	- Location: Wrothgarian Mountains - Aldleigh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #189 - line 1536)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-783
-	- Location: Wrothgarian Mountains - Grayhope
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #247 - line 2000)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-879
-	- Location: Wrothgarian Mountains - Hollech
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1075
-	- Location: Wrothgarian Mountains - Longcart
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #205 - line 1664)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1090
-	- Location: Wrothgarian Mountains - Penwick Wood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #205 - line 1664)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1099
-	- Location: Wrothgarian Mountains - Charenworth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #232 - line 1880)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1104
-	- Location: Wrothgarian Mountains - Uphope
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #304 - line 2456)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1145
-	- Location: Wrothgarian Mountains - Oxhope
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #245 - line 1984)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1166
-	- Location: Wrothgarian Mountains - Cromtry
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #190 - line 1544)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1194
-	- Location: Wrothgarian Mountains - Ipsvale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #239 - line 1936)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1218
-	- Location: Wrothgarian Mountains - Longwell Hill
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #184 - line 1496)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1244
-	- Location: Wrothgarian Mountains - Knightsmore
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #297 - line 2376)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1284
-	- Location: Wrothgarian Mountains - Cathwell
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #139 - line 1136)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1287
-	- Location: Wrothgarian Mountains - Grimvale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #180 - line 1464)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1368
-	- Location: Wrothgarian Mountains - Oxbury
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #274 - line 2216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1372
-	- Location: Wrothgarian Mountains - Graywick
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #194 - line 1576)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1458
-	- Location: Wrothgarian Mountains - Mershire
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #180 - line 1464)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1481
-	- Location: Wrothgarian Mountains - Reycester
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #286 - line 2312)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1494
-	- Location: Wrothgarian Mountains - Cathcroft
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #274 - line 2216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1584
-	- Location: Wrothgarian Mountains - Graybury
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #145 - line 1184)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-16-1618
-	- Location: Wrothgarian Mountains - Baelhead
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-4
-	- Location: Daggerfall - Charing
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #209 - line 1696)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-34
-	- Location: Daggerfall - Singmoth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #213 - line 1728)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-37
-	- Location: Daggerfall - Charton
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-46
-	- Location: Daggerfall - Longtry Field
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #254 - line 2056)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-114
-	- Location: Daggerfall - Wildertown
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #239 - line 1936)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-325
-	- Location: Daggerfall - Gallotale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #153 - line 1248)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-395
-	- Location: Daggerfall - Chesterwark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #208 - line 1688)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-413
-	- Location: Daggerfall - Midbury
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-439
-	- Location: Daggerfall - Cromwych Hill
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #270 - line 2184)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-451
-	- Location: Daggerfall - Baelmoth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #191 - line 1552)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-510
-	- Location: Daggerfall - Aldingwall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #226 - line 1832)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-593
-	- Location: Daggerfall - Ripmarket
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #225 - line 1824)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region. Originally reported here: https://forums.dfworkshop.net/viewtopic.php?p=46405
-
-location-17-603
-	- Location: Daggerfall - Stokworth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #223 - line 1808)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-645
-	- Location: Daggerfall - Newcester
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #225 - line 1824)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-684
-	- Location: Daggerfall - Holham
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #187 - line 1520)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-713
-	- Location: Daggerfall - Longtown
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #191 - line 1552)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-776
-	- Location: Daggerfall - Reyford
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #189 - line 1536)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-808
-	- Location: Daggerfall - Mercester
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #258 - line 2088)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-879
-	- Location: Daggerfall - Whitewood Borough
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #189 - line 1536)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-935
-	- Location: Daggerfall - Knightstown
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #239 - line 1936)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-956
-	- Location: Daggerfall - Grimfort
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #287 - line 2320)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-963
-	- Location: Daggerfall - Kirkcart Wood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #276 - line 2232)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-973
-	- Location: Daggerfall - Oxway
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-995
-	- Location: Daggerfall - Tunbeth Hamlet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #274 - line 2216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1035
-	- Location: Daggerfall - Charening
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #141 - line 1152)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1068
-	- Location: Daggerfall - Uptower Moor
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #152 - line 1240)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1116
-	- Location: Daggerfall - Ipshead
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #276 - line 2232)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1129
-	- Location: Daggerfall - Burgwall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #295 - line 2384)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1166
-	- Location: Daggerfall - Penbrugh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #198 - line 1608)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1231
-	- Location: Daggerfall - Daggerfall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #297 - line 2400)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1239
-	- Location: Daggerfall - Ripmore
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #226 - line 1832)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1296
-	- Location: Daggerfall - Deerbridge Hollow
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1305
-	- Location: Daggerfall - Westhead Moor
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #226 - line 1832)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-17-1317
-	- Location: Daggerfall - Singcroft
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #247 - line 2000)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-18-16
-	- Location: Glenpoint - Fontfort
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #175 - line 1424)
-
-location-18-42
-	- Location: Glenpoint - Singmore
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #139 - line 1136)
-
-location-18-141
-	- Location: Glenpoint - Knightstower
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #187 - line 1520)
-
-location-18-181
-	- Location: Glenpoint - Glenpoint
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #282 - line 2280)
-
-location-18-227
-	- Location: Glenpoint - Singfort
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #296 - line 2392)
-
-location-18-250
-	- Location: Glenpoint - Warcart
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #279 - line 2256)
-
-location-18-261
-	- Location: Glenpoint - Arkmoth End
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
-
-location-18-274
-	- Location: Glenpoint - Horing
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #156 - line 1272)
-
-location-18-315
-	- Location: Glenpoint - Arkhead
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-
-location-18-377
-	- Location: Glenpoint - Oxtown
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #298 - line 2408)
-
-location-20-2
-	- Location: Sentinel - Bubissidata
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #154 - line 1232)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-6
-	- Location: Sentinel - Sentinel
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #204 - line 1656)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-14
-	- Location: Sentinel - Linisa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #199 - line 1616)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-20
-	- Location: Sentinel - Naresa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #249 - line 2016)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-37
-	- Location: Sentinel - Akhahanu
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #145 - line 1184)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-74
-	- Location: Sentinel - Khajoajet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #206 - line 1672)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-91
-	- Location: Sentinel - Tsetetturia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #162 - line 1320)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-229
-	- Location: Sentinel - Umbaaqwan
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #235 - line 1904)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-238
-	- Location: Sentinel - Isfijer
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #214 - line 1736)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-254
-	- Location: Sentinel - Khajoharet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #236 - line 1912)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-287
-	- Location: Sentinel - Akhoaisa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #131 - line 1072)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-376
-	- Location: Sentinel - Sedojer
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #204 - line 1656)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-406
-	- Location: Sentinel - Tasoparet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #169 - line 1376)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-466
-	- Location: Sentinel - Mesehret
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #173 - line 1408)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-20-497
-	- Location: Sentinel - Pythinis
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #160 - line 1304)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-40
-	- Location: Anticlere - Ipstale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #195 - line 1584)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-137
-	- Location: Anticlere - Gallovale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #266 - line 2152)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-173
-	- Location: Anticlere - Eastcastle
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #237 - line 1920)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-176
-	- Location: Anticlere - Charborne Wood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #279 - line 2256)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-185
-	- Location: Anticlere - Cromwark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1536)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-191
-	- Location: Anticlere - Broadwell
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #171 - line 1392)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-203
-	- Location: Anticlere - Grayborne
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #188 - line 1528)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-206
-	- Location: Anticlere - Aldingborne Commons
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #284 - line 2296)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-247
-	- Location: Anticlere - Stoklech
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #291 - line 2352)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-310
-	- Location: Anticlere - Burgwold
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #165 - line 1344)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-387
-	- Location: Anticlere - Tamham
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-394
-	- Location: Anticlere - Holleigh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #259 - line 2096)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-413
-	- Location: Anticlere - Chestermarket
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #237 - line 1920)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-416
-	- Location: Anticlere - Ipscart Rock
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #239 - line 1936)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-447
-	- Location: Anticlere - Aldshire
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #243 - line 1968)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-464
-	- Location: Anticlere - Kirkhope
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #248 - line 2008)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-524
-	- Location: Anticlere - Newwell
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #246 - line 1992)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-578
-	- Location: Anticlere - Crosswych Wood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #196 - line 1592)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-592
-	- Location: Anticlere - Lamtown
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #278 - line 2248)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-600
-	- Location: Anticlere - Anticlere
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #296 - line 2392)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-681
-	- Location: Anticlere - Oxfort
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #204 - line 1656)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-21-693
-	- Location: Anticlere - Aldwall Rock
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #306 - line 2472)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-5
-	- Location: Lainlyn - Kalunnunu
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #245 - line 1984)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-103
-	- Location: Lainlyn - Lainlyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #299 - line 2416)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-109
-	- Location: Lainlyn - Sedena-Hassi
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #263 - line 2128)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-130
-	- Location: Lainlyn - Syrius
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #272 - line 2200)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-232
-	- Location: Lainlyn - Akhuhzar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #230 - line 1864)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-294
-	- Location: Lainlyn - Rhanopa-Hassi
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #247 - line 2000)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-308
-	- Location: Lainlyn - Akhera-Korom
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #211 - line 1712)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-22-314
-	- Location: Lainlyn - Tulaelius
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #197 - line 1600)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-42
-	- Location: Wayrest - Ripford
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #293 - line 2368)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-67
-	- Location: Wayrest - Vanlech Court
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #293 - line 2368)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-91
-	- Location: Wayrest - Lamwold
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #202 - line 1640)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-100
-	- Location: Wayrest - Reyford Moor
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-105
-	- Location: Wayrest - Holwick
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #191 - line 1552)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-108
-	- Location: Wayrest - Kirkmarket
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #235 - line 1904)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-115
-	- Location: Wayrest - Knightsbrugh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #176 - line 1432)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-116
-	- Location: Wayrest - Longhope End
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #194 - line 1576)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-151
-	- Location: Wayrest - Crossdale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #183 - line 1488)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-181
-	- Location: Wayrest - Longley Borough
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #161 - line 1312)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-224
-	- Location: Wayrest - Westwall Heath
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #208 - line 1688)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-250
-	- Location: Wayrest - Warmore
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #219 - line 1776)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-264
-	- Location: Wayrest - Vantown
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #285 - line 2304)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-273
-	- Location: Wayrest - Tamgate
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #300 - line 2424)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-280
-	- Location: Wayrest - Oxvale Borough
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #285 - line 2304)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-292
-	- Location: Wayrest - Penwood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #239 - line 1936)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-324
-	- Location: Wayrest - Easttale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #275 - line 2224)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-368
-	- Location: Wayrest - Aldwych
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #188 - line 1528)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-428
-	- Location: Wayrest - Holhead Court
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #230 - line 1864)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-513
-	- Location: Wayrest - Burgbeth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #227 - line 1840)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-572
-	- Location: Wayrest - Singdale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #238 - line 1924)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-579
-	- Location: Wayrest - Merhope Hall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #286 - line 2318)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-591
-	- Location: Wayrest - Penwall Derry
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #207 - line 1680)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-601
-	- Location: Wayrest - Wayrest
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #262 - line 2120)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-613
-	- Location: Wayrest - Merwark Hollow
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #232 - line 1880)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-740
-	- Location: Wayrest - Fontwell Heath
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #150 - line 1224)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-747
-	- Location: Wayrest - Eastwold
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-752
-	- Location: Wayrest - Graywold
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #194 - line 1576)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-758
-	- Location: Wayrest - Eastwark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #144 - line 1176)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-773
-	- Location: Wayrest - Galloing Garden
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #206 - line 1672)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-810
-	- Location: Wayrest - Newvale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #171 - line 1392)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-840
-	- Location: Wayrest - Eastbrone
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #294 - line 2376)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-845
-	- Location: Wayrest - Holshire Rock
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #167 - line 1360)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-23-850
-	- Location: Wayrest - Tunmont
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #247 - line 2000)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-9
-	- Location: Northmoor - Gallobrugh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #169 - line 1376)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-52
-	- Location: Northmoor - Cathwych
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #286 - line 2318)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-62
-	- Location: Northmoor - Riptower
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-126
-	- Location: Northmoor - Graywell
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #269 - line 2176)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-155
-	- Location: Northmoor - Vanlech
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #238 - line 1928)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-203
-	- Location: Northmoor - Gothcroft
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #182 - line 1480)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-252
-	- Location: Northmoor - Northmoor
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #295 - line 2384)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-32-274
-	- Location: Northmoor - Westworth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-33-72
-	- Location: Menevia - Uptower
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #157 - line 1280)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-33-114
-	- Location: Menevia - Menevia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #287 - line 2320)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-33-145
-	- Location: Menevia - Baelbrone
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #292 - line 2360)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-33-149
-	- Location: Menevia - Ripbrone Commons
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #242 - line 1960)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-33-159
-	- Location: Menevia - Vanshire
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #274 - line 2216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-33-175
-	- Location: Menevia - Charenfort
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #163 - line 1328)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-33-178
-	- Location: Menevia - Aldingbury
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-34-57
-	- Location: Alcaire - Alcaire
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #295 - line 2384)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-35-27
-	- Location: Koegria - Whitewark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #200 - line 1624)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-35-68
-	- Location: Koegria - Koegria
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #313 - line 2528)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-35-72
-	- Location: Koegria - Vancastle Garden
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #235 - line 1904)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-35-94
-	- Location: Koegria - Aldcester
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #236 - line 1912)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-35-116
-	- Location: Koegria - Fontbeth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #194 - line 1576)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-36-44
-	- Location: Bhoraine - Newtale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #242 - line 1960)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-36-76
-	- Location: Bhoraine - Kirkwold
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #195 - line 1584)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-36-78
-	- Location: Bhoraine - Blackwich Heath
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #291 - line 2352)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-36-115
-	- Location: Bhoraine - Bhoriane
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #318 - line 2568)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-37-27
-	- Location: Kambria - Charenwell
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #272 - line 2200)
-
-location-37-64
-	- Location: Kambria - Tambury Hollow
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-
-location-37-66
-	- Location: Kambria - Tamtale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #247 - line 2000)
-
-location-37-70
-	- Location: Kambria - Kambria
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #301 - line 2432)
-
-location-37-161
-	- Location: Kambria - Merford
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #258 - line 2088)
-
-location-37-227
-	- Location: Kambria - Grimtry Garden
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #287 - line 2320)
-
-location-37-296
-	- Location: Kambria - Midbridge
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #275 - line 2224)
-
-location-38-33
-	- Location: Phrygias - Horpath
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1632)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-38-167
-	- Location: Phrygias - Phrygias
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #285 - line 2304)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-39-1
-	- Location: Urvaius - Broadvale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #159 - line 1292)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-39-7
-	- Location: Urvaius - Knightsgate
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #308 - line 2488)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-39-80
-	- Location: Urvaius - Oxwark
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-39-235
-	- Location: Urvaius - Charendale Derry
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #303 - line 2448)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-39-259
-	- Location: Urvaius - Ipslech
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-39-263
-	- Location: Urvaius - Urvaius
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #305 - line 2464)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-25
-	- Location: Ykalon - Reymore
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #292 - line 2360)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-65
-	- Location: Ykalon - Charenwall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #302 - line 2440)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-76
-	- Location: Ykalon - Hormont
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #251 - line 2032)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-85
-	- Location: Ykalon - Eastleigh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #282 - line 2280)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-156
-	- Location: Ykalon - Knightston
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #187 - line 1520)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-167
-	- Location: Ykalon - Merborne
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #267 - line 2160)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-218
-	- Location: Ykalon - Newmont Garden
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #288 - line 2328)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-226
-	- Location: Ykalon - Tamcastle
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #226 - line 1832)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-268
-	- Location: Ykalon - Chesterbeth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #241 - line 1952)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-318
-	- Location: Ykalon - Baelhope
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #245 - line 1984)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-357
-	- Location: Ykalon - Ykalon
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-385
-	- Location: Ykalon - Warbrugh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #183 - line 1488)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-388
-	- Location: Ykalon - Warwick
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #226 - line 1832)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-429
-	- Location: Ykalon - Arkvale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #238 - line 1928)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-460
-	- Location: Ykalon - Warmoth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #314 - line 2536)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-487
-	- Location: Ykalon - Horwich
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #194 - line 1576)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-506
-	- Location: Ykalon - Gothbrone Hall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #301 - line 2432)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-40-517
-	- Location: Ykalon - Wilderwood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #269 - line 2176)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-41-69
-	- Location: Daenia - Graybrone Court
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #193 - line 1568)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-41-101
-	- Location: Daenia - Daenia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #288 - line 2328)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-41-142
-	- Location: Daenia - Penpath
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #238 - line 1928)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-41-191
-	- Location: Daenia - Westtry
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #196 - line 1592)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-41-264
-	- Location: Daenia - Midmoth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #275 - line 2224)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-3
-	- Location: Shalgora - Reyham End
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #156 - line 1272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-14
-	- Location: Shalgora - Kirkbrugh
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #241 - line 1952)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-32
-	- Location: Shalgora - Westwell
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #267 - line 2160)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-88
-	- Location: Shalgora - Easttower Hollow
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #248 - line 2008)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-99
-	- Location: Shalgora - Tunborne
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #193 - line 1568)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-115
-	- Location: Shalgora - Baellech
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-121
-	- Location: Shalgora - Holwall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #235 - line 1904)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-122
-	- Location: Shalgora - Horwood Borough
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #209 - line 1696)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-139
-	- Location: Shalgora - Deermore
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-160
-	- Location: Shalgora - Charidge
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #268 - line 2168)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-42-161
-	- Location: Shalgora - Shalgora
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #290 - line 2344)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-43-78
-	- Location: Abibon-Gora - Abibon-Gora
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #248 - line 2008)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-43-134
-	- Location: Abibon-Gora - Cerettunia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #156 - line 1272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-43-135
-	- Location: Abibon-Gora - Issaqumbaa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #141 - line 1152)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-43-167
-	- Location: Abibon-Gora - Penazar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #216 - line 1752)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-43-197
-	- Location: Abibon-Gora - Tsetono
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #166 - line 1352)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-44-21
-	- Location: Kairou - Kalereg
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #244 - line 1976)
-
-location-44-43
-	- Location: Kairou - Papiiton
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #232 - line 1880)
-
-location-44-97
-	- Location: Kairou - Kairou
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #247 - line 2000)
-
-location-45-6
-	- Location: Pothago - Pothago
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #235 - line 1904)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-45-24
-	- Location: Pothago - Menakat
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #248 - line 2008)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-46-20
-	- Location: Myrkwasa - Zagiladax
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #157 - line 1280)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-46-57
-	- Location: Myrkwasa - Myrkwasa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #257 - line 2080)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-47-8
-	- Location: Ayasofya - Javii-Kom
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #210 - line 1704)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-47-30
-	- Location: Ayasofya - Tulaia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #255 - line 2064)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-47-77
-	- Location: Ayasofya - Syrasa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #133 - line 1088)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-47-128
-	- Location: Ayasofya - Ayasofya
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #222 - line 1800)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-9
-	- Location: Tigonus - Antelibuton
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #280 - line 2264)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-12
-	- Location: Tigonus - Bubohabia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #188 - line 1528)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-20
-	- Location: Tigonus - Gyselah
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #152 - line 1240)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-26
-	- Location: Tigonus - Atruza
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #273 - line 2208)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-54
-	- Location: Tigonus - Tigonus
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #308 - line 2488)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-81
-	- Location: Tigonus - Makumbazar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #171 - line 1392)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-82
-	- Location: Tigonus - Makaka-Ij
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #244 - line 1976)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-110
-	- Location: Tigonus - Kalallaa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #155 - line 1264)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-125
-	- Location: Tigonus - Rhanoccosia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-142
-	- Location: Tigonus - Zenirijet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-165
-	- Location: Tigonus - Syra-Kom
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #156 - line 1272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-169
-	- Location: Tigonus - Daminia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #193 - line 1568)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-214
-	- Location: Tigonus - Makaja
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #219 - line 1776)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-230
-	- Location: Tigonus - Wadijuthua
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #249 - line 2016)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-237
-	- Location: Tigonus - Zagorana
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #216 - line 1752)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-269
-	- Location: Tigonus - Lastabia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #161 - line 1312)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-48-315
-	- Location: Tigonus - Kalaan
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #231 - line 1872)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-49-31
-	- Location: Kozanset - Kozanset
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #296 - line 2392)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-50-33
-	- Location: Satakalaam - Beton
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #235 - line 1904)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-50-90
-	- Location: Satakalaam - Satakalaam
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #289 - line 2336)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-50-97
-	- Location: Satakalaam - Pheonirila
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #280 - line 2264)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-50-120
-	- Location: Satakalaam - Syrunnuweyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #205 - line 1664)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-50-121
-	- Location: Satakalaam - Syrascu-Thar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #287 - line 2320)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-51-44
-	- Location: Totambu - Hodax
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
-
-location-51-64
-	- Location: Totambu - Javallanis
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #280 - line 2264)
-
-location-51-109
-	- Location: Totambu - Morahada
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #263 - line 2128)
-
-location-51-128
-	- Location: Totambu - Pinret
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #186 - line 1512)
-
-location-51-151
-	- Location: Totambu - Tsetunu
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #246 - line 1992)
-
-location-51-191
-	- Location: Totambu - Khajastareg
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #163 - line 1328)
-
-location-51-203
-	- Location: Totambu - Jalumba-Hassi
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #192 - line 1560)
-
-location-51-228
-	- Location: Totambu - Baghila
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #288 - line 2328)
-
-location-51-229
-	- Location: Totambu - Rhanaka-Korom
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #286 - line 2312)
-
-location-51-239
-	- Location: Totambu - Syroara
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #275 - line 2224)
-
-location-51-450
-	- Location: Totambu - Kaliisia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #197 - line 1600)
-
-location-51-502
-	- Location: Totambu - Minzar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #287 - line 2320)
-
-location-51-540
-	- Location: Totambu - Rameh-Thar
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #177 - line 1440)
-
-location-51-541
-	- Location: Totambu - Khajisa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #221 - line 1792)
-
-location-51-544
-	- Location: Totambu - Khajajret
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #200 - line 1624)
-
-location-51-546
-	- Location: Totambu - Atreja
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #230 - line 1964)
-
-location-51-566
-	- Location: Totambu - Zagettubi
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #274 - line 2216)
-
-location-51-579
-	- Location: Totambu - Osenabu
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #182 - line 1480)
-
-location-51-604
-	- Location: Totambu - Peno
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #297 - line 2400)
-
-location-51-607
-	- Location: Totambu - Paaqlah
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #233 - line 1888)
-
-location-51-633
-	- Location: Totambu - Totambu
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #291 - line 2352)
-
-location-51-648
-	- Location: Totambu - Elotunia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #187 - line 1520)
-
-location-51-651
-	- Location: Totambu - Bubohaisa
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #188 - line 1528)
-
-location-51-727
-	- Location: Totambu - Hyryjet
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #262 - line 2120)
-
-location-51-736
-	- Location: Totambu - Umbumbao
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-
-location-51-787
-	- Location: Totambu - Moribua
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #197 - line 1600)
-
-location-51-832
-	- Location: Totambu - Ramonidisu
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #202 - line 1640)
-
-location-51-848
-	- Location: Totambu - Damenaweyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #232 - line 1880)
-
-location-52-26
-	- Location: Mournoth - Tulaillisia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #149 - line 1216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-66
-	- Location: Mournoth - Antelajer
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #160 - line 1304)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-119
-	- Location: Mournoth - Zagaaq-Ij
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #257 - line 2080)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-152
-	- Location: Mournoth - Boweyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #280 - line 2264)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-159
-	- Location: Mournoth - Sedajus
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #281 - line 2272)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-165
-	- Location: Mournoth - Rhanastaara
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #244 - line 1976)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-190
-	- Location: Mournoth - Anteluthusia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #233 - line 1888)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-191
-	- Location: Mournoth - Antelino
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #274 - line 2216)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-201
-	- Location: Mournoth - Mournoth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #288 - line 2328)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-279
-	- Location: Mournoth - Jaladnia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-295
-	- Location: Mournoth - Buboreg
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #234 - line 1896)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-52-352
-	- Location: Mournoth - Huthudisu
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #208 - line 1688)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-53-205
-	- Location: Ephesus - Ephesus
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #271 - line 2192)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-54-26
-	- Location: Santaki - Santaki
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #284 - line 2296)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-55-2
-	- Location: Antiphyllos - Jalallaara
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #252 - line 2040)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-55-39
-	- Location: Antiphyllos - Antyphyllos
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #247 - line 2000)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-56-9
-	- Location: Bergama - Tulaeh-Hassi
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #234 - line 1896)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-56-10
-	- Location: Bergama - Puweyn
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #114 - line 936)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-56-41
-	- Location: Bergama - Bergama
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #239 - line 1936)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-56-53
-	- Location: Bergama - Kaluhbia
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #201 - line 1638)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-56-55
-	- Location: Bergama - Behla
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #179 - line 1456)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-57-24
-	- Location: Gavaudon - Gavaudon
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #307 - line 2480)
-
-location-57-42
-	- Location: Gavaudon - Oxham
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #178 - line 1448)
-
-location-58-15
-	- Location: Tulune - Arkcart
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #279 - line 2256)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-58-59
-	- Location: Tulune - Tulune
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #307 - line 2480)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-59-69
-	- Location: Glenumbra Moors - Upmont
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #276 - line 2232)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-59-70
-	- Location: Glenumbra Moors - Grimley
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #280 - line 2264)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-59-94
-	- Location: Glenumbra Moors - Glenumbra
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #283 - line 2288)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-33
-	- Location: Ilessan Hills - Newbrone
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #268 - line 2168)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-48
-	- Location: Ilessan Hills - Croming
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #206 - line 1672)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-54
-	- Location: Ilessan Hills - Blackworth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #209 - line 1696)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-123
-	- Location: Ilessan Hills - Kirkvale
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #242 - line 1960)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-133
-	- Location: Ilessan Hills - Gothwood
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #197 - line 1600)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-152
-	- Location: Ilessan Hills - Graygate Hollow
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #234 - line 1896)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-153
-	- Location: Ilessan Hills - Galloworth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #180 - line 1464)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-166
-	- Location: Ilessan Hills - Longbeth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #312 - line 2520)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-234
-	- Location: Ilessan Hills - Crossham
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #153 - line 1248)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-296
-	- Location: Ilessan Hills - Crossfort
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #290 - line 2344)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-305
-	- Location: Ilessan Hills - Aldhead Rock
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #244 - line 1976)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-326
-	- Location: Ilessan Hills - Blackley
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #225 - line 1824)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-344
-	- Location: Ilessan Hills - Ilessan Hills
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #275 - line 2224)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-395
-	- Location: Ilessan Hills - Baelwall
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #244 - line 1976)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-401
-	- Location: Ilessan Hills - Westshire Field
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #277 - line 2240)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-422
-	- Location: Ilessan Hills - Newmarket
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #240 - line 1944)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-455
-	- Location: Ilessan Hills - Deerway
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #255 - line 2064)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-459
-	- Location: Ilessan Hills - Burgham
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #202 - line 1640)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-481
-	- Location: Ilessan Hills - Charbeth
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #179 - line 1456)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-502
-	- Location: Ilessan Hills - Baelway
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #214 - line 1736)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-521
-	- Location: Ilessan Hills - Holmont
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #286 - line 2318)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-535
-	- Location: Ilessan Hills - Ipstry
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #204 - line 1656)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-544
-	- Location: Ilessan Hills - Holway
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #168 - line 1368)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-554
-	- Location: Ilessan Hills - Kirkbrone
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #276 - line 2232)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
-
-location-60-588
-	- Location: Ilessan Hills - Gallotower
-	- Corrected Building Data that incorrectly assigned one of the wall segments to the Zen faction. (building #195 - line 1584)
-		- Fixes a bug that prevents player from asking NPCs for the location of Temples of Zen in the region.
 
 
 ==== Fixed Map Block Records ====
-ALCHAM01.RMB
-	- e.g. Daggerfall - Crosstry - Crosstry Provisions
-	- Made two changes that together turn the General Store into a functional shop.
-		- Assigned Merchant to the "Merchant" faction (line 13666).
-		- Added general store shelves to the store (lines 13200 - 13232).
-			- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=44156
-	- Moved the dining room furniture and fireplace into a neighbouring room to make space for the above shelves (lines 13155 - 13198).
-	- Grounded all objects in the General Store as they were slightly floating above the floor.
-	- Grounded a cart outside that was floating above the ground.
-	- Moved a fence to close a gap between it and a wall.
-
-ARMRAM00.RMB
-	- e.g. Daggerfall - Hortale - Lord Agryctor's Mail exterior
-	- Corrected position of a pillar (Model #41902 - 2nd entry in Block3dObjectRecords - Line 2913) that was hanging off the side of a building.
-
-ARMRAM03.RMB
-	- e.g. Daggerfall - Oxwick - Doctor Rodynak's Weapons & The Feather and Cat
-	- Corrected Building Data List that incorrectly labelled a weapon smith as a residence. (line 291 - index #14)
-	- Corrected AutoMap data that was incorrectly labelling the weapon smith as a residence.
-	- Corrected position of a corner counter (Model #41128 - 71st entry in Block3dObjectRecords - Line 4924) that was not touching the walls.
-
-CUSTAA02.RMB
-	- e.g. Daggerfall - Daggerfall (city) - House for Sale: Next building West of Edwyn's General Pawnbrokers
-	- Removed model #31000 (line 4985-4995) as it causes characters to get stuck on the 1st floor of a particular house in this Map Block Record.
-		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42929
-
-	FIGHBL00.RMB
-		- Location: Alik'r Desert - Ramoaweyn - City's Fighter's Guild
-		- Corrected Building Data List that incorrectly labelled a Fighter's Guild as a temple. (line 179 - index #0)
-
-GEMSAL03.RMB
-	- e.g. Daggerfall - Daggerfall (city) - The Emperor's Jewelers
-	- Corrected AutoMap data that was incorrectly labelling one of the Jewellery stores as a residence.
-	- Added a jewellery store sign near the above store's door.
-
-KRAVAL00.RMB
-	- e.g. Dwynnen - Tunhead - The Order of the Raven
-	- Corrected AutoMap data that was incorrectly labelling The Order of the Raven as a residence.
-
-LIBRAL03.RMB
-	- e.g. Daggerfall - Burgwall - former Bargain Bookstall (small square house 2 building SW of the library)
-	- Corrected Building Data List that incorrectly labelled a house as a bookstore. (line 195 - index #2)
-	- Corrected automap data that incorrectly labelled a house as a bookstore.
-
-MAGEAA10.RMB
-	- e.g. Daggerfall - Gallotale - Mages Guild - Room through door left of entrance
-	- Removed model #3230 (line 3180-3190) as it was placed on top of model #13205 (line 3213) and causing Z-buffer fighting.
-	- Filled notch in the Mages Guild's automap image.
-
-RESIBM01.RMB
-	- e.g. Sentinel - Cudadkat - NE Corner - House in the centre of block between some horses and some camels
-	- Removed model #31000 (line 13320-13330) as it causes characters to get stuck on the 1st floor of a particular house in this Map Block Record.
-		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=42929
-
-TVRNAM00.RMB
-	- e.g. Daggerfall - Gothway Gardens - E of Mages Guild & WNW of Resolution of Zen
-	- Corrected Building Data List that incorrectly labelled a tavern as a house. (line 179 - index #0)
-	- Corrected automap data that incorrectly labelled a tavern as a house.
-	- Gave this new tavern a random name seed to ensure it doesn't get the same name as the tavern at index #6 (line 175).
-
-TVRNAM03.RMB
-	- e.g. Daggerfall - Charway Rock - SW Corner - West of the three taverns
-	- Corrected AutoMap data that had a line of green pixels where a tavern didn't exist.
-
-WALLAA08.RMB
-	- e.g. Alik'r Desert - Ramoaweyn - Gatehouse on North side of town
-	- Corrected Building Data List that incorrectly assigned one of the wall's rooms to the Zen faction. (line 184 - index #1)
-
-WEAPAL02.RMB
-	- e.g. Wrothgarian Mountains - Dunlain Falls - Dunlain Falls's Best Arms (added by the "New Canon Locations" mod: https://www.nexusmods.com/daggerfallunity/mods/83 )
-		- Block is not used in the vanilla game. It is only used in mods.
-	- Corrected position of the floor and ceiling models in smaller weaponsmith to close large gaps between them and wall models.
-		- Fixes this report: https://forums.dfworkshop.net/viewtopic.php?p=43690
 
 
 ==== Known issues ====
 	General
 		- Due to a bug in Daggerfall Unity ( https://github.com/Interkarma/daggerfall-unity/issues/1706 ) that is caused by loading a save game that was made in a settlement interior location which uses models that I have fixed that was made before installing or updating this mod. If this happens, you can get stuck in that interior. The solution is to make sure don't load a save made in a settlement interior after installing or updating this mod.
 		- If you load a save inside a dungeon after installing or updating this mod, any models in that dungeon that I added or changed will disappear from the dungeon map. This is simply the way Daggerfall Unity behaves and the solution is to explore that missing piece of dungeon again. After doing that, the model will render on the map once more.
+		- In a few dungeons, the Runtime Materials script in DFU assigns the wrong textures to models that I have patched. I have only spotted this in Privateer's Hold and Castle Daggerfall.
 	
 	Model #239
 		- There is a visible seam on some of the building's walls. Some texture packs also exasperate the problem. Unfortunately, this can't be fixed by modifying the model but instead needs a fixed texture.
