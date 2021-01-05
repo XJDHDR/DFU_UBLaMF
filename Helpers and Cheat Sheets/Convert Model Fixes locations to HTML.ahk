@@ -31,7 +31,7 @@ Loop, Read, %A_ScriptDir%\input.txt
 	}
 	Else If (InStr(A_LoopReadLine, "") != 0)
 	{
-		If (bBlankLineFound == False)
+		If (bBlankLineFound != True)
 		{
 			bBlankLineFound := True
 			sOutputContents .= "					<tr>`r`n"
