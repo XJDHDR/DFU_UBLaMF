@@ -1,0 +1,55 @@
+Alik'r Desert
+	- Berbaaqnia
+	- Kaloguja
+	- Mogandaton
+	- Ceriburea
+	- Ceranda-Kom
+	- Alik'ra
+	- Ramoaweyn
+	- Mettula
+	- Tsetissiara
+	- Agogurana
+	- Isfunnusa
+	- Anteliiga
+		- Fighters Guild labelled as a temple named "Fighter Trainers". Not in Guilds conversation list.
+			- Caused by FIGHBL00.RMB assigning "Temple" to BuildingData Index 1 (line 179 - index #0??) instead of "GuildHall". This propagated to locations using block.
+				- Correcting the building type in block file seems to make Temple to Stendarr disappear from conversation menu??
+
+S0000160.RDB
+	- Look into replacing the model or somehow changing rotation direction.
+		- Also rotated the one door ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22866) as it was upside down.
+
+
+Check all already fixed blocks to see if locations using those blocks need to be updated.
+
+Check UV mapping and vertices count of all fixed models.
+
+See if you can smooth out the slope in Direnni Tower (model 67028)
+	Reported here: http://forums.dfworkshop.net/viewtopic.php?p=47571
+
+Model 239
+	Make a 2nd attempt at fixing the UV mapping.
+
+Fix Glenmorial Witches coven member in cities.
+
+Models 749 & 750 - Close holes in hedge models.
+
+model 63105
+	Fix bad UV mapping on floor. Same problem as 63005.
+
+Save 61017: Reposition door and wood beams in Dungeon Block.
+
+Tables with invisible undersides: https://forums.dfworkshop.net/viewtopic.php?t=1224
+
+Trapdoors opening wrong way?
+	https://forums.dfworkshop.net/viewtopic.php?p=50372#p50372
+
+The Roost of Grumerus has unconnected dungeon pieces: 
+	https://forums.dfworkshop.net/viewtopic.php?p=31236
+	https://forums.dfworkshop.net/viewtopic.php?p=51262
+
+Fix ports (presence and absence)
+
+Repaint automaps to accurately represent buildings
+
+List of models with UV mapping patched in-engine: https://github.com/Interkarma/daggerfall-unity/blob/master/Assets/Scripts/API/Arch3dPatch.cs#L23
