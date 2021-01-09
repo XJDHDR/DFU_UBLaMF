@@ -30,6 +30,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -807,11 +809,11 @@
                             "Month": 0,
                             "Day": 8,
                             "Hour": 10,
-                            "Minute": 22,
-                            "Second": 12.71132
+                            "Minute": 29,
+                            "Second": 1.594581
                         },
                         "startingTimeInSeconds": 1204800,
-                        "remainingTimeInSeconds": 998912,
+                        "remainingTimeInSeconds": 998503,
                         "flag": 1,
                         "minRange": 0,
                         "maxRange": 0,
@@ -1879,6 +1881,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -2182,7 +2186,7 @@
                             "uid": 33554561,
                             "shortName": "Parchment",
                             "nativeMaterialValue": 0,
-                            "dyeColor": "Chain",
+                            "dyeColor": "SilverOrElven",
                             "weightInKg": 0.25,
                             "drawOrder": 0,
                             "value1": 0,
@@ -2243,7 +2247,7 @@
                             "uid": 33554562,
                             "shortName": "Parchment",
                             "nativeMaterialValue": 0,
-                            "dyeColor": "Chain",
+                            "dyeColor": "SilverOrElven",
                             "weightInKg": 0.25,
                             "drawOrder": 0,
                             "value1": 0,
@@ -2304,7 +2308,7 @@
                             "uid": 33554563,
                             "shortName": "Parchment",
                             "nativeMaterialValue": 0,
-                            "dyeColor": "Chain",
+                            "dyeColor": "SilverOrElven",
                             "weightInKg": 0.25,
                             "drawOrder": 0,
                             "value1": 0,
@@ -2436,7 +2440,6 @@
                         "isIndividualNPC": true,
                         "isIndividualAtHome": false,
                         "displayName": "Lady Brisienna",
-                        "godName": "Mara",
                         "homePlaceSymbol": {
                             "original": "_ladyBrisienna_home_",
                             "name": "ladyBrisienna_home"
@@ -2451,6 +2454,7 @@
                             "factionID": 0,
                             "nameSeed": 0,
                             "gender": "Male",
+                            "race": null,
                             "context": "Custom",
                             "mapID": 0,
                             "locationID": 0,
@@ -2664,11 +2668,11 @@
                             "Month": 0,
                             "Day": 8,
                             "Hour": 10,
-                            "Minute": 22,
-                            "Second": 12.71132
+                            "Minute": 29,
+                            "Second": 1.594581
                         },
                         "startingTimeInSeconds": 879105,
-                        "remainingTimeInSeconds": 458386,
+                        "remainingTimeInSeconds": 457977,
                         "flag": 0,
                         "minRange": 0,
                         "maxRange": 0,
@@ -3390,6 +3394,8 @@
                 "Minute": 30,
                 "Second": 20.28211
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -3604,6 +3610,8 @@
                 "Minute": 30,
                 "Second": 20.28211
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -3816,6 +3824,8 @@
                 "Minute": 30,
                 "Second": 20.28211
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -4029,6 +4039,8 @@
                 "Minute": 30,
                 "Second": 20.28211
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -4242,6 +4254,8 @@
                 "Minute": 30,
                 "Second": 20.28211
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -4455,6 +4469,8 @@
                 "Minute": 30,
                 "Second": 20.28211
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -4661,6 +4677,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [
                 {
                     "stepID": 0,
@@ -4901,7 +4919,7 @@
                             "uid": 33554579,
                             "shortName": "Parchment",
                             "nativeMaterialValue": 0,
-                            "dyeColor": "Chain",
+                            "dyeColor": "SilverOrElven",
                             "weightInKg": 0.25,
                             "drawOrder": 0,
                             "value1": 0,
@@ -4962,7 +4980,7 @@
                             "uid": 33554580,
                             "shortName": "Parchment",
                             "nativeMaterialValue": 0,
-                            "dyeColor": "Chain",
+                            "dyeColor": "SilverOrElven",
                             "weightInKg": 0.25,
                             "drawOrder": 0,
                             "value1": 0,
@@ -7688,6 +7706,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -7811,6 +7831,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -8530,6 +8552,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -9444,6 +9468,8 @@
                 "Minute": 33,
                 "Second": 57.80103
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -10158,6 +10184,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -10888,6 +10916,8 @@
                 "Minute": 16,
                 "Second": 49.24936
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -12089,6 +12119,8 @@
                 "Minute": 15,
                 "Second": 49.74641
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -14294,6 +14326,8 @@
                 "Minute": 16,
                 "Second": 59.80342
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -15007,6 +15041,8 @@
                 "Minute": 48,
                 "Second": 16.1491
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -16631,6 +16667,8 @@
                 "Minute": 54,
                 "Second": 8.705434
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -17832,6 +17870,8 @@
                 "Minute": 34,
                 "Second": 18.18274
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -19893,6 +19933,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [
                 {
                     "stepID": 0,
@@ -20136,7 +20178,7 @@
                             "uid": 33554868,
                             "shortName": "Parchment",
                             "nativeMaterialValue": 0,
-                            "dyeColor": "Chain",
+                            "dyeColor": "SilverOrElven",
                             "weightInKg": 0.25,
                             "drawOrder": 0,
                             "value1": 0,
@@ -20250,7 +20292,6 @@
                         "isIndividualNPC": false,
                         "isIndividualAtHome": false,
                         "displayName": "Peristair Wicksmith",
-                        "godName": "Kynareth",
                         "homePlaceSymbol": {
                             "$ref": "805"
                         },
@@ -20264,6 +20305,7 @@
                             "factionID": 63,
                             "nameSeed": 80399,
                             "gender": "Male",
+                            "race": null,
                             "context": "Building",
                             "mapID": 206728581,
                             "locationID": 0,
@@ -20503,11 +20545,11 @@
                             "Month": 0,
                             "Day": 8,
                             "Hour": 10,
-                            "Minute": 22,
-                            "Second": 12.71132
+                            "Minute": 29,
+                            "Second": 1.594581
                         },
                         "startingTimeInSeconds": 675000,
-                        "remainingTimeInSeconds": 509889,
+                        "remainingTimeInSeconds": 509480,
                         "flag": 17,
                         "minRange": 0,
                         "maxRange": 2,
@@ -20891,6 +20933,8 @@
                 "Minute": 5,
                 "Second": 59.48771
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -22522,6 +22566,8 @@
                 "Minute": 31,
                 "Second": 22.44081
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -23723,6 +23769,8 @@
                 "Minute": 43,
                 "Second": 6.009567
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -25354,6 +25402,8 @@
                 "Minute": 38,
                 "Second": 49.4367
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -26555,6 +26605,8 @@
                 "Minute": 48,
                 "Second": 11.76367
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -28623,6 +28675,8 @@
                 "Minute": 13,
                 "Second": 46.95737
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -29377,6 +29431,8 @@
                 "Minute": 18,
                 "Second": 53.83102
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -31001,6 +31057,8 @@
                 "Minute": 48,
                 "Second": 57.77881
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -31722,6 +31780,8 @@
                 "Minute": 26,
                 "Second": 15.62433
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -33346,6 +33406,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -34547,6 +34609,8 @@
                 "Minute": 31,
                 "Second": 17.40009
             },
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {
@@ -36745,6 +36809,8 @@
             },
             "questTombstoned": false,
             "questTombstoneTime": null,
+            "smallerDungeonsState": "NotSet",
+            "compiledByVersion": null,
             "activeLogMessages": [],
             "messages": [
                 {

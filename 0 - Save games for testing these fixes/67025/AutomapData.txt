@@ -1622,7 +1622,7 @@
     },
     "Daggerfall/Trogker": {
         "locationName": "DaggerfallDungeon [Region=Daggerfall, Name=Trogker]",
-        "timeInSecondsLastVisited": 12597848535,
+        "timeInSecondsLastVisited": 12597848944,
         "entranceDiscovered": true,
         "blocks": [
             {
@@ -2274,9 +2274,6 @@
                                 "visitedInThisRun": true
                             }
                         ]
-                    },
-                    {
-                        "models": []
                     },
                     {
                         "models": []
@@ -3285,9 +3282,6 @@
                                 "visitedInThisRun": true
                             }
                         ]
-                    },
-                    {
-                        "models": []
                     }
                 ],
                 "blockName": "DaggerfallBlock [N0000005.RDB]"
@@ -3625,9 +3619,6 @@
                                 "visitedInThisRun": false
                             }
                         ]
-                    },
-                    {
-                        "models": []
                     }
                 ],
                 "blockName": "DaggerfallBlock [N0000062.RDB]"
@@ -4000,9 +3991,6 @@
                     },
                     {
                         "models": []
-                    },
-                    {
-                        "models": []
                     }
                 ],
                 "blockName": "DaggerfallBlock [W0000000.RDB]"
@@ -4228,8 +4216,8 @@
                                 "visitedInThisRun": false
                             },
                             {
-                                "discovered": false,
-                                "visitedInThisRun": false
+                                "discovered": true,
+                                "visitedInThisRun": true
                             },
                             {
                                 "discovered": false,
