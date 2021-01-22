@@ -1,4 +1,4 @@
-To find a specific model in your block:
+To find a specific model in the block:
 	1. Find the position of the model in the "ModelReferenceList"
 	2. Count which entry the model is in that list. 
 		In Notepad++, select that model's entry plus all the ones above. Look for number of lines selected.
@@ -7,6 +7,11 @@ To find a specific model in your block:
 	4. Search for ["ModelIndex": <index number>,]
 	5. The model you are looking for will be the Nth search result.
 	
+To find a specific sprite/flat in the block:
+	1. Count how many of that texture is in the block's flats list in the editor and which number the one you want to edit is (1st, 2nd, etc)
+	2. Search block file for '"TextureArchive": <number>,'. Also pay attention to the flat's Index= value compared to the RDB's "TextureRecord":
+	3. The flat you are looking for will be the Nth search result.
+
 Repositioning objects:
 	- XPos: Move object along West-East axis. +ve moves East, -ve moves West,
 	- YPos: Move object up and down. +ve moves down, -ve moves up.

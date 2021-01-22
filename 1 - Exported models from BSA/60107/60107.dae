@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+	<asset>
+		<created>2021-01-21T02:30:29.1326397Z</created>
+		<modified>2021-01-21T02:30:29.1326397Z</modified>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_geometries>
+		<geometry id="model60107">
+			<mesh>
+				<source id="model60107-positions">
+					<float_array id="model60107-positions-array" count="216">-112 0 128 -127 15.9961 48 -16 368 -15.9961 0 255.996 128 -112 0 128 -16 368 -15.9961 0 255.996 128 -16 368 -15.9961 80 32 0 112 0 128 0 255.996 128 80 32 0 48 352 -143.996 -16 368 -15.9961 -127 15.9961 48 -16 368 -15.9961 48 352 -143.996 159 32 -95.9961 80 32 0 -16 368 -15.9961 159 32 -95.9961 0 256 -383.996 32 384 -239.996 -64 16 -63.9961 48 352 -143.996 -64 16 -63.9961 32 384 -239.996 48 352 -143.996 32 384 -239.996 128 16 -255.996 159 32 -95.9961 48 352 -143.996 128 16 -255.996 -64 32 -239.996 -112 0 -384 0 256 -383.996 32 384 -239.996 0 256 -383.996 112 0 -384 128 16 -255.996 32 384 -239.996 112 0 -384 -127 15.9961 48 -64 16 -63.9961 48 352 -143.996 -64 16 -63.9961 -64 32 -239.996 0 256 -383.996 -127 15.9961 48 -112 0 128 112 0 128 -64 16 -63.9961 -127 15.9961 48 80 32 0 159 32 -95.9961 128 16 -255.996 -64 32 -239.996 -64 16 -63.9961 159 32 -95.9961 -64 32 -239.996 128 16 -255.996 112 0 -384 -112 0 -384 -64 32 -239.996 128 16 -255.996 -112 0 -384 112 0 128 80 32 0 -127 15.9961 48 80 32 0 159 32 -95.9961 -64 16 -63.9961</float_array>
+					<technique_common>
+						<accessor count="72" source="#model60107-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model60107-normals">
+					<float_array id="model60107-normals-array" count="216">0.914063 -0.332031 -0.238281 0.914063 -0.332031 -0.238281 0.914063 -0.332031 -0.238281 0.847656 -0.371094 -0.382813 0.847656 -0.371094 -0.382813 0.847656 -0.371094 -0.382813 -0.953125 -0.277344 -0.109375 -0.953125 -0.277344 -0.109375 -0.953125 -0.277344 -0.109375 -0.910156 -0.398438 0.128906 -0.910156 -0.398438 0.128906 -0.910156 -0.398438 0.128906 0.867188 -0.191406 0.457031 0.867188 -0.191406 0.457031 0.867188 -0.191406 0.457031 -0.855469 -0.351563 -0.382813 -0.855469 -0.351563 -0.382813 -0.855469 -0.351563 -0.382813 -0.75 -0.242188 -0.617188 -0.75 -0.242188 -0.617188 -0.75 -0.242188 -0.617188 0.96875 -0.25 0.0078125 0.96875 -0.25 0.0078125 0.96875 -0.25 0.0078125 0.894531 -0.363281 -0.269531 0.894531 -0.363281 -0.269531 0.894531 -0.363281 -0.269531 -0.964844 -0.253906 0.0742188 -0.964844 -0.253906 0.0742188 -0.964844 -0.253906 0.0742188 -0.933594 -0.292969 0.210938 -0.933594 -0.292969 0.210938 -0.933594 -0.292969 0.210938 0.894531 -0.390625 -0.210938 0.894531 -0.390625 -0.210938 0.894531 -0.390625 -0.210938 -0.800781 -0.351563 0.488281 -0.800781 -0.351563 0.488281 -0.800781 -0.351563 0.488281 -0.953125 -0.253906 0.152344 -0.953125 -0.253906 0.152344 -0.953125 -0.253906 0.152344 0.859375 -0.171875 0.484375 0.859375 -0.171875 0.484375 0.859375 -0.171875 0.484375 0.957031 -0.289063 -0.0273438 0.957031 -0.289063 -0.0273438 0.957031 -0.289063 -0.0273438 0 0.980469 0.195313 0 0.980469 0.195313 0 0.980469 0.195313 -0.0898438 0.996094 -0.0507813 -0.0898438 0.996094 -0.0507813 -0.0898438 0.996094 -0.0507813 0.0742188 0.992188 -0.113281 0.0742188 0.992188 -0.113281 0.0742188 0.992188 -0.113281 -0.0585938 0.996094 0.0898438 -0.0585938 0.996094 0.0898438 -0.0585938 0.996094 0.0898438 0 0.992188 -0.125 0 0.992188 -0.125 0 0.992188 -0.125 0.0625 0.96875 -0.234375 0.0625 0.96875 -0.234375 0.0625 0.96875 -0.234375 -0.0195313 0.96875 0.246094 -0.0195313 0.96875 0.246094 -0.0195313 0.96875 0.246094 -0.0820313 0.996094 -0.0664063 -0.0820313 0.996094 -0.0664063 -0.0820313 0.996094 -0.0664063</float_array>
+					<technique_common>
+						<accessor count="72" source="#model60107-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model60107-uv">
+					<float_array id="model60107-uv-array" count="144">0 -2 0.625 -1.91797 1.125 -0.0839844 0 -0.667969 0 -2 1.125 -0.0839844 4 -0.667969 2.875 -0.0839844 3 -1.83398 4 -2 4 -0.667969 3 -1.83398 2.125 -0.166016 1.13965 -0.0839844 0.625 -1.91797 2.875 -0.0839844 1.875 -0.166016 2.25 -1.83398 3 -1.83398 2.875 -0.0839844 2.25 -1.83398 4 -0.667969 2.87695 -0.0205078 1.5 -1.91797 2.125 -0.166016 1.5 -1.91797 2.875 0 1.875 -0.166016 1.125 0 1 -1.91797 2.25 -1.83398 1.875 -0.166016 1 -1.91797 2.875 -1.83398 4 -2 4 -0.667969 1.125 0 0 -0.667969 0 -2 1 -1.91797 1.125 0 0 -2 0.625 -1.91797 1.5 -1.91797 2.125 -0.166016 1.5 -1.91797 2.875 -1.83398 4 -0.667969 1.49512 -0.597656 1.39648 -0.00878906 0.206055 -0.0625 1.18164 -1.47656 1.49512 -0.597656 0.402344 -1.01172 0 -1.76953 0.196289 -3.00391 1.2168 -2.8125 1.18164 -1.47656 0 -1.76953 1.2168 -2.8125 0.196289 -3.00391 0.307617 -3.99609 1.50098 -3.93359 1.2168 -2.8125 0.196289 -3.00391 1.50098 -3.93359 0.206055 -0.0625 0.402344 -1.01172 1.49512 -0.597656 0.402344 -1.01172 0 -1.76953 1.18164 -1.47656</float_array>
+					<technique_common>
+						<accessor count="72" source="#model60107-uv-array" stride="2">
+							<param name="S" type="float"/>
+							<param name="T" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="model60107-vertices">
+					<input semantic="POSITION" source="#model60107-positions"/>
+				</vertices>
+				<triangles count="16" material="147_1-0">
+					<input offset="0" semantic="VERTEX" source="#model60107-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model60107-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model60107-uv" set="0"/>
+					<p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15 16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39 40 40 40 41 41 41 42 42 42 43 43 43 44 44 44 45 45 45 46 46 46 47 47 47</p>
+				</triangles>
+				<triangles count="8" material="147_2-0">
+					<input offset="0" semantic="VERTEX" source="#model60107-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model60107-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model60107-uv" set="0"/>
+					<p>48 48 48 49 49 49 50 50 50 51 51 51 52 52 52 53 53 53 54 54 54 55 55 55 56 56 56 57 57 57 58 58 58 59 59 59 60 60 60 61 61 61 62 62 62 63 63 63 64 64 64 65 65 65 66 66 66 67 67 67 68 68 68 69 69 69 70 70 70 71 71 71</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_images>
+		<image id="147_1-0-image" height="0" width="0">
+			<init_from>textures/147_1-0.png</init_from>
+		</image>
+		<image id="147_2-0-image" height="0" width="0">
+			<init_from>textures/147_2-0.png</init_from>
+		</image>
+	</library_images>
+	<library_effects>
+		<effect id="147_1-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>147_1-0-image</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="147_2-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>147_2-0-image</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_materials>
+		<material id="147_1-0">
+			<instance_effect url="#147_1-0-effect"/>
+		</material>
+		<material id="147_2-0">
+			<instance_effect url="#147_2-0-effect"/>
+		</material>
+	</library_materials>
+	<library_visual_scenes>
+		<visual_scene id="model60107-scene">
+			<node id="model60107-node">
+				<rotate>1 0 0 90</rotate>
+				<instance_geometry url="#model60107">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="147_1-0" target="#147_1-0">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+							<instance_material symbol="147_2-0" target="#147_2-0">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#model60107-scene"/>
+	</scene>
+</COLLADA>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+	<asset>
+		<created>2021-01-20T18:57:55.7691305Z</created>
+		<modified>2021-01-20T18:57:55.7691305Z</modified>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_geometries>
+		<geometry id="model9003">
+			<mesh>
+				<source id="model9003-positions">
+					<float_array id="model9003-positions-array" count="72">47 44 7 47 44 1 -1 44 1 -1 44 7 47 -44 7 47 -44 1 47 44 1 47 44 7 -1 -44 1 -1 -44 7 -1 44 7 -1 44 1 -1 -44 1 47 -44 1 47 -44 7 -1 -44 7 -1 -44 7 47 -44 7 47 44 7 -1 44 7 47 -44 1 -1 -44 1 -1 44 1 47 44 1</float_array>
+					<technique_common>
+						<accessor count="24" source="#model9003-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model9003-normals">
+					<float_array id="model9003-normals-array" count="72">0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+					<technique_common>
+						<accessor count="24" source="#model9003-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model9003-uv">
+					<float_array id="model9003-uv-array" count="48">0 -0.00248979 0.00230556 -0.00248979 0.00230331 0 0 0 0 -0.00248979 0.00230556 -0.00248979 0.00230331 0 0 0 0 -0.00248979 0.00230556 -0.00248979 0.00230556 0 0 0 0 -0.00248979 0.00230556 -0.00248979 0.00230556 0 0 0 0 -1 1 -1 1 0 0 0 1 -1 0 -1 0 0 1 0</float_array>
+					<technique_common>
+						<accessor count="24" source="#model9003-uv-array" stride="2">
+							<param name="S" type="float"/>
+							<param name="T" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="model9003-vertices">
+					<input semantic="POSITION" source="#model9003-positions"/>
+				</vertices>
+				<triangles count="8" material="067-14-0">
+					<input offset="0" semantic="VERTEX" source="#model9003-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model9003-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model9003-uv" set="0"/>
+					<p>0 0 0 1 1 1 2 2 2 0 0 0 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 4 4 4 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 8 8 8 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 12 12 12 14 14 14 15 15 15</p>
+				</triangles>
+				<triangles count="4" material="174_3-0">
+					<input offset="0" semantic="VERTEX" source="#model9003-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model9003-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model9003-uv" set="0"/>
+					<p>16 16 16 17 17 17 18 18 18 16 16 16 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 20 20 20 22 22 22 23 23 23</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_images>
+		<image id="067-14-0-image" height="0" width="0">
+			<init_from>textures/067-14-0.png</init_from>
+		</image>
+		<image id="174_3-0-image" height="0" width="0">
+			<init_from>textures/174_3-0.png</init_from>
+		</image>
+	</library_images>
+	<library_effects>
+		<effect id="067-14-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>067-14-0-image</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="174_3-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>174_3-0-image</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_materials>
+		<material id="067-14-0">
+			<instance_effect url="#067-14-0-effect"/>
+		</material>
+		<material id="174_3-0">
+			<instance_effect url="#174_3-0-effect"/>
+		</material>
+	</library_materials>
+	<library_visual_scenes>
+		<visual_scene id="model9003-scene">
+			<node id="model9003-node">
+				<rotate>1 0 0 90</rotate>
+				<instance_geometry url="#model9003">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="067-14-0" target="#067-14-0">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+							<instance_material symbol="174_3-0" target="#174_3-0">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#model9003-scene"/>
+	</scene>
+</COLLADA>

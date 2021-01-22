@@ -1,58 +1,112 @@
-Alik'r Desert
-	- Berbaaqnia
-	- Kaloguja
-	- Mogandaton
-	- Ceriburea
-	- Ceranda-Kom
-	- Alik'ra
-	- Ramoaweyn
-	- Mettula
-	- Tsetissiara
-	- Agogurana
-	- Isfunnusa
-	- Anteliiga
-		- Fighters Guild labelled as a temple named "Fighter Trainers". Not in Guilds conversation list.
-			- Caused by FIGHBL00.RMB assigning "Temple" to BuildingData Index 1 (line 179 - index #0??) instead of "GuildHall". This propagated to locations using block.
-				- Correcting the building type in block file seems to make Temple to Stendarr disappear from conversation menu??
-
-S0000160.RDB
-	- Look into replacing the model or somehow changing rotation direction.
-		- Also rotated the one door ("ModelIdNum": 55004 - "ModelIndex": 64 - "Position": 22866) as it was upside down.
+W0000016.RDB
+	Floating treasure and candle on pillar
+	https://forums.dfworkshop.net/viewtopic.php?p=51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740
 
 
-Check all already fixed blocks to see if locations using those blocks need to be updated.
+THIEAM00.RMB
+	Building #1 has model 41004 (Model entry #17, 3rd from bottom) that needs rotating.
 
-Check UV mapping and vertices count of all fixed models.
-
-See if you can smooth out the slope in Direnni Tower (model 67028)
-	Reported here: http://forums.dfworkshop.net/viewtopic.php?p=47571
 
 Model 239
 	Make a 2nd attempt at fixing the UV mapping.
 
-Fix Glenmorial Witches coven member in cities.
 
-Models 749 & 750 - Close holes in hedge models.
+Models 726 & 728
+	Apply Runtime Materials climate option to roof.
+
+
+Model 729
+	Figure out why door texture replacement isn't working
+
+
+Models 749 & 750
+	Close holes in hedge models.
+
+
+Model 12506
+	Close gap between room's trusses and ceiling. SAVE254 - Tavern with missing faces wardrobe and others
+
+
+Model 31022
+	Spiral staircase model has hole in upper landing wall (GENRGM00.RMB)
+
+
+Model 41001
+	Bed model has no underside faces. (GENRGM00.RMB)
+
+
+Model 41002
+	Bed model needs some texture work done. SAVE254 - Tavern with missing faces wardrobe and others
+
+
+Model 41004 and 41800
+	Wardrobes have missing faces on the back.
+	https://forums.dfworkshop.net/viewtopic.php?p=51310
+
+
+Models 41102 and 41110
+	Furniture has missing faces and bad texturing
+	https://forums.dfworkshop.net/viewtopic.php?p=51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740
+
+
+Model 41112
+	Furniture has missing faces and bad texturing. SAVE254 - Tavern with missing faces wardrobe and others
+
+
+Model 41214
+	Unloaded cart model needs some fixups
+
+
+Model 43138
+	Mausoleum has disconnected bits.
+	https://forums.dfworkshop.net/viewtopic.php?p=51320
+
+
+Model 43509
+	Top of tower has a face textured pink
+
 
 model 63105
 	Fix bad UV mapping on floor. Same problem as 63005.
 
+
+Check all already fixed blocks to see if locations using those blocks need to be updated.
+
+
+Check UV mapping and vertices count of all fixed models.
+
+
+Can't ask for regional pawn shops in Linisa, Sentinel
+	https://forums.dfworkshop.net/viewtopic.php?p=49621 and https://forums.dfworkshop.net/viewtopic.php?p=51325
+
+
+Fix Glenmorial Witches coven member in cities.
+
+
 Save 61017: Reposition door and wood beams in Dungeon Block.
+
 
 Tables with invisible undersides: https://forums.dfworkshop.net/viewtopic.php?t=1224
 
+
 Trapdoors opening wrong way?
 	https://forums.dfworkshop.net/viewtopic.php?p=50372#p50372
+
 
 The Roost of Grumerus has unconnected dungeon pieces: 
 	https://forums.dfworkshop.net/viewtopic.php?p=31236
 	https://forums.dfworkshop.net/viewtopic.php?p=51262
 
+
 Fix ports (presence and absence)
+
 
 Bad water-snow transition ground texture tile 
 	https://forums.dfworkshop.net/viewtopic.php?p=51267
 
+
 Repaint automaps to accurately represent buildings
 
+
 List of models with UV mapping patched in-engine: https://github.com/Interkarma/daggerfall-unity/blob/master/Assets/Scripts/API/Arch3dPatch.cs#L23
+

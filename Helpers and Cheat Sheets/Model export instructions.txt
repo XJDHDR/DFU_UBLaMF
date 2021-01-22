@@ -1,4 +1,7 @@
-
+For all models, after importing:
+	Model must have a 90° rotation on the X-axis. This will likely already be there after importing.
+	Model must also have a 180° rotation on the Z-axis.
+	After doing these two things, apply transformations (Ctrl+A)
 
 When exporting FBX:
 	Set object up that it looks correct in the viewport.
@@ -12,9 +15,17 @@ When exporting OBJ:
 	Make sure "Apply Modifiers" is ticked, even if you didn't do transformations.
 	Scale must be set to "0.025"
 
+When exporting DAE:
+	You need to scale all 3 axis to "0.025" in the viewport's Transform options.
+	Under Main -> Global Orientation: Tick "Apply", set Forward to Y and Up to Z.
+	Under Anim: Untick "Include Animations"
+	Under extra: Untick "Use Blender Profile"
+
 Creating prefabs in Unity Editor:
 	Set all Position and Rotation values to 0.
 	Set all Scale values to 1.
+	Add some kind of collision component unless you are creating a door. "Mesh Collider" is the easiest but other types might have better performance.
+	Tick the "Static" box if it doesn't move.
 	Add the Runtime Materials script. "Use Dungeon Texture Table" option only applies to Materials with "Apply Climate" ticked.
 		"Use Dungeon Texture Table" is required for materials that use textures from archives 74, 119, 120, 122, 123, 124 and 168.
 	Doors need the "Daggerfall Action Door", "Serializable Action Door" and "Daggerfall Audio Source" scripts attached.

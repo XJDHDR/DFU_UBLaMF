@@ -1,0 +1,4333 @@
+{
+    "dictQuestInfo": [
+        {
+            "Key": 33554568,
+            "Value": {
+                "resourceInfo": {
+                    "daggerfall": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33554570,
+            "Value": {
+                "resourceInfo": {
+                    "I.00": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "I.01": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33566480,
+            "Value": {
+                "resourceInfo": {
+                    "finger": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "I wouldn't know anything about that. Try asking at a temple.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_sage_ knows about such things. Go ask %g2.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "Have you tried asking around at __sage_ in ___sage_?",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "I hear that someone in ___sage_ might know about such things.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "They say that _sage_ is the foremost expert in such things.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "Maybe that sage at __sage_ knows.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "rumorsAnswers": [],
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": true,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "letter": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "gold1": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "gold2": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "sage_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "sage": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_sage_ is a noted sage from ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "You'll find _sage_ in __sage_",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "in ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "rumorsAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_sage_ is a noted sage from ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "You'll find _sage_ in __sage_",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "in ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": true,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "giver": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "dummy_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "dummy": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "dungeon": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33580397,
+            "Value": {
+                "resourceInfo": {
+                    "finger": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "I wouldn't know anything about that. Try asking at a temple.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_sage_ knows about such things. Go ask %g2.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "Have you tried asking around at __sage_ in ___sage_?",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "I hear that someone in ___sage_ might know about such things.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "They say that _sage_ is the foremost expert in such things.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "Maybe that sage at __sage_ knows.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "rumorsAnswers": [],
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": true,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "letter": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "gold1": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "gold2": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "sage_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "sage": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_sage_ is a noted sage from ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "You'll find _sage_ in __sage_",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "in ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "rumorsAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_sage_ is a noted sage from ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "You'll find _sage_ in __sage_",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "in ___sage_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": true,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "giver": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "dummy_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "dummy": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "dungeon": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33631232,
+            "Value": {
+                "resourceInfo": {
+                    "EmperorsLetter": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "GortwogsLetter": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "Mynisera_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "Mynisera": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "gortwog_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "gortwog": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "Orsinium": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33648555,
+            "Value": {
+                "resourceInfo": {
+                    "gold": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "upfront": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "book": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "qgiver": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "mondung": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "listRumorMill": [
+        {
+            "rumorType": "QuestProgressRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Did you hear? Some %ra smuggled",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "_questgiver_ out of town just",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "in time. Otherwise they would have",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "beheaded %g2 for sure.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 33648353,
+            "timeLimit": 0,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": 0,
+            "flags": 0,
+            "type": 0,
+            "textID": 0
+        },
+        {
+            "rumorType": "QuestProgressRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I got a boil the other day ... but it healed.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just had a three hour conversation about the weather.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "The weather is pretty usual for this time of year.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "It seems a trifle coolish in %cn for this time of year.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "It sure is a lot warmer today than this time last year.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "My great aunt is going to a specialist across the Bay.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "It's always funny what time it gets dark around here.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "We should erect a war statue around here.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "The kids these days with their magic. %oth, I don't know.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I had the weirdest dream last night.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I heard a great joke. %jok",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%jok Actually, that's a joke.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%jok Can you explain that to me?",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "The legal system in %reg has good points and bad ones.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 33648555,
+            "timeLimit": 0,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": 0,
+            "flags": 0,
+            "type": 0,
+            "textID": 0
+        },
+        {
+            "rumorType": "QuestProgressRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "They had to let _contact_ go after all. Turns out %g was innocent.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Now how do you mistake _metal_ for a _gems_? They're both rocks, but come on!",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Nothing",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 33648365,
+            "timeLimit": 0,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": 0,
+            "flags": 0,
+            "type": 0,
+            "textID": 0
+        }
+    ],
+    "dictQuestorPostQuestMessage": [
+        {
+            "Key": 33554587,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33554894,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33554933,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555017,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "The savior of my child! I thank you",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "and _child_ thanks you for saving",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "%g3 life. Bless you %pcf.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555111,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Flesyth, I owe you a debt of gratitude for",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "clearing my The White Dog of monsters.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33554950,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Good going with that tiger.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555134,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555180,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555209,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555224,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555375,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Good job killin' that beast.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "What can I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555445,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Good job killin' that beast.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "What can I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555452,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Good job killin' that beast.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "What can I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555468,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555539,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555554,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555577,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Good job killin' that beast.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "What can I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555590,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555671,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555695,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Good job killin' that beast.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "What can I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555716,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555737,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "So you killed the giant bats. Don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "get too full of yourself. They were",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "only giant bats.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555157,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "You helped us maintain good relations with _warrior_. What may I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555844,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "You helped us maintain good relations with _warrior_. What may I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555897,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "You helped us maintain good relations with _warrior_. What may I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33555969,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "You helped us maintain good relations with _warrior_. What may I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556016,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "You helped us maintain good relations with Edwyn Moorsley. What may I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556093,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How are you, %pcf? Found any use for that _potion_ yet?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556157,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How are you, %pcf? Found any use for that _potion_ yet?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556272,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How are you, %pcf? Found any use for that _potion_ yet?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556388,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How are you, %pcf? Found any use for that _potion_ yet?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556469,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556527,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556581,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556622,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556688,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556725,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556774,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556808,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How are you, %pcf? Found any use for that _potion_ yet?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556928,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557030,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557114,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557155,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33556899,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "I hired you to do a job, but you couldn't.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "All you had to do was kill _darkb_.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "Now its too late, and the Dark Brotherhood",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "is after me. Just leave me alone.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33559007,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Beautiful robes. Nothing particularly unusual about them.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33561564,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Well, if it isn't %pcn, the ultimate courier. How are you, my friend?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33565278,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "%pcf, I owe you a debt of gratitude for",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "clearing my _house_ of monsters.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33566304,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Ahem. Well, yes. I suppose since you",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "did get that...item for my sister's",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "nuptials I do owe you a debt.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33566973,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "My humble thanks for taking that package",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "to ___pickupregion_.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33566984,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hah! You didn't even bother to show",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "up for the duel. Thought I wouldn't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "remember eh? Shove off, coward!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33564406,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hello, %pct. I'm sorry. I'm still shaken from reading my brother's journal.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33570997,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33571044,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33571087,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33571142,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33568882,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Keep your voice down. You killed _darkb_",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "for me, and I acknowledge the debt, but I don't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "want people thinking I had anything to do with it.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33571599,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Don't think for a minute I've forgotten you, Flesyth. How are you, friend?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33571773,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "I was disappointed by your failure",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "to deliver that daedra heart. I expect",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "you thought I had forgotten about it.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "That's the only explanation for your",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "decision to return to court.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33571915,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33571963,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33572040,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33572083,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33572126,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33572166,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33572362,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33567742,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "You must think I am a horrible person",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "after what I did to my sister's lover",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "Kerum. Let me make it up to you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33573899,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Ah, my young champion. Still in the mercenary business, I see. That's good.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33573892,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "That business with _qgiver_ wasn't",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "my fault. I'm not about to get mixed",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "up with you now, so just leave me alone.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33577482,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Ah, my dear friend. How good of you to return. How are things?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33580314,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Lovely to see you again, Flesyth. I understand that your mission was accomplished.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33580318,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How can I turn down the Khajiit that",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "found Boolpba for me?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33580403,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Ah, hello, ring bearer. What can I do for you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33580563,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "%pcf, I owe you a debt of gratitude for",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "clearing my _house_ of monsters.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33581155,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Thank you for delivering that package",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "for me %pcf.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33580310,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "%qdt:",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": " An agent of the Underking has sent me to",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": " Castle Llugwych in Ykalon to find a certain",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": " _reward_ the Necromancers stole from",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": " the Underking. I have =itemindung_ days to find",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": " and return the _reward_.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33595892,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33595970,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33596056,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33596253,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33596378,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33596433,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "For what you've done for _sleepingmage_, of course, I'm happy to help you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33586944,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Failure is not taken lightly in the",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "Fighter's Guild. If you couldn't handle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "a Daedroth, you shouldn't have taken",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "the job. I've got better things to do",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "than waste my time talking to you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33601880,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "%pcf, I owe you a debt of gratitude for",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "clearing my _house_ of monsters.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33601875,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Look who's back. You understand I couldn't tell you about the gem, don't you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33606422,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Lovely to see you again, Flesyth. I understand that your mission was accomplished.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33607753,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Look who's back. You understand I couldn't tell you about the gem, don't you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33609288,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Oh, it's my old courier. How charming. How may I help you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33609284,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Ahem. Well, yes. I suppose since you",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "did get that...item for my sister's",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "nuptials I do owe you a debt.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33610612,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Ah, Flesyth. I hope you're keeping that ruby safe, my friend.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33610605,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Well, if it isn't my favorite spy. How goes it with you, young %pcf?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33614586,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How can I turn down the %ra that",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "found _missingperson_ for me?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33615614,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "The savior of my child! I thank you",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "and _child_ thanks you for saving",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "%g3 life. Bless you %pcf.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33617274,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Anything for my friend %pcf.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "You recovered my precious book and",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "I am quite grateful.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33619001,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Thank you for delivering that package",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "for me %pcf.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33618996,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "As I recall, you failed the",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "last assignment I gave you.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "I see little point in talking",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "with you now.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33620108,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hello again, my young friend. I haven't forgotten your services.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33620114,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Don't think for a minute I've forgotten you, Flesyth. How are you, friend?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33622100,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Don't think for a minute I've forgotten you, Flesyth. How are you, friend?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33623273,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "I recognize those sturdy young legs. How are you, my old courier?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33629369,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33629378,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Thanks for getting me out of that",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "town, %pcf. I have recommended",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "you to several of my friends.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33629634,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33629683,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33629826,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33630060,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33630105,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33630152,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33630200,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, Flesyth? Want that Jade back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33630275,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33630363,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Anything for the Khajiit that found the",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "answer to my riddle. Ysyrrya Hawkcroft",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "and I are married you know.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33631240,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Fearfully good to see you again. How may I help you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33634556,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "I was disappointed by your failure",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "to deliver that daedra heart. I expect",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "you thought I had forgotten about it.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "That's the only explanation for your",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "decision to return to court.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33634552,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Ah, it's my agent of peace. How goes it with you, my friend?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33645675,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "The savior of my child! I thank you",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "and _child_ thanks you for saving",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "%g3 life. Bless you %pcf.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33647022,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "%oth. I had hoped never to see",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "you again. You bested my champion in a",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "duel, but I am an honarable person.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33648353,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Thanks for getting me out of that",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "town, %pcf. I have recommended",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Text",
+                    "text": "you to several of my friends.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33648365,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "What is it, %pcf? Want that _gems_ back? I bet you do!",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        }
+    ],
+    "npcsWithWork": {
+
+    },
+    "castleNPCsSpokenTo": {
+
+    }
+}
