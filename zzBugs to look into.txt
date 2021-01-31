@@ -1,6 +1,23 @@
 W0000016.RDB
 	Floating treasure and candle on pillar
-	https://forums.dfworkshop.net/viewtopic.php?p=51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740
+	https://forums.dfworkshop.net/viewtopic.php?p=51330#p51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740#p14740
+
+
+Fix Glenmorial Witches coven member in cities.
+	CLOTAS00.RMB - Building 5 has one. Building 6 also has a misaligned door.
+	PAWNAL00.RMB - Building 0 has one. Also reposition chairs by fireplace and rotate ladder.
+	THIEAL00.RMB - Building 10 has one. Also reposition chairs by fireplace and rotate ladder.
+	MAGEAA03.RMB - Building 8 has one. Also reposition chairs by fireplace and rotate ladder.
+	FIGHAA02.RMB - Building 5 has one. 
+	TVRNAS08.RMB - Building 2 has one. Also reposition chairs by fireplace and rotate ladder.
+	GENRAM02.RMB - Building 11 has one. Also reposition chairs by fireplace and rotate ladder.
+	RESIAS07.RMB - Building 3 has one. Also reposition chairs by fireplace and rotate ladder.
+	MAGEAA13.RMB - Building 3 has one.
+	RESIAL09.RMB - Building 11 has one. Also reposition chairs by fireplace and rotate ladder.
+
+
+GRVEAS20.RMB
+	Block has numerous models badly modelled and/or badly placed.
 
 
 THIEAM00.RMB
@@ -15,11 +32,7 @@ Models 726 & 728
 	Apply Runtime Materials climate option to roof.
 
 
-Model 729
-	Figure out why door texture replacement isn't working
-
-
-Models 749 & 750
+Models 752 & 754
 	Close holes in hedge models.
 
 
@@ -41,12 +54,12 @@ Model 41002
 
 Model 41004 and 41800
 	Wardrobes have missing faces on the back.
-	https://forums.dfworkshop.net/viewtopic.php?p=51310
+	https://forums.dfworkshop.net/viewtopic.php?p=51310#p51310
 
 
 Models 41102 and 41110
 	Furniture has missing faces and bad texturing
-	https://forums.dfworkshop.net/viewtopic.php?p=51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740
+	https://forums.dfworkshop.net/viewtopic.php?p=51330#p51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740#p14740
 
 
 Model 41112
@@ -57,9 +70,8 @@ Model 41214
 	Unloaded cart model needs some fixups
 
 
-Model 43138
-	Mausoleum has disconnected bits.
-	https://forums.dfworkshop.net/viewtopic.php?p=51320
+Model 41409
+	Retexture and fix up ladder model. Collider must be convex?
 
 
 Model 43509
@@ -76,13 +88,6 @@ Check all already fixed blocks to see if locations using those blocks need to be
 Check UV mapping and vertices count of all fixed models.
 
 
-Can't ask for regional pawn shops in Linisa, Sentinel
-	https://forums.dfworkshop.net/viewtopic.php?p=49621 and https://forums.dfworkshop.net/viewtopic.php?p=51325
-
-
-Fix Glenmorial Witches coven member in cities.
-
-
 Save 61017: Reposition door and wood beams in Dungeon Block.
 
 
@@ -94,15 +99,15 @@ Trapdoors opening wrong way?
 
 
 The Roost of Grumerus has unconnected dungeon pieces: 
-	https://forums.dfworkshop.net/viewtopic.php?p=31236
-	https://forums.dfworkshop.net/viewtopic.php?p=51262
+	https://forums.dfworkshop.net/viewtopic.php?p=31236#p31236
+	https://forums.dfworkshop.net/viewtopic.php?p=51262#p51262
 
 
 Fix ports (presence and absence)
 
 
 Bad water-snow transition ground texture tile 
-	https://forums.dfworkshop.net/viewtopic.php?p=51267
+	https://forums.dfworkshop.net/viewtopic.php?p=51267#p51267
 
 
 Repaint automaps to accurately represent buildings

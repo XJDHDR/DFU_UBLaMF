@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+	<asset>
+		<created>2020-09-19T19:39:21.9892092Z</created>
+		<modified>2020-09-19T19:39:21.9892092Z</modified>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_geometries>
+		<geometry id="model750">
+			<mesh>
+				<source id="model750-positions">
+					<float_array id="model750-positions-array" count="96">-216 72 -216 -232 64 -232 -232 64 232 -216 72 232 -200 0 -200 -200 64 -200 -200 64 232 -200 0 232 -232 64 -232 -232 0 -232 -232 0 232 -232 64 232 -216 72 -216 -200 64 -200 232 64 -200 232 72 -216 -232 64 -232 -216 72 -216 232 72 -216 232 64 -232 -200 64 -200 -200 0 -200 232 0 -200 232 64 -200 -232 0 -232 -232 64 -232 232 64 -232 232 0 -232 -200 64 -200 -216 72 -216 -216 72 232 -200 64 232</float_array>
+					<technique_common>
+						<accessor count="32" source="#model750-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model750-normals">
+					<float_array id="model750-normals-array" count="96">-0.445313 0.894531 0 -0.445313 0.894531 0 -0.445313 0.894531 0 -0.445313 0.894531 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0.894531 0.445313 0 0.894531 0.445313 0 0.894531 0.445313 0 0.894531 0.445313 0 0.894531 -0.445313 0 0.894531 -0.445313 0 0.894531 -0.445313 0 0.894531 -0.445313 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.445313 0.894531 0 0.445313 0.894531 0 0.445313 0.894531 0 0.445313 0.894531 0</float_array>
+					<technique_common>
+						<accessor count="32" source="#model750-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model750-uv">
+					<float_array id="model750-uv-array" count="64">-0.839844 -0.0292969 -1.05957 -0.289063 5.0293 -0.288086 5.03906 -0.0283203 0.639648 -0.979492 0.639648 -0.240234 -5.11719 -0.239258 -5.11719 -0.978516 -1.03906 -0.25 -1.03906 -0.969727 4.98731 -0.969727 4.98731 -0.25 0 0 0.216797 -0.272461 5.99023 -0.272461 5.98731 0 1.01953 -0.30957 0.799805 -0.0302734 -4.90918 -0.0292969 -4.89356 -0.308594 0.210938 -0.229492 0.210938 -0.957031 5.95898 -0.957031 5.95898 -0.229492 1.01953 -0.959961 1.01953 -0.220703 -4.89356 -0.220703 -4.89356 -0.959961 0.639648 -0.30957 0.838867 -0.0302734 -5.13086 -0.0302734 -5.11621 -0.30957</float_array>
+					<technique_common>
+						<accessor count="32" source="#model750-uv-array" stride="2">
+							<param name="S" type="float"/>
+							<param name="T" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="model750-vertices">
+					<input semantic="POSITION" source="#model750-positions"/>
+				</vertices>
+				<triangles count="16" material="033_0-0">
+					<input offset="0" semantic="VERTEX" source="#model750-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model750-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model750-uv" set="0"/>
+					<p>0 0 0 1 1 1 2 2 2 0 0 0 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 4 4 4 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 8 8 8 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 12 12 12 14 14 14 15 15 15 16 16 16 17 17 17 18 18 18 16 16 16 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 20 20 20 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 24 24 24 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 28 28 28 30 30 30 31 31 31</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_images>
+		<image id="033_0-0-image" height="0" width="0">
+			<init_from>textures/033_0-0.png</init_from>
+		</image>
+	</library_images>
+	<library_effects>
+		<effect id="033_0-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>033_0-0-image</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_materials>
+		<material id="033_0-0">
+			<instance_effect url="#033_0-0-effect"/>
+		</material>
+	</library_materials>
+	<library_visual_scenes>
+		<visual_scene id="model750-scene">
+			<node id="model750-node">
+				<rotate>1 0 0 90</rotate>
+				<instance_geometry url="#model750">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="033_0-0" target="#033_0-0">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#model750-scene"/>
+	</scene>
+</COLLADA>
