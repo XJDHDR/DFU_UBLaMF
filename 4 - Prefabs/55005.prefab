@@ -45,7 +45,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751092018817466}
-  m_Mesh: {fileID: 4300000, guid: 81435faae1d96684aaa55c409f18b65d, type: 3}
+  m_Mesh: {fileID: -2432090755550338912, guid: 143b47e4c32baec488925d794968eccf, type: 3}
 --- !u!23 &23428524284335466
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -107,8 +107,8 @@ MonoBehaviour:
   - Index: 1
     Archive: 74
     Record: 2
-    ApplyClimate: 1
-  UseDungeonTextureTable: 0
+    ApplyClimate: 0
+  UseDungeonTextureTable: 1
 --- !u!114 &114739582215604790
 MonoBehaviour:
   m_ObjectHideFlags: 0

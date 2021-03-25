@@ -1622,7 +1622,7 @@
     },
     "Daggerfall/Trogker": {
         "locationName": "DaggerfallDungeon [Region=Daggerfall, Name=Trogker]",
-        "timeInSecondsLastVisited": 12597845492,
+        "timeInSecondsLastVisited": 12597845730,
         "entranceDiscovered": true,
         "blocks": [
             {
@@ -1962,12 +1962,12 @@
                                 "visitedInThisRun": false
                             },
                             {
-                                "discovered": false,
-                                "visitedInThisRun": false
+                                "discovered": true,
+                                "visitedInThisRun": true
                             },
                             {
-                                "discovered": false,
-                                "visitedInThisRun": false
+                                "discovered": true,
+                                "visitedInThisRun": true
                             },
                             {
                                 "discovered": true,
@@ -2274,9 +2274,6 @@
                                 "visitedInThisRun": true
                             }
                         ]
-                    },
-                    {
-                        "models": []
                     },
                     {
                         "models": []
@@ -3285,9 +3282,6 @@
                                 "visitedInThisRun": true
                             }
                         ]
-                    },
-                    {
-                        "models": []
                     }
                 ],
                 "blockName": "DaggerfallBlock [N0000005.RDB]"
@@ -3625,9 +3619,6 @@
                                 "visitedInThisRun": false
                             }
                         ]
-                    },
-                    {
-                        "models": []
                     }
                 ],
                 "blockName": "DaggerfallBlock [N0000062.RDB]"
@@ -3997,9 +3988,6 @@
                                 "visitedInThisRun": false
                             }
                         ]
-                    },
-                    {
-                        "models": []
                     },
                     {
                         "models": []

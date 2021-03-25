@@ -3,18 +3,18 @@
         "description": "Daggerfall Unity Save Game v1",
         "$version": "v1"
     },
-    "currentUID": 33555567,
+    "currentUID": 33555786,
     "dateAndTime": {
-        "gameTime": 12597845490,
-        "realTime": 637224464309076443,
+        "gameTime": 12597845727,
+        "realTime": 637521129712322163,
         "$version": "v1"
     },
     "playerData": {
         "playerPosition": {
             "position": {
-                "x": -32.12074,
-                "y": 45.31,
-                "z": 35.26149
+                "x": -32.2789,
+                "y": 45.76,
+                "z": 36.06335
             },
             "worldCompensation": {
                 "x": 0.0,
@@ -23,16 +23,19 @@
             },
             "worldContext": "Dungeon",
             "floatingOriginVersion": 3,
-            "yaw": 2029.028,
-            "pitch": 19.50034,
-            "isCrouching": true,
+            "yaw": 2012.882,
+            "pitch": 12.15033,
+            "isCrouching": false,
             "worldPosX": 4685824,
             "worldPosZ": 11010048,
             "insideDungeon": true,
             "insideBuilding": false,
             "insideOpenShop": false,
+            "insideTavern": false,
+            "insideResidence": false,
             "terrainSamplerName": "DaggerfallWorkshop.DefaultTerrainSampler",
             "terrainSamplerVersion": 1,
+            "smallerDungeonsState": "Disabled",
             "exteriorDoors": null,
             "buildingDiscoveryData": {
                 "buildingKey": 0,
@@ -44,7 +47,7 @@
                 "buildingType": "Alchemist",
                 "lastLockpickAttempt": 0
             },
-            "weather": "Snow_Normal",
+            "weather": "Snow",
             "$version": "v1"
         },
         "playerEntity": {
@@ -188,7 +191,7 @@
             },
             "maxHealth": 85,
             "currentHealth": 83,
-            "currentFatigue": 4584,
+            "currentFatigue": 4548,
             "currentMagicka": 198,
             "currentBreath": 0,
             "skillUses": [
@@ -305,7 +308,7 @@
                     "uid": 33554556,
                     "shortName": "Spellbook",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.75,
                     "drawOrder": 0,
                     "value1": 50,
@@ -341,7 +344,7 @@
                     "uid": 33554486,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -377,7 +380,7 @@
                     "uid": 33554489,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -413,7 +416,7 @@
                     "uid": 33554491,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -485,7 +488,7 @@
                     "uid": 33554871,
                     "shortName": "Small Cart",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 400.0,
                     "drawOrder": 0,
                     "value1": 150,
@@ -521,7 +524,7 @@
                     "uid": 33554870,
                     "shortName": "Horse",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 800.0,
                     "drawOrder": 0,
                     "value1": 1000,
@@ -593,7 +596,7 @@
                     "uid": 33555007,
                     "shortName": "Kite Shield",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 7.5,
                     "drawOrder": 110,
                     "value1": 60,
@@ -629,7 +632,7 @@
                     "uid": 33555051,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 514,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 720,
@@ -737,7 +740,7 @@
                     "uid": 33555107,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 4.5,
                     "drawOrder": 110,
                     "value1": 40,
@@ -773,7 +776,7 @@
                     "uid": 33555108,
                     "shortName": "Boots",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 20,
                     "value1": 100,
@@ -811,7 +814,7 @@
                     "uid": 33554490,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 30,
                     "value1": 160,
@@ -919,7 +922,7 @@
                     "uid": 33555031,
                     "shortName": "Buckler",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 110,
                     "value1": 20,
@@ -955,7 +958,7 @@
                     "uid": 33555032,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1027,7 +1030,7 @@
                     "uid": 33555037,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.25,
                     "drawOrder": 110,
                     "value1": 20,
@@ -1063,7 +1066,7 @@
                     "uid": 33555038,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1099,7 +1102,7 @@
                     "uid": 33555039,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -1135,7 +1138,7 @@
                     "uid": 33555040,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -1279,7 +1282,7 @@
                     "uid": 33555042,
                     "shortName": "Broadsword",
                     "nativeMaterialValue": 2,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 5.0,
                     "drawOrder": 100,
                     "value1": 120,
@@ -1315,7 +1318,7 @@
                     "uid": 33555043,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1351,7 +1354,7 @@
                     "uid": 33555044,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1387,7 +1390,7 @@
                     "uid": 33555045,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -1459,7 +1462,7 @@
                     "uid": 33555011,
                     "shortName": "Aloe",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.25,
                     "drawOrder": 10,
                     "value1": 9,
@@ -1495,7 +1498,7 @@
                     "uid": 33555299,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -1531,7 +1534,7 @@
                     "uid": 33554487,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1567,7 +1570,7 @@
                     "uid": 33554488,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1639,7 +1642,7 @@
                     "uid": 33555050,
                     "shortName": "Buckler",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 110,
                     "value1": 10,
@@ -1675,7 +1678,7 @@
                     "uid": 33555052,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1711,7 +1714,7 @@
                     "uid": 33555053,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -1747,7 +1750,7 @@
                     "uid": 33555022,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -1855,7 +1858,7 @@
                     "uid": 33555027,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 120,
@@ -1891,7 +1894,7 @@
                     "uid": 33554998,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 30,
                     "value1": 160,
@@ -2035,7 +2038,7 @@
                     "uid": 33554987,
                     "shortName": "Buckler",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 110,
                     "value1": 20,
@@ -2071,7 +2074,7 @@
                     "uid": 33554988,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -2107,7 +2110,7 @@
                     "uid": 33554989,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -2143,7 +2146,7 @@
                     "uid": 33555033,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -2179,7 +2182,7 @@
                     "uid": 33554999,
                     "shortName": "Daedra's Heart",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 9,
                     "value1": 500,
@@ -2215,7 +2218,7 @@
                     "uid": 33555000,
                     "shortName": "Pearl",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.25,
                     "drawOrder": 30,
                     "value1": 150,
@@ -2251,7 +2254,7 @@
                     "uid": 33555003,
                     "shortName": "Unicorn Horn",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.5,
                     "drawOrder": 39,
                     "value1": 200,
@@ -7901,6 +7904,7 @@
                     "BundleType": "Spell",
                     "TargetType": "ByTouch",
                     "ElementType": "Shock",
+                    "RuntimeFlags": "",
                     "Name": "Shock",
                     "IconIndex": 2,
                     "Icon": {
@@ -7936,6 +7940,7 @@
                     "BundleType": "Spell",
                     "TargetType": "CasterOnly",
                     "ElementType": "Magic",
+                    "RuntimeFlags": "",
                     "Name": "Chameleon",
                     "IconIndex": 2,
                     "Icon": {
@@ -7971,6 +7976,7 @@
                     "BundleType": "Spell",
                     "TargetType": "CasterOnly",
                     "ElementType": "Magic",
+                    "RuntimeFlags": "",
                     "Name": "Slowfalling",
                     "IconIndex": 13,
                     "Icon": {
@@ -8008,6 +8014,7 @@
                     "bundleType": "None",
                     "targetType": "",
                     "elementType": "",
+                    "runtimeFlags": "",
                     "name": null,
                     "iconIndex": 0,
                     "icon": {
@@ -8125,11 +8132,14 @@
             "daedraSummonIndex": 0,
             "$version": "v1"
         },
-        "weaponDrawn": true,
+        "weaponDrawn": false,
         "usingLeftHand": false,
         "transportMode": "Foot",
         "boardShipPosition": null,
         "guildMemberships": {
+
+        },
+        "vampireMemberships": {
 
         },
         "oneTimeQuestsAccepted": [],
@@ -8433,6 +8443,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -8516,6 +8528,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -8599,6 +8613,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -8618,7 +8634,7 @@
                 "x": -0.002574426,
                 "y": 0.189033,
                 "z": 0.0004955883,
-                "w": 0.9819672
+                "w": 0.9819673
             },
             "worldContext": "Dungeon",
             "worldCompensation": {
@@ -8682,89 +8698,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
-            "$version": "v1"
-        },
-        {
-            "loadID": 25158668,
-            "gameObjectName": "DaggerfallEnemy [Orc]",
-            "currentPosition": {
-                "x": -33.33336,
-                "y": 13.8956,
-                "z": 19.20322
-            },
-            "localPosition": {
-                "x": -33.33336,
-                "y": 13.8956,
-                "z": 19.20322
-            },
-            "currentRotation": {
-                "x": 0.04013911,
-                "y": 0.9592979,
-                "z": 0.2137199,
-                "w": -0.1801674
-            },
-            "worldContext": "Dungeon",
-            "worldCompensation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "isDead": true,
-            "startingHealth": 34,
-            "currentHealth": 0,
-            "currentFatigue": 10560,
-            "currentMagicka": 0,
-            "entityType": "EnemyMonster",
-            "careerName": "Orc",
-            "careerIndex": 7,
-            "isHostile": true,
-            "hasEncounteredPlayer": true,
-            "questSpawn": false,
-            "mobileGender": "Unspecified",
-            "items": [],
-            "equipTable": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "questResource": {
-                "questUID": 0,
-                "targetSymbol": null,
-                "isFoeDead": false,
-                "foeSpellQueuePosition": 0,
-                "foeItemQueuePosition": 0,
-                "isAttackableByAI": false,
-                "$version": "v1"
-            },
-            "instancedEffectBundles": [],
-            "alliedToPlayer": false,
-            "questFoeSpellQueueIndex": -1,
-            "questFoeItemQueueIndex": -1,
-            "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -8848,6 +8783,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -8931,6 +8868,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -8975,7 +8914,7 @@
                     "uid": 33554990,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -9047,7 +8986,7 @@
                     "uid": 33554992,
                     "shortName": "Buckler",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 110,
                     "value1": 20,
@@ -9083,7 +9022,7 @@
                     "uid": 33554993,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -9119,7 +9058,7 @@
                     "uid": 33554994,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -9155,7 +9094,7 @@
                     "uid": 33554995,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -9191,7 +9130,7 @@
                     "uid": 33554996,
                     "shortName": "Potion Recipe",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.25,
                     "drawOrder": 0,
                     "value1": 125,
@@ -9267,255 +9206,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
-            "$version": "v1"
-        },
-        {
-            "loadID": 26041000,
-            "gameObjectName": "DaggerfallEnemy [Orc]",
-            "currentPosition": {
-                "x": -21.37925,
-                "y": 45.85,
-                "z": 21.79782
-            },
-            "localPosition": {
-                "x": -21.37925,
-                "y": 45.85,
-                "z": 21.79782
-            },
-            "currentRotation": {
-                "x": -0.00100143,
-                "y": 0.6475399,
-                "z": 0.0008509706,
-                "w": 0.7620304
-            },
-            "worldContext": "Dungeon",
-            "worldCompensation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "isDead": true,
-            "startingHealth": 32,
-            "currentHealth": 0,
-            "currentFatigue": 10560,
-            "currentMagicka": 0,
-            "entityType": "EnemyMonster",
-            "careerName": "Orc",
-            "careerIndex": 7,
-            "isHostile": true,
-            "hasEncounteredPlayer": true,
-            "questSpawn": false,
-            "mobileGender": "Unspecified",
-            "items": [],
-            "equipTable": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "questResource": {
-                "questUID": 0,
-                "targetSymbol": null,
-                "isFoeDead": false,
-                "foeSpellQueuePosition": 0,
-                "foeItemQueuePosition": 0,
-                "isAttackableByAI": false,
-                "$version": "v1"
-            },
-            "instancedEffectBundles": [],
-            "alliedToPlayer": false,
-            "questFoeSpellQueueIndex": -1,
-            "questFoeItemQueueIndex": -1,
-            "wabbajackActive": false,
-            "$version": "v1"
-        },
-        {
-            "loadID": 26041072,
-            "gameObjectName": "DaggerfallEnemy [Orc]",
-            "currentPosition": {
-                "x": -27.32919,
-                "y": 45.85,
-                "z": 19.24784
-            },
-            "localPosition": {
-                "x": -27.32919,
-                "y": 45.85,
-                "z": 19.24784
-            },
-            "currentRotation": {
-                "x": -0.004750067,
-                "y": 0.3893366,
-                "z": 0.002007831,
-                "w": 0.9210811
-            },
-            "worldContext": "Dungeon",
-            "worldCompensation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "isDead": true,
-            "startingHealth": 33,
-            "currentHealth": 0,
-            "currentFatigue": 10560,
-            "currentMagicka": 0,
-            "entityType": "EnemyMonster",
-            "careerName": "Orc",
-            "careerIndex": 7,
-            "isHostile": true,
-            "hasEncounteredPlayer": true,
-            "questSpawn": false,
-            "mobileGender": "Unspecified",
-            "items": [],
-            "equipTable": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "questResource": {
-                "questUID": 0,
-                "targetSymbol": null,
-                "isFoeDead": false,
-                "foeSpellQueuePosition": 0,
-                "foeItemQueuePosition": 0,
-                "isAttackableByAI": false,
-                "$version": "v1"
-            },
-            "instancedEffectBundles": [],
-            "alliedToPlayer": false,
-            "questFoeSpellQueueIndex": -1,
-            "questFoeItemQueueIndex": -1,
-            "wabbajackActive": false,
-            "$version": "v1"
-        },
-        {
-            "loadID": 26041036,
-            "gameObjectName": "DaggerfallEnemy [Orc]",
-            "currentPosition": {
-                "x": -13.6254,
-                "y": 45.85,
-                "z": 15.59721
-            },
-            "localPosition": {
-                "x": -13.6254,
-                "y": 45.85,
-                "z": 15.59721
-            },
-            "currentRotation": {
-                "x": -0.0004063086,
-                "y": 0.9568202,
-                "z": 0.001337445,
-                "w": 0.2906769
-            },
-            "worldContext": "Dungeon",
-            "worldCompensation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "isDead": true,
-            "startingHealth": 20,
-            "currentHealth": 0,
-            "currentFatigue": 10560,
-            "currentMagicka": 0,
-            "entityType": "EnemyMonster",
-            "careerName": "Orc",
-            "careerIndex": 7,
-            "isHostile": true,
-            "hasEncounteredPlayer": true,
-            "questSpawn": false,
-            "mobileGender": "Unspecified",
-            "items": [],
-            "equipTable": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "questResource": {
-                "questUID": 0,
-                "targetSymbol": null,
-                "isFoeDead": false,
-                "foeSpellQueuePosition": 0,
-                "foeItemQueuePosition": 0,
-                "isAttackableByAI": false,
-                "$version": "v1"
-            },
-            "instancedEffectBundles": [],
-            "alliedToPlayer": false,
-            "questFoeSpellQueueIndex": -1,
-            "questFoeItemQueueIndex": -1,
-            "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -9560,7 +9252,7 @@
                     "uid": 33555054,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -9668,7 +9360,7 @@
                     "uid": 33555057,
                     "shortName": "Buckler",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 110,
                     "value1": 10,
@@ -9704,7 +9396,7 @@
                     "uid": 33555058,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 120,
@@ -9740,7 +9432,7 @@
                     "uid": 33555059,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 120,
@@ -9776,7 +9468,7 @@
                     "uid": 33555060,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -9812,7 +9504,7 @@
                     "uid": 33555061,
                     "shortName": "Boots",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 20,
                     "value1": 100,
@@ -9888,6 +9580,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -9971,6 +9665,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -10054,6 +9750,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -10137,6 +9835,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -10220,6 +9920,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -10264,7 +9966,7 @@
                     "uid": 33555062,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -10372,7 +10074,7 @@
                     "uid": 33555065,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -10408,7 +10110,7 @@
                     "uid": 33555066,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -10444,7 +10146,7 @@
                     "uid": 33555067,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -10480,7 +10182,7 @@
                     "uid": 33555068,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 30,
                     "value1": 160,
@@ -10556,6 +10258,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -10600,7 +10304,7 @@
                     "uid": 33555069,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -10672,7 +10376,7 @@
                     "uid": 33555071,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -10744,7 +10448,7 @@
                     "uid": 33555073,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 120,
@@ -10780,7 +10484,7 @@
                     "uid": 33555074,
                     "shortName": "Potion Recipe",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.25,
                     "drawOrder": 0,
                     "value1": 25,
@@ -10856,6 +10560,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -10939,6 +10645,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -11022,6 +10730,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -11105,6 +10815,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -11188,6 +10900,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -11232,7 +10946,7 @@
                     "uid": 33555075,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -11304,7 +11018,7 @@
                     "uid": 33555077,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.25,
                     "drawOrder": 110,
                     "value1": 20,
@@ -11416,6 +11130,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -11460,7 +11176,7 @@
                     "uid": 33555085,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -11604,7 +11320,7 @@
                     "uid": 33555089,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -11676,7 +11392,7 @@
                     "uid": 33555091,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -11752,6 +11468,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -11796,7 +11514,7 @@
                     "uid": 33555092,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -11868,7 +11586,7 @@
                     "uid": 33555094,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -11904,7 +11622,7 @@
                     "uid": 33555095,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -11940,7 +11658,7 @@
                     "uid": 33555096,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -11976,7 +11694,7 @@
                     "uid": 33555097,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -12052,6 +11770,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -12070,7 +11790,7 @@
             "currentRotation": {
                 "x": -1.5024E-08,
                 "y": 0.04292484,
-                "z": 6.454977E-10,
+                "z": 6.454978E-10,
                 "w": 0.9990783
             },
             "worldContext": "Dungeon",
@@ -12096,7 +11816,7 @@
                     "uid": 33555098,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -12168,7 +11888,7 @@
                     "uid": 33555100,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -12204,7 +11924,7 @@
                     "uid": 33555101,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -12240,7 +11960,7 @@
                     "uid": 33555102,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -12276,7 +11996,7 @@
                     "uid": 33555103,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -12312,7 +12032,7 @@
                     "uid": 33555104,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -12388,89 +12108,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
-            "$version": "v1"
-        },
-        {
-            "loadID": 25500739,
-            "gameObjectName": "DaggerfallEnemy [Orc]",
-            "currentPosition": {
-                "x": 35.89549,
-                "y": 33.05,
-                "z": 9.5807
-            },
-            "localPosition": {
-                "x": 35.89549,
-                "y": 33.05,
-                "z": 9.5807
-            },
-            "currentRotation": {
-                "x": -0.005071701,
-                "y": -0.6857782,
-                "z": -0.00477902,
-                "w": 0.7277772
-            },
-            "worldContext": "Dungeon",
-            "worldCompensation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "isDead": true,
-            "startingHealth": 21,
-            "currentHealth": 0,
-            "currentFatigue": 10560,
-            "currentMagicka": 0,
-            "entityType": "EnemyMonster",
-            "careerName": "Orc",
-            "careerIndex": 7,
-            "isHostile": true,
-            "hasEncounteredPlayer": true,
-            "questSpawn": false,
-            "mobileGender": "Unspecified",
-            "items": [],
-            "equipTable": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "questResource": {
-                "questUID": 0,
-                "targetSymbol": null,
-                "isFoeDead": false,
-                "foeSpellQueuePosition": 0,
-                "foeItemQueuePosition": 0,
-                "isAttackableByAI": false,
-                "$version": "v1"
-            },
-            "instancedEffectBundles": [],
-            "alliedToPlayer": false,
-            "questFoeSpellQueueIndex": -1,
-            "questFoeItemQueueIndex": -1,
-            "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -12515,7 +12154,7 @@
                     "uid": 33555109,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -12680,7 +12319,7 @@
                     "uid": 33555113,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -12716,7 +12355,7 @@
                     "uid": 33555114,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -12752,7 +12391,7 @@
                     "uid": 33555115,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -12828,6 +12467,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -12872,7 +12513,7 @@
                     "uid": 33555116,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -12908,7 +12549,7 @@
                     "uid": 33555117,
                     "shortName": "Pearl",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.25,
                     "drawOrder": 30,
                     "value1": 150,
@@ -12980,7 +12621,7 @@
                     "uid": 33555119,
                     "shortName": "Buckler",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 110,
                     "value1": 10,
@@ -13016,7 +12657,7 @@
                     "uid": 33555120,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -13052,7 +12693,7 @@
                     "uid": 33555121,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -13088,7 +12729,7 @@
                     "uid": 33555122,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -13164,6 +12805,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -13247,6 +12890,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -13291,7 +12936,7 @@
                     "uid": 33555123,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -13399,7 +13044,7 @@
                     "uid": 33555126,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -13435,7 +13080,7 @@
                     "uid": 33555127,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -13471,7 +13116,7 @@
                     "uid": 33555128,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -13507,7 +13152,7 @@
                     "uid": 33555129,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -13583,6 +13228,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -13590,12 +13237,12 @@
             "gameObjectName": "DaggerfallEnemy [SabertoothTiger]",
             "currentPosition": {
                 "x": 10.21414,
-                "y": 32.83751,
+                "y": 32.8375,
                 "z": 35.84438
             },
             "localPosition": {
                 "x": 10.21414,
-                "y": 32.83751,
+                "y": 32.8375,
                 "z": 35.84438
             },
             "currentRotation": {
@@ -13666,6 +13313,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -13749,6 +13398,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -13793,7 +13444,7 @@
                     "uid": 33555130,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -13865,7 +13516,7 @@
                     "uid": 33555132,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 4.5,
                     "drawOrder": 110,
                     "value1": 40,
@@ -13901,7 +13552,7 @@
                     "uid": 33555133,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -13937,7 +13588,7 @@
                     "uid": 33555134,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -13973,7 +13624,7 @@
                     "uid": 33555135,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -14049,6 +13700,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -14132,6 +13785,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -14215,6 +13870,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -14234,7 +13891,7 @@
                 "x": 0.3034121,
                 "y": 0.1159739,
                 "z": -0.03723419,
-                "w": 0.9450422
+                "w": 0.9450423
             },
             "worldContext": "Dungeon",
             "worldCompensation": {
@@ -14259,7 +13916,7 @@
                     "uid": 33555136,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -14388,7 +14045,7 @@
                     "uid": 33555139,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.25,
                     "drawOrder": 110,
                     "value1": 20,
@@ -14424,7 +14081,7 @@
                     "uid": 33555140,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -14460,7 +14117,7 @@
                     "uid": 33555141,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -14536,6 +14193,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -14619,6 +14278,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -14702,6 +14363,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -14785,6 +14448,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -14829,7 +14494,7 @@
                     "uid": 33555142,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -14901,7 +14566,7 @@
                     "uid": 33555144,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.25,
                     "drawOrder": 110,
                     "value1": 20,
@@ -14937,7 +14602,7 @@
                     "uid": 33555145,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -15009,7 +14674,7 @@
                     "uid": 33555147,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 12.5,
                     "drawOrder": 50,
                     "value1": 200,
@@ -15045,7 +14710,7 @@
                     "uid": 33555148,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 30,
                     "value1": 160,
@@ -15121,89 +14786,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
-            "$version": "v1"
-        },
-        {
-            "loadID": 25506221,
-            "gameObjectName": "DaggerfallEnemy [Rat]",
-            "currentPosition": {
-                "x": 47.62851,
-                "y": 32.48018,
-                "z": 13.64011
-            },
-            "localPosition": {
-                "x": 47.62851,
-                "y": 32.48018,
-                "z": 13.64011
-            },
-            "currentRotation": {
-                "x": -0.01631794,
-                "y": 0.9771358,
-                "z": 0.08147276,
-                "w": 0.1957077
-            },
-            "worldContext": "Dungeon",
-            "worldCompensation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "isDead": true,
-            "startingHealth": 11,
-            "currentHealth": 0,
-            "currentFatigue": 6080,
-            "currentMagicka": 0,
-            "entityType": "EnemyMonster",
-            "careerName": "Rat",
-            "careerIndex": 0,
-            "isHostile": true,
-            "hasEncounteredPlayer": true,
-            "questSpawn": false,
-            "mobileGender": "Unspecified",
-            "items": [],
-            "equipTable": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-            ],
-            "questResource": {
-                "questUID": 0,
-                "targetSymbol": null,
-                "isFoeDead": false,
-                "foeSpellQueuePosition": 0,
-                "foeItemQueuePosition": 0,
-                "isAttackableByAI": false,
-                "$version": "v1"
-            },
-            "instancedEffectBundles": [],
-            "alliedToPlayer": false,
-            "questFoeSpellQueueIndex": -1,
-            "questFoeItemQueueIndex": -1,
-            "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -15287,6 +14871,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -15370,6 +14956,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -15414,7 +15002,7 @@
                     "uid": 33555160,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -15558,7 +15146,7 @@
                     "uid": 33555164,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -15594,7 +15182,7 @@
                     "uid": 33555165,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -15630,7 +15218,7 @@
                     "uid": 33555166,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -15706,6 +15294,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -15789,6 +15379,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -15872,6 +15464,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -15955,6 +15549,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -16038,6 +15634,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -16121,6 +15719,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -16165,7 +15765,7 @@
                     "uid": 33555167,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -16273,7 +15873,7 @@
                     "uid": 33555170,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 120,
@@ -16345,7 +15945,7 @@
                     "uid": 33555172,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -16421,6 +16021,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -16465,7 +16067,7 @@
                     "uid": 33555173,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -16537,7 +16139,7 @@
                     "uid": 33555175,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -16573,7 +16175,7 @@
                     "uid": 33555176,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -16609,7 +16211,7 @@
                     "uid": 33555177,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 12.5,
                     "drawOrder": 50,
                     "value1": 200,
@@ -16645,7 +16247,7 @@
                     "uid": 33555178,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -16681,7 +16283,7 @@
                     "uid": 33555179,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -16757,6 +16359,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -16801,7 +16405,7 @@
                     "uid": 33555180,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -16873,7 +16477,7 @@
                     "uid": 33555182,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 4.5,
                     "drawOrder": 110,
                     "value1": 40,
@@ -16909,7 +16513,7 @@
                     "uid": 33555183,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -16945,7 +16549,7 @@
                     "uid": 33555184,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -17021,6 +16625,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -17065,7 +16671,7 @@
                     "uid": 33555185,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -17137,7 +16743,7 @@
                     "uid": 33555187,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 4.5,
                     "drawOrder": 110,
                     "value1": 40,
@@ -17173,7 +16779,7 @@
                     "uid": 33555188,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -17209,7 +16815,7 @@
                     "uid": 33555189,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -17245,7 +16851,7 @@
                     "uid": 33555190,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -17321,6 +16927,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -17365,7 +16973,7 @@
                     "uid": 33555191,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -17401,7 +17009,7 @@
                     "uid": 33555192,
                     "shortName": "Ivory",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.5,
                     "drawOrder": 8,
                     "value1": 13,
@@ -17473,7 +17081,7 @@
                     "uid": 33555194,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -17545,7 +17153,7 @@
                     "uid": 33555196,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -17581,7 +17189,7 @@
                     "uid": 33555197,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 12.5,
                     "drawOrder": 50,
                     "value1": 200,
@@ -17617,7 +17225,7 @@
                     "uid": 33555198,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -17729,6 +17337,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -17736,12 +17346,12 @@
             "gameObjectName": "DaggerfallEnemy [Rat]",
             "currentPosition": {
                 "x": 29.35,
-                "y": 0.4750001,
+                "y": 0.475,
                 "z": 92.8
             },
             "localPosition": {
                 "x": 29.35,
-                "y": 0.4750001,
+                "y": 0.475,
                 "z": 92.8
             },
             "currentRotation": {
@@ -17812,6 +17422,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -17895,6 +17507,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -17939,7 +17553,7 @@
                     "uid": 33555200,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -18119,7 +17733,7 @@
                     "uid": 33555205,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -18155,7 +17769,7 @@
                     "uid": 33555206,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -18231,6 +17845,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -18275,7 +17891,7 @@
                     "uid": 33555207,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -18347,7 +17963,7 @@
                     "uid": 33555209,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -18383,7 +17999,7 @@
                     "uid": 33555210,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -18455,7 +18071,7 @@
                     "uid": 33555212,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 30,
                     "value1": 160,
@@ -18491,7 +18107,7 @@
                     "uid": 33555213,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -18567,6 +18183,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -18650,6 +18268,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -18694,7 +18314,7 @@
                     "uid": 33555214,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -18766,7 +18386,7 @@
                     "uid": 33555216,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.25,
                     "drawOrder": 110,
                     "value1": 20,
@@ -18802,7 +18422,7 @@
                     "uid": 33555217,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -18838,7 +18458,7 @@
                     "uid": 33555218,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -18874,7 +18494,7 @@
                     "uid": 33555219,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -18910,7 +18530,7 @@
                     "uid": 33555220,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -18986,6 +18606,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19030,7 +18652,7 @@
                     "uid": 33555221,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -19102,7 +18724,7 @@
                     "uid": 33555223,
                     "shortName": "Buckler",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 110,
                     "value1": 10,
@@ -19138,7 +18760,7 @@
                     "uid": 33555224,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -19214,6 +18836,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19297,6 +18921,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19380,6 +19006,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19463,6 +19091,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 12,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19507,7 +19137,7 @@
                     "uid": 33555225,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -19615,7 +19245,7 @@
                     "uid": 33555228,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -19651,7 +19281,7 @@
                     "uid": 33555229,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -19687,7 +19317,7 @@
                     "uid": 33555230,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -19763,6 +19393,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19846,6 +19478,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19929,6 +19563,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -19973,7 +19609,7 @@
                     "uid": 33555231,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -20153,7 +19789,7 @@
                     "uid": 33555236,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -20189,7 +19825,7 @@
                     "uid": 33555237,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -20265,6 +19901,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -20309,7 +19947,7 @@
                     "uid": 33555238,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -20345,7 +19983,7 @@
                     "uid": 33555239,
                     "shortName": "%it of Venom Spitting",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.625,
                     "drawOrder": 70,
                     "value1": 900,
@@ -20474,7 +20112,7 @@
                     "uid": 33555242,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -20510,7 +20148,7 @@
                     "uid": 33555243,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -20546,7 +20184,7 @@
                     "uid": 33555244,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -20582,7 +20220,7 @@
                     "uid": 33555245,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -20658,6 +20296,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -20741,6 +20381,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -20785,7 +20427,7 @@
                     "uid": 33555246,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -20897,6 +20539,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 14,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -20980,6 +20624,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -21063,6 +20709,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -21107,7 +20755,7 @@
                     "uid": 33555248,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -21179,7 +20827,7 @@
                     "uid": 33555250,
                     "shortName": "Helm",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 0,
                     "value1": 80,
@@ -21215,7 +20863,7 @@
                     "uid": 33555251,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 120,
@@ -21251,7 +20899,7 @@
                     "uid": 33555252,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 30,
                     "value1": 160,
@@ -21327,6 +20975,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -21371,7 +21021,7 @@
                     "uid": 33555253,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -21407,7 +21057,7 @@
                     "uid": 33555254,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 12.5,
                     "drawOrder": 50,
                     "value1": 200,
@@ -21551,7 +21201,7 @@
                     "uid": 33555258,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 60,
                     "value1": 120,
@@ -21587,7 +21237,7 @@
                     "uid": 33555259,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -21623,7 +21273,7 @@
                     "uid": 33555260,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -21659,7 +21309,7 @@
                     "uid": 33555261,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -21735,6 +21385,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -21754,7 +21406,7 @@
                 "x": -9.480016E-05,
                 "y": -0.3579191,
                 "z": -3.633809E-05,
-                "w": 0.9337526
+                "w": 0.9337527
             },
             "worldContext": "Dungeon",
             "worldCompensation": {
@@ -21779,7 +21431,7 @@
                     "uid": 33555262,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -21851,7 +21503,7 @@
                     "uid": 33555264,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -21887,7 +21539,7 @@
                     "uid": 33555265,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -21923,7 +21575,7 @@
                     "uid": 33555266,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 30,
                     "value1": 160,
@@ -21959,7 +21611,7 @@
                     "uid": 33555267,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -22035,6 +21687,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -22118,6 +21772,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -22162,7 +21818,7 @@
                     "uid": 33555268,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -22234,7 +21890,7 @@
                     "uid": 33555270,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -22270,7 +21926,7 @@
                     "uid": 33555271,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -22382,6 +22038,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -22465,6 +22123,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -22548,6 +22208,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -22631,6 +22293,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 6,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -22675,7 +22339,7 @@
                     "uid": 33555273,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -22711,7 +22375,7 @@
                     "uid": 33555274,
                     "shortName": "%it of the Sealed Door",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.25,
                     "drawOrder": 23,
                     "value1": 1740,
@@ -22840,7 +22504,7 @@
                     "uid": 33555277,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 12.5,
                     "drawOrder": 50,
                     "value1": 200,
@@ -22916,6 +22580,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -22960,7 +22626,7 @@
                     "uid": 33555278,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -23032,7 +22698,7 @@
                     "uid": 33555280,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 4.5,
                     "drawOrder": 110,
                     "value1": 40,
@@ -23068,7 +22734,7 @@
                     "uid": 33555281,
                     "shortName": "Helm",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.5,
                     "drawOrder": 0,
                     "value1": 160,
@@ -23104,7 +22770,7 @@
                     "uid": 33555282,
                     "shortName": "Left Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -23140,7 +22806,7 @@
                     "uid": 33555283,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -23176,7 +22842,7 @@
                     "uid": 33555284,
                     "shortName": "Boots",
                     "nativeMaterialValue": 256,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.0,
                     "drawOrder": 20,
                     "value1": 100,
@@ -23252,6 +22918,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -23296,7 +22964,7 @@
                     "uid": 33555285,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -23368,7 +23036,7 @@
                     "uid": 33555287,
                     "shortName": "Round Shield",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 2.25,
                     "drawOrder": 110,
                     "value1": 20,
@@ -23404,7 +23072,7 @@
                     "uid": 33555288,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -23440,7 +23108,7 @@
                     "uid": 33555289,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -23476,7 +23144,7 @@
                     "uid": 33555290,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -23552,6 +23220,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 8,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         },
         {
@@ -23635,6 +23305,8 @@
             "questFoeSpellQueueIndex": -1,
             "questFoeItemQueueIndex": -1,
             "wabbajackActive": false,
+            "team": 3,
+            "specialTransformationCompleted": false,
             "$version": "v1"
         }
     ],
@@ -23650,9 +23322,9 @@
                 "z": 16.8
             },
             "localPosition": {
-                "x": -2.430182E-09,
+                "x": 0.0,
                 "y": -0.5000038,
-                "z": 1.907347E-06
+                "z": -1.907349E-06
             },
             "worldCompensation": {
                 "x": 0.0,
@@ -23682,9 +23354,9 @@
                 "z": 11.2
             },
             "localPosition": {
-                "x": -1.907347E-06,
+                "x": 1.907349E-06,
                 "y": -0.5000038,
-                "z": -2.430182E-09
+                "z": 0.0
             },
             "worldCompensation": {
                 "x": 0.0,
@@ -23714,9 +23386,9 @@
                 "z": 1.800002
             },
             "localPosition": {
-                "x": -1.907499E-06,
+                "x": 1.907349E-06,
                 "y": -0.5000019,
-                "z": 1.167754E-07
+                "z": 1.907349E-06
             },
             "worldCompensation": {
                 "x": 0.0,
@@ -23778,9 +23450,9 @@
                 "z": 10.4
             },
             "localPosition": {
-                "x": -9.548887E-07,
+                "x": 9.536743E-07,
                 "y": -0.5,
-                "z": 9.524585E-07
+                "z": -9.536743E-07
             },
             "worldCompensation": {
                 "x": 0.0,
@@ -23874,9 +23546,9 @@
                 "z": 10.4
             },
             "localPosition": {
-                "x": -1.21691E-09,
+                "x": 0.0,
                 "y": -0.5,
-                "z": 9.536736E-07
+                "z": -9.536743E-07
             },
             "worldCompensation": {
                 "x": 0.0,
@@ -23897,7 +23569,7 @@
                     "uid": 33555015,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24134,7 +23806,7 @@
                     "uid": 33555023,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24239,7 +23911,7 @@
                     "uid": 33555079,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24275,7 +23947,7 @@
                     "uid": 33555080,
                     "shortName": "Boots",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 20,
                     "value1": 50,
@@ -24311,7 +23983,7 @@
                     "uid": 33555081,
                     "shortName": "Cuirass",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 6.25,
                     "drawOrder": 50,
                     "value1": 100,
@@ -24347,7 +24019,7 @@
                     "uid": 33555082,
                     "shortName": "Unicorn Horn",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.5,
                     "drawOrder": 39,
                     "value1": 200,
@@ -24416,7 +24088,7 @@
                     "uid": 33555083,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24498,9 +24170,9 @@
                 "z": 73.75
             },
             "localPosition": {
-                "x": -2.433825E-09,
+                "x": 0.0,
                 "y": -0.5000038,
-                "z": 1.907347E-06
+                "z": -1.907349E-06
             },
             "worldCompensation": {
                 "x": 0.0,
@@ -24521,7 +24193,7 @@
                     "uid": 33555149,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24593,7 +24265,7 @@
                     "uid": 33555151,
                     "shortName": "Right Pauldron",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.0,
                     "drawOrder": 60,
                     "value1": 60,
@@ -24662,7 +24334,7 @@
                     "uid": 33555152,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24734,7 +24406,7 @@
                     "uid": 33555154,
                     "shortName": "Greaves",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 1.25,
                     "drawOrder": 30,
                     "value1": 80,
@@ -24803,7 +24475,7 @@
                     "uid": 33555155,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24839,7 +24511,7 @@
                     "uid": 33555156,
                     "shortName": "Yellow Berries",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.5,
                     "drawOrder": 9,
                     "value1": 4,
@@ -24908,7 +24580,7 @@
                     "uid": 33555157,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -24944,7 +24616,7 @@
                     "uid": 33555158,
                     "shortName": "Spider's Venom",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.25,
                     "drawOrder": 0,
                     "value1": 22,
@@ -25013,7 +24685,7 @@
                     "uid": 33555159,
                     "shortName": "Gold Pieces",
                     "nativeMaterialValue": 0,
-                    "dyeColor": "Chain",
+                    "dyeColor": "SilverOrElven",
                     "weightInKg": 0.0025,
                     "drawOrder": 0,
                     "value1": 1,
@@ -25055,12 +24727,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": 47.03312,
-                "y": 13.0625,
+                "y": 13.175,
                 "z": 37.58434
             },
             "localPosition": {
                 "x": 47.03312,
-                "y": 13.0625,
+                "y": 13.175,
                 "z": 37.58434
             },
             "worldCompensation": {
@@ -25068,7 +24740,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 0.7,
+            "heightScale": 1.0,
             "textureArchive": 401,
             "textureRecord": 1,
             "lootTableKey": null,
@@ -25087,12 +24759,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": 10.99255,
-                "y": 15.35878,
+                "y": 15.47128,
                 "z": 22.43698
             },
             "localPosition": {
                 "x": 10.99255,
-                "y": 15.35878,
+                "y": 15.47128,
                 "z": 22.43698
             },
             "worldCompensation": {
@@ -25100,7 +24772,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 0.7,
+            "heightScale": 1.0,
             "textureArchive": 401,
             "textureRecord": 1,
             "lootTableKey": null,
@@ -25119,12 +24791,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -22.55321,
-                "y": 13.0625,
+                "y": 13.175,
                 "z": -11.53676
             },
             "localPosition": {
                 "x": -22.55321,
-                "y": 13.0625,
+                "y": 13.175,
                 "z": -11.53676
             },
             "worldCompensation": {
@@ -25132,7 +24804,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 0.7,
+            "heightScale": 1.0,
             "textureArchive": 401,
             "textureRecord": 1,
             "lootTableKey": null,
@@ -25151,12 +24823,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -22.20796,
-                "y": 13.0625,
+                "y": 13.175,
                 "z": -8.49477
             },
             "localPosition": {
                 "x": -22.20796,
-                "y": 13.0625,
+                "y": 13.175,
                 "z": -8.49477
             },
             "worldCompensation": {
@@ -25164,7 +24836,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 0.7,
+            "heightScale": 1.0,
             "textureArchive": 401,
             "textureRecord": 1,
             "lootTableKey": null,
@@ -25183,12 +24855,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -46.7248,
-                "y": 19.6675,
+                "y": 19.625,
                 "z": 2.431053
             },
             "localPosition": {
                 "x": -46.7248,
-                "y": 19.6675,
+                "y": 19.625,
                 "z": 2.431053
             },
             "worldCompensation": {
@@ -25196,7 +24868,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25215,12 +24887,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -47.19041,
-                "y": 19.6675,
+                "y": 19.625,
                 "z": 2.775811
             },
             "localPosition": {
                 "x": -47.19041,
-                "y": 19.6675,
+                "y": 19.625,
                 "z": 2.775811
             },
             "worldCompensation": {
@@ -25228,7 +24900,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25247,12 +24919,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -31.53346,
-                "y": 13.2675,
+                "y": 13.225,
                 "z": 18.59912
             },
             "localPosition": {
                 "x": -31.53346,
-                "y": 13.2675,
+                "y": 13.225,
                 "z": 18.59912
             },
             "worldCompensation": {
@@ -25260,7 +24932,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25279,12 +24951,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": 5.474864,
-                "y": 32.2625,
+                "y": 32.375,
                 "z": 14.8449
             },
             "localPosition": {
                 "x": 5.474864,
-                "y": 32.2625,
+                "y": 32.375,
                 "z": 14.8449
             },
             "worldCompensation": {
@@ -25292,7 +24964,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 0.7,
+            "heightScale": 1.0,
             "textureArchive": 401,
             "textureRecord": 1,
             "lootTableKey": null,
@@ -25311,12 +24983,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -15.85637,
-                "y": 32.46125,
+                "y": 32.5125,
                 "z": 21.43694
             },
             "localPosition": {
                 "x": -15.85637,
-                "y": 32.46125,
+                "y": 32.5125,
                 "z": 21.43694
             },
             "worldCompensation": {
@@ -25324,7 +24996,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 0.9,
+            "heightScale": 1.0,
             "textureArchive": 401,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25343,12 +25015,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -13.6254,
-                "y": 45.26749,
+                "y": 45.22499,
                 "z": 15.59721
             },
             "localPosition": {
                 "x": -13.6254,
-                "y": 45.26749,
+                "y": 45.22499,
                 "z": 15.59721
             },
             "worldCompensation": {
@@ -25356,7 +25028,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25375,12 +25047,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -21.37925,
-                "y": 45.2675,
+                "y": 45.225,
                 "z": 21.79782
             },
             "localPosition": {
                 "x": -21.37925,
-                "y": 45.2675,
+                "y": 45.225,
                 "z": 21.79782
             },
             "worldCompensation": {
@@ -25388,7 +25060,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25407,12 +25079,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -27.32919,
-                "y": 45.26749,
+                "y": 45.22499,
                 "z": 19.24784
             },
             "localPosition": {
                 "x": -27.32919,
-                "y": 45.26749,
+                "y": 45.22499,
                 "z": 19.24784
             },
             "worldCompensation": {
@@ -25420,7 +25092,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25439,12 +25111,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": -33.33336,
-                "y": 13.2675,
+                "y": 13.225,
                 "z": 19.20322
             },
             "localPosition": {
                 "x": -33.33336,
-                "y": 13.2675,
+                "y": 13.225,
                 "z": 19.20322
             },
             "worldCompensation": {
@@ -25452,7 +25124,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25471,12 +25143,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": 35.89549,
-                "y": 32.4675,
+                "y": 32.425,
                 "z": 9.5807
             },
             "localPosition": {
                 "x": 35.89549,
-                "y": 32.4675,
+                "y": 32.425,
                 "z": 9.5807
             },
             "worldCompensation": {
@@ -25484,7 +25156,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 1.1,
+            "heightScale": 1.0,
             "textureArchive": 96,
             "textureRecord": 2,
             "lootTableKey": null,
@@ -25503,12 +25175,12 @@
             "containerImage": "Corpse2",
             "currentPosition": {
                 "x": 47.62851,
-                "y": 32.2625,
+                "y": 32.375,
                 "z": 13.64011
             },
             "localPosition": {
                 "x": 47.62851,
-                "y": 32.2625,
+                "y": 32.375,
                 "z": 13.64011
             },
             "worldCompensation": {
@@ -25516,7 +25188,7 @@
                 "y": 0.0,
                 "z": 0.0
             },
-            "heightScale": 0.7,
+            "heightScale": 1.0,
             "textureArchive": 401,
             "textureRecord": 1,
             "lootTableKey": null,
@@ -25584,7 +25256,7 @@
                                 "uid": 33554785,
                                 "shortName": "Root Tendrils",
                                 "nativeMaterialValue": 0,
-                                "dyeColor": "Chain",
+                                "dyeColor": "SilverOrElven",
                                 "weightInKg": 0.25,
                                 "drawOrder": 32,
                                 "value1": 2,
@@ -25620,7 +25292,7 @@
                                 "uid": 33554786,
                                 "shortName": "Pine Branch",
                                 "nativeMaterialValue": 0,
-                                "dyeColor": "Chain",
+                                "dyeColor": "SilverOrElven",
                                 "weightInKg": 1.0,
                                 "drawOrder": 22,
                                 "value1": 4,
@@ -25751,5 +25423,39 @@
         "travelShip": true,
         "$version": "v1"
     },
+    "advancedClimbingState": {
+        "isClimbing": false,
+        "climbingStartTimer": 0.0,
+        "climbingContinueTimer": 0.0,
+        "wallDirection": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "myLedgeDirection": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "$version": "v1"
+    },
+    "modInfoData": [
+        {
+            "fileName": "unofficial block, map and model fixes",
+            "title": "Unofficial Block, Location and Model Fixes",
+            "guid": "6892120c-562e-4599-809a-d81a7b131086",
+            "version": "2021.03.20",
+            "loadPriority": 0,
+            "$version": "v1"
+        },
+        {
+            "fileName": "ublamf - map blocks addon",
+            "title": "UBLaMF - Map Blocks addon",
+            "guid": "16fabce3-ce45-418c-8071-9914a7d1983a",
+            "version": "2021.03.20",
+            "loadPriority": 1,
+            "$version": "v1"
+        }
+    ],
     "$version": "v1"
 }

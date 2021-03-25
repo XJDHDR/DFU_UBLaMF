@@ -3,19 +3,6 @@ W0000016.RDB
 	https://forums.dfworkshop.net/viewtopic.php?p=51330#p51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740#p14740
 
 
-Fix Glenmorial Witches coven member in cities.
-	CLOTAS00.RMB - Building 5 has one. Building 6 also has a misaligned door.
-	PAWNAL00.RMB - Building 0 has one. Also reposition chairs by fireplace and rotate ladder.
-	THIEAL00.RMB - Building 10 has one. Also reposition chairs by fireplace and rotate ladder.
-	MAGEAA03.RMB - Building 8 has one. Also reposition chairs by fireplace and rotate ladder.
-	FIGHAA02.RMB - Building 5 has one. 
-	TVRNAS08.RMB - Building 2 has one. Also reposition chairs by fireplace and rotate ladder.
-	GENRAM02.RMB - Building 11 has one. Also reposition chairs by fireplace and rotate ladder.
-	RESIAS07.RMB - Building 3 has one. Also reposition chairs by fireplace and rotate ladder.
-	MAGEAA13.RMB - Building 3 has one.
-	RESIAL09.RMB - Building 11 has one. Also reposition chairs by fireplace and rotate ladder.
-
-
 GRVEAS20.RMB
 	Block has numerous models badly modelled and/or badly placed.
 
@@ -57,11 +44,6 @@ Model 41004 and 41800
 	https://forums.dfworkshop.net/viewtopic.php?p=51310#p51310
 
 
-Models 41102 and 41110
-	Furniture has missing faces and bad texturing
-	https://forums.dfworkshop.net/viewtopic.php?p=51330#p51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740#p14740
-
-
 Model 41112
 	Furniture has missing faces and bad texturing. SAVE254 - Tavern with missing faces wardrobe and others
 
@@ -74,24 +56,10 @@ Model 41409
 	Retexture and fix up ladder model. Collider must be convex?
 
 
-Model 43509
-	Top of tower has a face textured pink
-
-
-model 63105
-	Fix bad UV mapping on floor. Same problem as 63005.
-
-
-Check all already fixed blocks to see if locations using those blocks need to be updated.
-
-
 Check UV mapping and vertices count of all fixed models.
 
 
 Save 61017: Reposition door and wood beams in Dungeon Block.
-
-
-Tables with invisible undersides: https://forums.dfworkshop.net/viewtopic.php?t=1224
 
 
 Trapdoors opening wrong way?
@@ -115,3 +83,9 @@ Repaint automaps to accurately represent buildings
 
 List of models with UV mapping patched in-engine: https://github.com/Interkarma/daggerfall-unity/blob/master/Assets/Scripts/API/Arch3dPatch.cs#L23
 
+
+
+
+
+NOTE:
+Report DFU bug: Find location window uses original location name, not modded. Example of this: In Daggerfall, search for "Yeomhouse"

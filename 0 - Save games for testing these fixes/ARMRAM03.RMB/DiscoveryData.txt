@@ -3918,17 +3918,91 @@
         }
     },
     {
-        "Key": 199102,
+        "Key": 202136,
         "Value": {
-            "mapID": 1013123518,
-            "mapPixelID": 199102,
+            "mapID": 1090721176,
+            "mapPixelID": 202136,
             "regionName": "Daggerfall",
-            "locationName": "Whitecroft",
+            "locationName": "The Belladausa Coven",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 203148,
+        "Value": {
+            "mapID": 1105402252,
+            "mapPixelID": 203148,
+            "regionName": "Daggerfall",
+            "locationName": "Old Evelara's Shack",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 179204,
+        "Value": {
+            "mapID": 641907716,
+            "mapPixelID": 179204,
+            "regionName": "Daggerfall",
+            "locationName": "The Wicking Cabin",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 164208,
+        "Value": {
+            "mapID": 333611376,
+            "mapPixelID": 164208,
+            "regionName": "Daggerfall",
+            "locationName": "Wickford Manor",
             "discoveredBuildings": [
                 {
-                    "Key": 768,
+                    "Key": 11,
                     "Value": {
-                        "buildingKey": 768,
+                        "buildingKey": 11,
+                        "displayName": "The Toad and Cat",
+                        "oldDisplayName": null,
+                        "isOverrideName": false,
+                        "factionID": 510,
+                        "quality": 10,
+                        "buildingType": "Tavern",
+                        "lastLockpickAttempt": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Key": 151214,
+        "Value": {
+            "mapID": 99765934,
+            "mapPixelID": 151214,
+            "regionName": "Daggerfall",
+            "locationName": "The Kingfield Farmstead",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 136233,
+        "Value": {
+            "mapID": 22156329,
+            "mapPixelID": 136233,
+            "regionName": "Daggerfall",
+            "locationName": "Copperford Orchard",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 161240,
+        "Value": {
+            "mapID": 268596696,
+            "mapPixelID": 161240,
+            "regionName": "Daggerfall",
+            "locationName": "Mergate",
+            "discoveredBuildings": [
+                {
+                    "Key": 512,
+                    "Value": {
+                        "buildingKey": 512,
                         "displayName": "The Thieves Guild",
                         "oldDisplayName": "Residence",
                         "isOverrideName": true,
@@ -3942,144 +4016,194 @@
         }
     },
     {
+        "Key": 219223,
+        "Value": {
+            "mapID": 1346590807,
+            "mapPixelID": 219223,
+            "regionName": "Daggerfall",
+            "locationName": "Hearthsly's Guard",
+            "discoveredBuildings": [
+                {
+                    "Key": 16777216,
+                    "Value": {
+                        "buildingKey": 16777216,
+                        "displayName": "",
+                        "oldDisplayName": null,
+                        "isOverrideName": false,
+                        "factionID": 0,
+                        "quality": 0,
+                        "buildingType": "House6",
+                        "lastLockpickAttempt": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Key": 218221,
+        "Value": {
+            "mapID": 1338201197,
+            "mapPixelID": 218221,
+            "regionName": "Daggerfall",
+            "locationName": "Griming",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 183300,
+        "Value": {
+            "mapID": 716360708,
+            "mapPixelID": 183300,
+            "regionName": "Daggerfall",
+            "locationName": "Castle Wooding",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 206202,
+        "Value": {
+            "mapID": 1165174138,
+            "mapPixelID": 206202,
+            "regionName": "Daggerfall",
+            "locationName": "Uplech",
+            "discoveredBuildings": [
+                {
+                    "Key": 65538,
+                    "Value": {
+                        "buildingKey": 65538,
+                        "displayName": "The Bank of Daggerfall",
+                        "oldDisplayName": null,
+                        "isOverrideName": false,
+                        "factionID": 510,
+                        "quality": 10,
+                        "buildingType": "Bank",
+                        "lastLockpickAttempt": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Key": 202226,
+        "Value": {
+            "mapID": 1099109874,
+            "mapPixelID": 202226,
+            "regionName": "Daggerfall",
+            "locationName": "The Howling Porcupine Inn",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 198250,
+        "Value": {
+            "mapID": 1009976938,
+            "mapPixelID": 198250,
+            "regionName": "Daggerfall",
+            "locationName": "Kirkcart Wood",
+            "discoveredBuildings": [
+                {
+                    "Key": 263440,
+                    "Value": {
+                        "buildingKey": 263440,
+                        "displayName": "The Thieves Guild",
+                        "oldDisplayName": "Residence",
+                        "isOverrideName": true,
+                        "factionID": 42,
+                        "quality": 12,
+                        "buildingType": "House2",
+                        "lastLockpickAttempt": 0
+                    }
+                },
+                {
+                    "Key": 197638,
+                    "Value": {
+                        "buildingKey": 197638,
+                        "displayName": "The Crimson Dungeon",
+                        "oldDisplayName": null,
+                        "isOverrideName": false,
+                        "factionID": 510,
+                        "quality": 12,
+                        "buildingType": "Tavern",
+                        "lastLockpickAttempt": 0
+                    }
+                },
+                {
+                    "Key": 197639,
+                    "Value": {
+                        "buildingKey": 197639,
+                        "displayName": "The Champion Weaponry",
+                        "oldDisplayName": null,
+                        "isOverrideName": false,
+                        "factionID": 510,
+                        "quality": 7,
+                        "buildingType": "WeaponSmith",
+                        "lastLockpickAttempt": 0
+                    }
+                },
+                {
+                    "Key": 197640,
+                    "Value": {
+                        "buildingKey": 197640,
+                        "displayName": "The Odd Mail",
+                        "oldDisplayName": null,
+                        "isOverrideName": false,
+                        "factionID": 510,
+                        "quality": 10,
+                        "buildingType": "Armorer",
+                        "lastLockpickAttempt": 0
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "Key": 195260,
+        "Value": {
+            "mapID": 955447996,
+            "mapPixelID": 195260,
+            "regionName": "Daggerfall",
+            "locationName": "Longidge",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 193267,
+        "Value": {
+            "mapID": 910357235,
+            "mapPixelID": 193267,
+            "regionName": "Daggerfall",
+            "locationName": "Newville Court",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 208184,
+        "Value": {
+            "mapID": 1199779128,
+            "mapPixelID": 208184,
+            "regionName": "Daggerfall",
+            "locationName": "The Dungeon of Tristane",
+            "discoveredBuildings": null
+        }
+    },
+    {
+        "Key": 153204,
+        "Value": {
+            "mapID": 120739444,
+            "mapPixelID": 153204,
+            "regionName": "Daggerfall",
+            "locationName": "The Yeomfield Burial Ground",
+            "discoveredBuildings": null
+        }
+    },
+    {
         "Key": 221210,
         "Value": {
             "mapID": 1356029978,
             "mapPixelID": 221210,
             "regionName": "Daggerfall",
             "locationName": "Oxwick ",
-            "discoveredBuildings": [
-                {
-                    "Key": 768,
-                    "Value": {
-                        "buildingKey": 768,
-                        "displayName": "The Emperor's Incunabula",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 3,
-                        "buildingType": "Bookseller",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 769,
-                    "Value": {
-                        "buildingKey": 769,
-                        "displayName": "Uthyval's Finest Bookstore",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 20,
-                        "buildingType": "Bookseller",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 512,
-                    "Value": {
-                        "buildingKey": 512,
-                        "displayName": "The Essential Book Center",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 12,
-                        "buildingType": "Bookseller",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 513,
-                    "Value": {
-                        "buildingKey": 513,
-                        "displayName": "Lady Rodistair's Book Dealer",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 6,
-                        "buildingType": "Bookseller",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 272,
-                    "Value": {
-                        "buildingKey": 272,
-                        "displayName": "The King's Used Merchandise",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 20,
-                        "buildingType": "PawnShop",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 65552,
-                    "Value": {
-                        "buildingKey": 65552,
-                        "displayName": "First Class Gear Store",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 7,
-                        "buildingType": "GeneralStore",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 65551,
-                    "Value": {
-                        "buildingKey": 65551,
-                        "displayName": "Bargain Gear",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 18,
-                        "buildingType": "GeneralStore",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 65550,
-                    "Value": {
-                        "buildingKey": 65550,
-                        "displayName": "Alaboryan's General Warehouse",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 6,
-                        "buildingType": "GeneralStore",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 131075,
-                    "Value": {
-                        "buildingKey": 131075,
-                        "displayName": "The Feather and Cat",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 510,
-                        "quality": 13,
-                        "buildingType": "Tavern",
-                        "lastLockpickAttempt": 0
-                    }
-                },
-                {
-                    "Key": 131086,
-                    "Value": {
-                        "buildingKey": 131086,
-                        "displayName": "Doctor Rodynak's Weapons",
-                        "oldDisplayName": null,
-                        "isOverrideName": false,
-                        "factionID": 0,
-                        "quality": 0,
-                        "buildingType": "WeaponSmith",
-                        "lastLockpickAttempt": 0
-                    }
-                }
-            ]
+            "discoveredBuildings": null
         }
     }
 ]

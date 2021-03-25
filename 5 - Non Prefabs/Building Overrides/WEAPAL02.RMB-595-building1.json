@@ -1,0 +1,240 @@
+{
+	"FactionId": 0,
+	"BuildingType": 13,
+	"Quality": 7,
+	"NameSeed": 0,
+	"RmbSubRecord": {
+		"XPos": 2688,
+		"ZPos": 2176,
+		"YRotation": 0,
+		"Exterior": {
+			"Header": {
+				"Num3dObjectRecords": 1,
+				"NumFlatObjectRecords": 0,
+				"NumSection3Records": 0,
+				"NumPeopleRecords": 0,
+				"NumDoorRecords": 0
+			},
+			"Block3dObjectRecords": [
+				{
+					"ModelId": "318",
+					"ModelIdNum": 318,
+					"ObjectType": 4,
+					"XPos": 0,
+					"YPos": 0,
+					"ZPos": 0,
+					"XRotation": 0,
+					"YRotation": 0,
+					"ZRotation": 0
+				}
+			],
+			"BlockFlatObjectRecords": [],
+			"BlockSection3Records": [],
+			"BlockPeopleRecords": [],
+			"BlockDoorRecords": []
+		},
+		"Interior": {
+			"Header": {
+				"Num3dObjectRecords": 9,
+				"NumFlatObjectRecords": 7,
+				"NumSection3Records": 1,
+				"NumPeopleRecords": 1,
+				"NumDoorRecords": 0
+			},
+			"Block3dObjectRecords": [
+				{
+					"ModelId": "3731",
+					"ModelIdNum": 3731,
+					"ObjectType": 13,
+					"XPos": -122,
+					"YPos": -64,
+					"ZPos": 0,
+					"XRotation": 0,
+					"YRotation": 1024,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "3731",
+					"ModelIdNum": 3731,
+					"ObjectType": 13,
+					"XPos": 122,
+					"YPos": -64,
+					"ZPos": 0,
+					"XRotation": 0,
+					"YRotation": 0,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "3731",
+					"ModelIdNum": 3731,
+					"ObjectType": 13,
+					"XPos": 0,
+					"YPos": -64,
+					"ZPos": 122,
+					"XRotation": 0,
+					"YRotation": 512,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "1007",
+					"ModelIdNum": 1007,
+					"ObjectType": 13,
+					"XPos": 0,
+					"YPos": 0,
+					"ZPos": 0,
+					"XRotation": 0,
+					"YRotation": 0,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "2007",
+					"ModelIdNum": 2007,
+					"ObjectType": 13,
+					"XPos": -1,
+					"YPos": -128,
+					"ZPos": 0,
+					"XRotation": 0,
+					"YRotation": 0,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "3704",
+					"ModelIdNum": 3704,
+					"ObjectType": 13,
+					"XPos": 64,
+					"YPos": -64,
+					"ZPos": -122,
+					"XRotation": 0,
+					"YRotation": 1536,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "3702",
+					"ModelIdNum": 3702,
+					"ObjectType": 13,
+					"XPos": -64,
+					"YPos": -64,
+					"ZPos": -122,
+					"XRotation": 0,
+					"YRotation": 1536,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "4700",
+					"ModelIdNum": 4700,
+					"ObjectType": 13,
+					"XPos": 0,
+					"YPos": -64,
+					"ZPos": -121,
+					"XRotation": 0,
+					"YRotation": 1024,
+					"ZRotation": 0
+				},
+				{
+					"ModelId": "41048",
+					"ModelIdNum": 41048,
+					"ObjectType": 3,
+					"XPos": -48,
+					"YPos": 2,
+					"ZPos": 48,
+					"XRotation": 0,
+					"YRotation": 1024,
+					"ZRotation": 0
+				}
+			],
+			"BlockFlatObjectRecords": [
+				{
+					"Position": 10185,
+					"XPos": 64,
+					"YPos": 0,
+					"ZPos": -80,
+					"TextureArchive": 211,
+					"TextureRecord": 13,
+					"FactionID": 510,
+					"Flags": 17
+				},
+				{
+					"Position": 10202,
+					"XPos": 72,
+					"YPos": 0,
+					"ZPos": 16,
+					"TextureArchive": 211,
+					"TextureRecord": 30,
+					"FactionID": 510,
+					"Flags": 17
+				},
+				{
+					"Position": 10219,
+					"XPos": -64,
+					"YPos": 0,
+					"ZPos": -40,
+					"TextureArchive": 199,
+					"TextureRecord": 11,
+					"FactionID": -1,
+					"Flags": 1
+				},
+				{
+					"Position": 10236,
+					"XPos": -56,
+					"YPos": 0,
+					"ZPos": 88,
+					"TextureArchive": 199,
+					"TextureRecord": 18,
+					"FactionID": -1,
+					"Flags": 17
+				},
+				{
+					"Position": 10253,
+					"XPos": -64,
+					"YPos": 0,
+					"ZPos": -64,
+					"TextureArchive": 199,
+					"TextureRecord": 8,
+					"FactionID": 0,
+					"Flags": 0
+				},
+				{
+					"Position": 10270,
+					"XPos": 64,
+					"YPos": 0,
+					"ZPos": 64,
+					"TextureArchive": 199,
+					"TextureRecord": 18,
+					"FactionID": 0,
+					"Flags": 0
+				},
+				{
+					"Position": 10287,
+					"XPos": -64,
+					"YPos": 0,
+					"ZPos": 64,
+					"TextureArchive": 199,
+					"TextureRecord": 11,
+					"FactionID": 0,
+					"Flags": 0
+				}
+			],
+			"BlockSection3Records": [
+				{
+					"XPos": 64,
+					"YPos": 0,
+					"ZPos": -64
+				}
+			],
+			"BlockPeopleRecords": [
+				{
+					"Position": 10320,
+					"XPos": 8,
+					"YPos": 0,
+					"ZPos": -8,
+					"TextureArchive": 182,
+					"TextureRecord": 21,
+					"FactionID": 510,
+					"Flags": 13
+				}
+			],
+			"BlockDoorRecords": []
+		}
+	},
+	"AutoMapData": null
+}

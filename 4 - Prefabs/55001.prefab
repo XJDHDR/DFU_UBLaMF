@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 4434876756990170}
   - component: {fileID: 33528792016079374}
   - component: {fileID: 23063088135189858}
+  - component: {fileID: 114093556699480468}
   - component: {fileID: 114824748231614748}
   - component: {fileID: 65681006212114480}
   - component: {fileID: 82110945374511160}
   - component: {fileID: 114515124748371616}
   - component: {fileID: 114817138522294348}
-  - component: {fileID: 114093556699480468}
   m_Layer: 0
   m_Name: 55001
   m_TagString: Untagged
@@ -45,7 +45,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958808969725326}
-  m_Mesh: {fileID: 4300000, guid: 0cd526b9bfc14964c9540e979ddeea7e, type: 3}
+  m_Mesh: {fileID: -2432090755550338912, guid: 62de51e18c2837840abb2f151da4a17f, type: 3}
 --- !u!23 &23063088135189858
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -86,6 +86,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &114093556699480468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958808969725326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a6e6870983c00144809e2c44cdd0bc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAppliedMaterials: 0
+  Materials:
+  - Index: 0
+    Archive: 67
+    Record: 14
+    ApplyClimate: 0
+  - Index: 1
+    Archive: 74
+    Record: 2
+    ApplyClimate: 0
+  UseDungeonTextureTable: 1
 --- !u!114 &114824748231614748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,26 +270,3 @@ MonoBehaviour:
   PreviewIndex: 0
   PreviewID: 3
   PreviewClip: 0
---- !u!114 &114093556699480468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1958808969725326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a6e6870983c00144809e2c44cdd0bc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAppliedMaterials: 0
-  Materials:
-  - Index: 0
-    Archive: 67
-    Record: 14
-    ApplyClimate: 0
-  - Index: 1
-    Archive: 74
-    Record: 2
-    ApplyClimate: 1
-  UseDungeonTextureTable: 0

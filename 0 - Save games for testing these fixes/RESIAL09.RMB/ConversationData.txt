@@ -1,0 +1,5232 @@
+{
+    "dictQuestInfo": [
+        {
+            "Key": 33554578,
+            "Value": {
+                "resourceInfo": {
+                    "I.00": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "I.01": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "mainquestclock": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33566433,
+            "Value": {
+                "resourceInfo": {
+                    "questreset": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "eventtimecheck": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33557071,
+            "Value": {
+                "resourceInfo": {
+                    "daggerfall": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "delay": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "S.05": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "F.00": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Foe"
+                        }
+                    },
+                    "wraith": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Foe"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33562950,
+            "Value": {
+                "resourceInfo": {
+                    "cooldown": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "eventtimecheck": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33562936,
+            "Value": {
+                "resourceInfo": {
+                    "cooldown": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "thief": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Foe"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33564023,
+            "Value": {
+                "resourceInfo": {
+                    "signetRing": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "A signet ring emblazoned with the Daggerfall crest and Lysandus' personal crest.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Nothing",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "rumorsAnswers": null,
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": true,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "letter47": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "jewelry": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "Mynisera_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "Mynisera": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "messenger_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "messenger": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "dispatcher_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "dispatcher": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "aubki_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "aubki": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "location": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "palace": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "2palace": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "S.07": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "F.00": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Foe"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33567435,
+            "Value": {
+                "resourceInfo": {
+                    "cooldown": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "eventtimecheck": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33566342,
+            "Value": {
+                "resourceInfo": {
+                    "questreset": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "eventtimecheck": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33573487,
+            "Value": {
+                "resourceInfo": {
+                    "questreset": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "eventtimecheck": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Key": 33575857,
+            "Value": {
+                "resourceInfo": {
+                    "letter": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "blood": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "map": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "map2": {
+                        "resourceType": "Thing",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Item"
+                        }
+                    },
+                    "priest_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "priest": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "child_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "child": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "hunter_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "hunter": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_hunter_ searches out and destroys lycanthropes all across Tamriel.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Nothing",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_hunter_ has devoted %g3 life to hunting lycanthropes.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Nothing",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "rumorsAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "They say that _hunter_'s own mother was killed by a werewolf.  That's what",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "drove %g2 to %g3 fanatical hatred of them.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_hunter_ killed %g3 own mother after she became a werewolf.  Now that's",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "what I call a true zealot!",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": true,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "alchemist_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "alchemist": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "father_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "father": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_father_ ... the name sounds familiar, but I can't say that I know him.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Nothing",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "I think _father_ died years ago.  Or maybe moved away?  I'm not sure.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Nothing",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_father_ was the last of a once-powerful noble house in ___local_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "He died several years ago, I'm afraid.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "I think he was the one that died two or three years ago, leaving his only child an orphan.  But _local_ over at __local_ would know more about that.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_father_ hasn't lived in ___local_ for years.  I don't know what happened",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "to him.  But _local_ was a friend of his, and might know more.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_father_ moved away to ___father_ a long while back.  Or was he the one",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "who died so tragically?",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "rumorsAnswers": [
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "_father_ died several years ago.  His only child was adopted by a family",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "from __childhouse_, I think.  Ask around there for _child_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ],
+                            [
+                                {
+                                    "formatting": "Text",
+                                    "text": "Were you a friend?  I'm sorry to say he died about a year ago.  His only",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "Text",
+                                    "text": "child _child_ was taken in by a family from __childhouse_.",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "formatting": "JustifyCenter",
+                                    "text": "",
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            ]
+                        ],
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": true,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "local_home": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "local": {
+                        "resourceType": "Person",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Person"
+                        }
+                    },
+                    "mapdung": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "glenmorilCoven": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "childhouse": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "hintdung": {
+                        "resourceType": "Location",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": false,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": true,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Place"
+                        }
+                    },
+                    "S.05": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "huntstart": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Clock"
+                        }
+                    },
+                    "F.00": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Foe"
+                        }
+                    },
+                    "wereboar": {
+                        "resourceType": "NotSet",
+                        "anyInfoAnswers": null,
+                        "rumorsAnswers": null,
+                        "availableForDialog": true,
+                        "hasEntryInTellMeAbout": false,
+                        "hasEntryInWhereIs": false,
+                        "questPlaceResourceHintTypeReceived": "None",
+                        "dialogLinkedLocations": [],
+                        "dialogLinkedPersons": [],
+                        "dialogLinkedThings": [],
+                        "questResource": {
+                            "$type": "DaggerfallWorkshop.Game.Questing.Foe"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "listRumorMill": [
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 839,
+            "faction2": 41,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 840,
+            "faction2": 40,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx2 is formally allied to %fx1.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 204,
+            "faction2": 840,
+            "regionID": 20,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 840,
+            "faction2": 204,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 has formal relations with %fx2.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 224,
+            "faction2": 91,
+            "regionID": 48,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 91,
+            "faction2": 224,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 454,
+            "faction2": 66,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Any person from %fx2 will be persecuted",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "to the full extent of the law. -- %nrn",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 222,
+            "faction2": 456,
+            "regionID": 46,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 456,
+            "faction2": 222,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 88,
+            "faction2": 66,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 470,
+            "faction2": 473,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 245,
+            "faction2": 229,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 93,
+            "faction2": 108,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 93,
+            "faction2": 40,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 474,
+            "faction2": 480,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 475,
+            "faction2": 512,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 247,
+            "faction2": 1000,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 247,
+            "faction2": 89,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Persons of %fx2 are to be",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "detained upon sight. -- %nrn",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 236,
+            "faction2": 487,
+            "regionID": 61,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 487,
+            "faction2": 236,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 250,
+            "faction2": 492,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 491,
+            "faction2": 91,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 252,
+            "faction2": 66,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 37,
+            "faction2": 409,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 497,
+            "faction2": 464,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 498,
+            "faction2": 214,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 498,
+            "faction2": 354,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Persons of %fx2 are to be",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "detained upon sight. -- %nrn",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 221,
+            "faction2": 254,
+            "regionID": 45,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 254,
+            "faction2": 221,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 40,
+            "faction2": 199,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 62,
+            "faction2": 1003,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 63,
+            "faction2": 241,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx2 is formally allied to %fx1.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 215,
+            "faction2": 64,
+            "regionID": 39,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 64,
+            "faction2": 215,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 66,
+            "faction2": 88,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 67,
+            "faction2": 841,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Persons of %fx2 are to be",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "detained upon sight. -- %nrn",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 235,
+            "faction2": 801,
+            "regionID": 60,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 801,
+            "faction2": 235,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 802,
+            "faction2": 1006,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 802,
+            "faction2": 807,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 850,
+            "faction2": 222,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 851,
+            "faction2": 513,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 804,
+            "faction2": 801,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 805,
+            "faction2": 211,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fl1 has ascended to the throne and",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "is the new %lt1. Long may %fl1 rule over %reg.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 200,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 12,
+            "textID": 1480
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 414,
+            "faction2": 232,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Any person from %fx2 will be persecuted",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "to the full extent of the law. -- %nrn",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 201,
+            "faction2": 233,
+            "regionID": 17,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "For crimes against %reg, %fx2",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "is the sworn enemy of %nrn.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 233,
+            "faction2": 201,
+            "regionID": 57,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 201,
+            "faction2": 233,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "By order of %nrn, no person showing sign",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "of plague may enter or leave this town.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 201,
+            "faction2": 0,
+            "regionID": 17,
+            "flags": 1,
+            "type": 4,
+            "textID": 1478
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 368,
+            "faction2": 490,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "By order of %nrn, no person showing sign",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "of plague may enter or leave this town.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 203,
+            "faction2": 0,
+            "regionID": 19,
+            "flags": 1,
+            "type": 4,
+            "textID": 1478
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 413,
+            "faction2": 842,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 384,
+            "faction2": 473,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 408,
+            "faction2": 199,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 got the short end of the stick in some deal. Now they're out to get %fx2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 408,
+            "faction2": 455,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "They killed %n in broad daylight. The guards didn't even do anything. What is this place coming to.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": 22,
+            "flags": 8,
+            "type": 11,
+            "textID": 1410
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 411,
+            "faction2": 1007,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Lock your doors at night. Nobody is safe anymore from the criminals. They just take anything they want.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": 23,
+            "flags": 8,
+            "type": 11,
+            "textID": 1410
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Due to the famine in %reg, all",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "merchants importing food must",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "report to the gate captain.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 208,
+            "faction2": 0,
+            "regionID": 32,
+            "flags": 1,
+            "type": 7,
+            "textID": 1477
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I heard that %fx1 and %fx2 have patched up their differences.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 210,
+            "faction2": 202,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fl1 is the new %lt1 of %reg.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 211,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 12,
+            "textID": 1480
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 212,
+            "faction2": 215,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "The noble ruler, %ol1 %olf.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "Long live %fl1, newly made %lt1 of %reg.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 212,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 12,
+            "textID": 1480
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 213,
+            "faction2": 358,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fl1 has ascended to the throne and",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "is the new %lt1. Long may %fl1 rule over %reg.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 216,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 12,
+            "textID": 1480
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Due to the famine in %reg, all",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "merchants importing food must",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "report to the gate captain.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 217,
+            "faction2": 0,
+            "regionID": 41,
+            "flags": 1,
+            "type": 7,
+            "textID": 1477
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx2 is formally allied to %fx1.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 218,
+            "faction2": 464,
+            "regionID": 42,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 218,
+            "faction2": 464,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 paid a large peace fee to %fx2. Hopefully that will stop their quarrelling.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 222,
+            "faction2": 213,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Any person from %fx2 will be persecuted",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "to the full extent of the law. -- %nrn",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 222,
+            "faction2": 210,
+            "regionID": 46,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "For crimes against %reg, %fx2",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "is the sworn enemy of %nrn.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 210,
+            "faction2": 222,
+            "regionID": 34,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 222,
+            "faction2": 210,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 224,
+            "faction2": 463,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 224,
+            "faction2": 91,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 have signed an agreement.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 224,
+            "faction2": 219,
+            "regionID": 48,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 have signed an agreement.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 219,
+            "faction2": 224,
+            "regionID": 43,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 224,
+            "faction2": 219,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 have signed an agreement.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 225,
+            "faction2": 85,
+            "regionID": 49,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 225,
+            "faction2": 85,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 226,
+            "faction2": 505,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Persons of %fx2 are to be",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "detained upon sight. -- %nrn",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 227,
+            "faction2": 224,
+            "regionID": 51,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "For crimes against %reg, %fx2",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "Text",
+                        "text": "is the sworn enemy of %nrn.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 224,
+            "faction2": 227,
+            "regionID": 48,
+            "flags": 1,
+            "type": 27,
+            "textID": 1482
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 227,
+            "faction2": 224,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 228,
+            "faction2": 1006,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx2 is formally allied to %fx1.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 228,
+            "faction2": 209,
+            "regionID": 52,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 have signed an agreement.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 209,
+            "faction2": 228,
+            "regionID": 33,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Don't spread this around, but %fx1 and %fx2 are working together.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 228,
+            "faction2": 209,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fl1 insulted %fl2 in a missive. Now %fx2 is out to get %fx1.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 417,
+            "faction2": 411,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I heard that %fx1 and %fx2 have patched up their differences.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 231,
+            "faction2": 841,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 have signed an agreement.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 236,
+            "faction2": 474,
+            "regionID": 61,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 236,
+            "faction2": 474,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 hate each other. I wouldn't be surprised if somebody didn't end up dead because of it.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 129,
+            "faction2": 470,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 and %fx2 were close allies until that incident at the palace.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 354,
+            "faction2": 508,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I heard that %fx1 and %fx2 have patched up their differences.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 418,
+            "faction2": 804,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Until recently %fx1 and %fx2 worked together. They just recently severed their alliance.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 511,
+            "faction2": 226,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1402
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx1 has formal relations with %fx2.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 508,
+            "faction2": 417,
+            "regionID": 0,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I just found out that %fx1 cut a deal with %fx2. Interesting, huh?",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 508,
+            "faction2": 417,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I never understood why %fx1 and %fx2 were feuding. Well at least that's over now.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 591,
+            "faction2": 411,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I heard that %fx1 and %fx2 have patched up their differences.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 196,
+            "faction2": 485,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1403
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%fx2 is formally allied to %fx1.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "JustifyCenter",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 235,
+            "faction2": 1000,
+            "regionID": 60,
+            "flags": 1,
+            "type": 26,
+            "textID": 1481
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 1000,
+            "faction2": 235,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "You might be interested to know that %fx1 has just allied with %fx2.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 1003,
+            "faction2": 42,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1400
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Everybody knows that %fx2 had a grudge against %fx1, but now they're really going at it.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 1003,
+            "faction2": 408,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1401
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "What the Mages Guild is saying about the witches isn't true. The old hags in the forest are mostly harmless.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1450
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "The found poor %n, with two puncture wounds in the neck. Not a drop of blood was left in the body.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1451
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%n, a mage's apprentice, was telling me that there are powerful beings called Daedras living in a place called Oblivion. They can grant a man powerful magical items called artifacts. I'm sure it's just a story.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1452
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "I've heard it said that the witches can help a person find one of the lost artifacts of ancient power.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1453
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "Although most folk deny it, all thieves in %reg belong to a secret Thieves Guild. Any thief refusing to join ends up dead.",
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "formatting": "EndOfRecord",
+                        "text": "",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1454
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "If you really want revenge, contact the Dark Brotherhood. They are professional assassins.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1455
+        },
+        {
+            "rumorType": "CommonRumor",
+            "listRumorVariants": [
+                [
+                    {
+                        "formatting": "Text",
+                        "text": "%lt1 is having an affair.",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            ],
+            "questID": 0,
+            "timeLimit": 818877,
+            "faction1": 0,
+            "faction2": 0,
+            "regionID": -1,
+            "flags": 8,
+            "type": 100,
+            "textID": 1456
+        }
+    ],
+    "dictQuestorPostQuestMessage": [
+        {
+            "Key": 33554867,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Certainly I remember you, %pcf. You brought me that text, right?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557330,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557375,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557385,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557402,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557412,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557432,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557446,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557461,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557474,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557488,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557509,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557523,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557538,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557554,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557571,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557585,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557605,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557620,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557640,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33557650,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Hullo, %pcn.  I remember you.  _mage_'s magic box, yes?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "JustifyCenter",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33565672,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "You have proven yourself in the =monster_ affair. How can we help you?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33566279,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Greetings, %pct. How goes it with you, Orc Slayer?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33570399,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Greetings, %pct. How goes it with you, Orc Slayer?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33572230,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Greetings, %pct. How goes it with you, Orc Slayer?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33573892,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "How are you, %pcf? Found any use for that _potion_ yet?",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "Key": 33574588,
+            "Value": [
+                {
+                    "formatting": "Text",
+                    "text": "Dashed pity about those orcs and mages getting away. Well, it happens.",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "formatting": "Nothing",
+                    "text": "",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        }
+    ],
+    "npcsWithWork": [
+        {
+            "Key": 76198,
+            "Value": {
+                "npc": {
+                    "hash": 46,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 76198,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 65792,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 0
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "First Class Pawnshop"
+            }
+        },
+        {
+            "Key": 151808,
+            "Value": {
+                "npc": {
+                    "hash": -352,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 151808,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 131336,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 9
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Gold Goat"
+            }
+        },
+        {
+            "Key": 152013,
+            "Value": {
+                "npc": {
+                    "hash": -346,
+                    "flags": 13,
+                    "factionID": 510,
+                    "nameSeed": 152013,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 131336,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 1
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The Gold Goat"
+            }
+        },
+        {
+            "Key": 242237,
+            "Value": {
+                "npc": {
+                    "hash": -1048,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 242237,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 196882,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 5
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "Doctor Perore's Supplies"
+            }
+        },
+        {
+            "Key": 78067,
+            "Value": {
+                "npc": {
+                    "hash": 272,
+                    "flags": 41,
+                    "factionID": 546,
+                    "nameSeed": 78067,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66051,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 12
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Mouse and Rascal"
+            }
+        },
+        {
+            "Key": 95400,
+            "Value": {
+                "npc": {
+                    "hash": -14,
+                    "flags": 13,
+                    "factionID": 510,
+                    "nameSeed": 95400,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66064,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 17
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The Adventurer's Supply Store"
+            }
+        },
+        {
+            "Key": 168780,
+            "Value": {
+                "npc": {
+                    "hash": 262,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 168780,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 131602,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 16
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The Queen's Huntsman"
+            }
+        },
+        {
+            "Key": 168901,
+            "Value": {
+                "npc": {
+                    "hash": -236,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 168901,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 131602,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 7
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Queen's Huntsman"
+            }
+        },
+        {
+            "Key": 231634,
+            "Value": {
+                "npc": {
+                    "hash": 458,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 231634,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197136,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 1
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The Red Mug"
+            }
+        },
+        {
+            "Key": 231561,
+            "Value": {
+                "npc": {
+                    "hash": -278,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 231561,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197136,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 12
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Red Mug"
+            }
+        },
+        {
+            "Key": 235552,
+            "Value": {
+                "npc": {
+                    "hash": 46,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 235552,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197137,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 0
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "Doctor Perore's Hockshop"
+            }
+        },
+        {
+            "Key": 151352,
+            "Value": {
+                "npc": {
+                    "hash": 166,
+                    "flags": 9,
+                    "factionID": 546,
+                    "nameSeed": 151352,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 131841,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 17
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Feather and Skull"
+            }
+        },
+        {
+            "Key": 74425,
+            "Value": {
+                "npc": {
+                    "hash": 184,
+                    "flags": 13,
+                    "factionID": 510,
+                    "nameSeed": 74425,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66561,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 59
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "First Class Shielding"
+            }
+        },
+        {
+            "Key": 102293,
+            "Value": {
+                "npc": {
+                    "hash": -436,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 102293,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66570,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 10
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Flying Gnome"
+            }
+        },
+        {
+            "Key": 102308,
+            "Value": {
+                "npc": {
+                    "hash": 350,
+                    "flags": 41,
+                    "factionID": 546,
+                    "nameSeed": 102308,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66570,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 11
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Flying Gnome"
+            }
+        },
+        {
+            "Key": 102323,
+            "Value": {
+                "npc": {
+                    "hash": -448,
+                    "flags": 9,
+                    "factionID": 546,
+                    "nameSeed": 102323,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66570,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 14
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Flying Gnome"
+            }
+        },
+        {
+            "Key": 177461,
+            "Value": {
+                "npc": {
+                    "hash": -198,
+                    "flags": 41,
+                    "factionID": 546,
+                    "nameSeed": 177461,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132110,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 1
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Gold Barbarian"
+            }
+        },
+        {
+            "Key": 177627,
+            "Value": {
+                "npc": {
+                    "hash": 332,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 177627,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132110,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 9
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Gold Barbarian"
+            }
+        },
+        {
+            "Key": 177610,
+            "Value": {
+                "npc": {
+                    "hash": 280,
+                    "flags": 1,
+                    "factionID": 546,
+                    "nameSeed": 177610,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132110,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 13
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Gold Barbarian"
+            }
+        },
+        {
+            "Key": 210515,
+            "Value": {
+                "npc": {
+                    "hash": 44,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 210515,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197633,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 0
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "Lord Peristyr's Incunabula"
+            }
+        },
+        {
+            "Key": 213273,
+            "Value": {
+                "npc": {
+                    "hash": -320,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 213273,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 197634,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 26
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The White Porcupine"
+            }
+        },
+        {
+            "Key": 80236,
+            "Value": {
+                "npc": {
+                    "hash": 40,
+                    "flags": 5,
+                    "factionID": 510,
+                    "nameSeed": 80236,
+                    "gender": "Male",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 66817,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 3
+                },
+                "socialGroup": "Merchants",
+                "buildingName": "The Beaver and Mug"
+            }
+        },
+        {
+            "Key": 155689,
+            "Value": {
+                "npc": {
+                    "hash": 272,
+                    "flags": 41,
+                    "factionID": 546,
+                    "nameSeed": 155689,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132359,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 182,
+                    "billboardRecordIndex": 12
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Screaming Ogre"
+            }
+        },
+        {
+            "Key": 155706,
+            "Value": {
+                "npc": {
+                    "hash": -352,
+                    "flags": 33,
+                    "factionID": 546,
+                    "nameSeed": 155706,
+                    "gender": "Female",
+                    "race": "Breton",
+                    "context": "Custom",
+                    "mapID": 0,
+                    "locationID": 0,
+                    "buildingKey": 132359,
+                    "nameBank": "Breton",
+                    "billboardArchiveIndex": 184,
+                    "billboardRecordIndex": 9
+                },
+                "socialGroup": "Commoners",
+                "buildingName": "The Screaming Ogre"
+            }
+        }
+    ],
+    "castleNPCsSpokenTo": {
+
+    }
+}
