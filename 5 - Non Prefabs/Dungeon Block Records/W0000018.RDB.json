@@ -3554,9 +3554,9 @@
 						"Resources": {
 							"ModelResource": {
 								"XRotation": 0,
-								"YRotation": 0,
+								"YRotation": -512,
 								"ZRotation": 0,
-								"ModelIndex": 1,
+								"ModelIndex": 10,
 								"TriggerFlag_StartingLock": 0,
 								"SoundIndex": 0,
 								"ActionResource": {
@@ -5144,9 +5144,9 @@
 						"Resources": {
 							"ModelResource": {
 								"XRotation": 0,
-								"YRotation": -3584,
+								"YRotation": -2560,
 								"ZRotation": 0,
-								"ModelIndex": 1,
+								"ModelIndex": 10,
 								"TriggerFlag_StartingLock": 0,
 								"SoundIndex": 0,
 								"ActionResource": {
@@ -5582,6 +5582,34 @@
 								"YRotation": 0,
 								"ZRotation": 0,
 								"ModelIndex": 23,
+								"TriggerFlag_StartingLock": 0,
+								"SoundIndex": 0,
+								"ActionResource": {
+									"Position": 0,
+									"Axis": 0,
+									"Duration": 0,
+									"Magnitude": 0,
+									"NextObjectOffset": 0,
+									"PreviousObjectOffset": -1,
+									"NextObjectIndex": -1,
+									"Flags": 0
+								}
+							}
+						}
+					},
+					{
+						"Position": 25500,
+						"Index": 1,
+						"XPos": 1152,
+						"YPos": -1792,
+						"ZPos": 1920,
+						"Type": "Model",
+						"Resources": {
+							"ModelResource": {
+								"XRotation": 0,
+								"YRotation": -512,
+								"ZRotation": 0,
+								"ModelIndex": 11,
 								"TriggerFlag_StartingLock": 0,
 								"SoundIndex": 0,
 								"ActionResource": {

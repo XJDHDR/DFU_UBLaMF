@@ -1,8 +1,11 @@
 ==== Fixed Models ====
-
+41002: Added missing faces to bottom of bed, replaced solid brown textures and removed excess vertices.
+41004: Added missing faces to back and bottom of wardrobe.
+41800: Added missing faces to back and bottom of wardrobe.
+55000 - 55028: Changed open and close sounds to use the dungeon door sounds.
 
 ==== Fixed Dungeon Block Records ====
-
+W0000018: Connected two parts of the block that were disconnected, causing the smaller part to not be accessible in some dungeons.
 
 ==== Fixed Locations ====
 	
