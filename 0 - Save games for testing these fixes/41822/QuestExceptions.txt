@@ -1,9 +1,0 @@
-[
-    {
-        "questName": "S0000502",
-        "exception": {
-
-        },
-        "stackTrace": "  at DaggerfallWorkshop.Game.Questing.QuestMachine.HasSiteLink (DaggerfallWorkshop.Game.Questing.Quest parentQuest, DaggerfallWorkshop.Game.Questing.Symbol placeSymbol) [0x00000] in <filename unknown>:0 \r\n  at DaggerfallWorkshop.Game.Questing.Actions.PlaceNpc.Update (DaggerfallWorkshop.Game.Questing.Task caller) [0x00000] in <filename unknown>:0 \r\n  at DaggerfallWorkshop.Game.Questing.Task.Update () [0x00000] in <filename unknown>:0 \r\n  at DaggerfallWorkshop.Game.Questing.Quest.Update () [0x00000] in <filename unknown>:0 \r\n  at DaggerfallWorkshop.Game.Questing.QuestMachine.Tick () [0x00000] in <filename unknown>:0 "
-    }
-]

@@ -1,8 +1,8 @@
 {
     "ModTitle": "Unofficial Block, Location and Model Fixes",
-    "ModVersion": "2021.03.25",
+    "ModVersion": "2021.09.0",
     "ModAuthor": "XJDHDR",
-    "DFUnity_Version": "0.11.2",
+    "DFUnity_Version": "0.11.3",
     "ModDescription": "Fixes various errors present in the original game's block, location and model data files.",
     "GUID": "6892120c-562e-4599-809a-d81a7b131086",
     "Files": [
@@ -14,6 +14,8 @@
         "Assets/Untracked/UBLaMF/4 - Prefabs/9004.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/13200.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/34200.prefab",
+        "Assets/Untracked/UBLaMF/4 - Prefabs/41002.prefab",
+        "Assets/Untracked/UBLaMF/4 - Prefabs/41004.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41102.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41110.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41128.prefab",
@@ -22,6 +24,7 @@
         "Assets/Untracked/UBLaMF/4 - Prefabs/41208.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41402.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41500.prefab",
+        "Assets/Untracked/UBLaMF/4 - Prefabs/41800.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41822.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41834.prefab",
         "Assets/Untracked/UBLaMF/4 - Prefabs/41902.prefab",
@@ -139,6 +142,7 @@
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Dungeon Block Records/S0000160.RDB.json",
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Dungeon Block Records/S0000180.RDB.json",
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Dungeon Block Records/W0000005.RDB.json",
+        "Assets/Untracked/UBLaMF/5 - Non Prefabs/Dungeon Block Records/W0000016.RDB.json"
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Dungeon Block Records/W0000018.RDB.json",
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Locations/Location 00 - Alik'r Desert/location-0-135.json",
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Locations/Location 00 - Alik'r Desert/location-0-144.json",
@@ -577,8 +581,5 @@
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Locations/Location 60 - Ilessan Hills/location-60-544.json",
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Locations/Location 60 - Ilessan Hills/location-60-554.json",
         "Assets/Untracked/UBLaMF/5 - Non Prefabs/Locations/Location 60 - Ilessan Hills/location-60-588.json",
-        "Assets/Untracked/UBLaMF/4 - Prefabs/41004.prefab",
-        "Assets/Untracked/UBLaMF/4 - Prefabs/41800.prefab",
-        "Assets/Untracked/UBLaMF/4 - Prefabs/41002.prefab"
     ]
 }

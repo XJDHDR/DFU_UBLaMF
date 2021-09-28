@@ -5618,7 +5618,7 @@
     },
     "Daggerfall/The Vannona Coven": {
         "locationName": "DaggerfallDungeon [Region=Daggerfall, Name=The Vannona Coven]",
-        "timeInSecondsLastVisited": 12604112855,
+        "timeInSecondsLastVisited": 12604113050,
         "entranceDiscovered": true,
         "blocks": [
             {
@@ -5976,6 +5976,10 @@
                             {
                                 "discovered": true,
                                 "visitedInThisRun": true
+                            },
+                            {
+                                "discovered": false,
+                                "visitedInThisRun": false
                             },
                             {
                                 "discovered": false,
@@ -6962,8 +6966,8 @@
                                 "visitedInThisRun": false
                             },
                             {
-                                "discovered": false,
-                                "visitedInThisRun": false
+                                "discovered": true,
+                                "visitedInThisRun": true
                             },
                             {
                                 "discovered": true,
