@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+	<asset>
+		<created>2021-12-13T07:20:57.4111078Z</created>
+		<modified>2021-12-13T07:20:57.4111078Z</modified>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_geometries>
+		<geometry id="model43601">
+			<mesh>
+				<source id="model43601-positions">
+					<float_array id="model43601-positions-array" count="186">56.2852 -31.4766 142.887 143.519 -31.4766 55.1953 36.8242 37.2461 50.332 143.519 -31.4766 55.1953 136.504 -31.4766 -48.457 56.3203 43.3125 -13.0273 143.519 -31.4766 55.1953 56.3203 43.3125 -13.0273 36.8242 37.2461 50.332 26.8477 -31.4766 -136.828 28.5039 43.3125 -35.3516 56.3203 43.3125 -13.0273 136.504 -31.4766 -48.457 26.8477 -31.4766 -136.828 -54.8398 -31.4766 -143.586 -7.27734 46.3438 -29.5273 26.8477 -31.4766 -136.828 -7.27734 46.3438 -29.5273 28.5039 43.3125 -35.3516 -134.578 -31.4766 -44.9141 -119.367 -31.4766 50.8945 -35.2773 46.4063 -1.52734 -119.367 -31.4766 50.8945 -63.0625 -31.4766 133.773 -28.4883 38.1406 52.5781 -119.367 -31.4766 50.8945 -28.4883 38.1406 52.5781 -35.2773 46.4063 -1.52734 -63.0625 -31.4766 133.773 56.2852 -31.4766 142.887 36.8242 37.2461 50.332 -63.0625 -31.4766 133.773 36.8242 37.2461 50.332 -28.4883 38.1406 52.5781 -28.4883 38.1406 52.5781 36.8242 37.2461 50.332 0.578125 60.0156 -1.35547 36.8242 37.2461 50.332 56.3203 43.3125 -13.0273 0.578125 60.0156 -1.35547 56.3203 43.3125 -13.0273 28.5039 43.3125 -35.3516 0.578125 60.0156 -1.35547 28.5039 43.3125 -35.3516 -7.27734 46.3438 -29.5273 0.578125 60.0156 -1.35547 -7.27734 46.3438 -29.5273 -35.2773 46.4063 -1.52734 0.578125 60.0156 -1.35547 -35.2773 46.4063 -1.52734 -28.4883 38.1406 52.5781 0.578125 60.0156 -1.35547 -35.2734 -31.4766 -1.52734 -35.2773 46.4063 -1.52734 -7.27734 46.3438 -29.5273 -7.27734 -31.4766 -29.5273 -7.27734 -31.4766 -29.5273 -7.27734 46.3438 -29.5273 -54.8398 -31.4766 -143.586 -35.2734 -31.4766 -1.52734 -134.578 -31.4766 -44.9141 -35.2773 46.4063 -1.52734</float_array>
+					<technique_common>
+						<accessor count="62" source="#model43601-positions-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model43601-normals">
+					<float_array id="model43601-normals-array" count="186">0.464844 0.753906 0.460938 0.464844 0.753906 0.460938 0.464844 0.753906 0.460938 0.671875 0.742188 -0.046875 0.671875 0.742188 -0.046875 0.671875 0.742188 -0.046875 0.519531 0.820313 0.238281 0.519531 0.820313 0.238281 0.519531 0.820313 0.238281 0.433594 0.722656 -0.539063 0.433594 0.722656 -0.539063 0.433594 0.722656 -0.539063 0.433594 0.722656 -0.539063 0.046875 0.816406 -0.578125 0.046875 0.816406 -0.578125 0.046875 0.816406 -0.578125 -0.0273438 0.804688 -0.59375 -0.0273438 0.804688 -0.59375 -0.0273438 0.804688 -0.59375 -0.640625 0.761719 0.101563 -0.640625 0.761719 0.101563 -0.640625 0.761719 0.101563 -0.566406 0.730469 0.382813 -0.566406 0.730469 0.382813 -0.566406 0.730469 0.382813 -0.597656 0.777344 0.195313 -0.597656 0.777344 0.195313 -0.597656 0.777344 0.195313 -0.046875 0.796875 0.601563 -0.046875 0.796875 0.601563 -0.046875 0.796875 0.601563 0.03125 0.75 0.660156 0.03125 0.75 0.660156 0.03125 0.75 0.660156 0.0273438 0.921875 0.386719 0.0273438 0.921875 0.386719 0.0273438 0.921875 0.386719 0.316406 0.929688 0.1875 0.316406 0.929688 0.1875 0.316406 0.929688 0.1875 0.222656 0.933594 -0.277344 0.222656 0.933594 -0.277344 0.222656 0.933594 -0.277344 0.00390625 0.898438 -0.4375 0.00390625 0.898438 -0.4375 0.00390625 0.898438 -0.4375 -0.332031 0.882813 -0.335938 -0.332031 0.882813 -0.335938 -0.332031 0.882813 -0.335938 -0.347656 0.917969 0.183594 -0.347656 0.917969 0.183594 -0.347656 0.917969 0.183594 -0.707031 0 -0.707031 -0.707031 0 -0.707031 -0.707031 0 -0.707031 -0.707031 0 -0.707031 -0.921875 0 0.386719 -0.921875 0 0.386719 -0.921875 0 0.386719 0.398438 0 -0.917969 0.398438 0 -0.917969 0.398438 0 -0.917969</float_array>
+					<technique_common>
+						<accessor count="62" source="#model43601-normals-array" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="model43601-uv">
+					<float_array id="model43601-uv-array" count="124">0.94043 0 0 -0.916992 1.15137 -0.969727 0 -0.916992 0.0761719 -2.00391 0.94043 -1.63184 0 -0.916992 0.94043 -1.63184 1.15137 -0.969727 1.25977 -2.92969 1.24219 -1.86621 0.941406 -1.63184 0.0761719 -2.00391 1.25977 -2.92969 2.1416 -3 1.62598 -1.80469 1.25977 -2.92969 1.62598 -1.80469 1.24219 -1.86621 3 -1.96582 2.83594 -0.963867 1.93066 -1.51172 2.83594 -0.963867 2.22949 -0.0966797 1.85742 -0.946289 2.83594 -0.963867 1.85742 -0.946289 1.93066 -1.51172 2.22949 -0.0966797 0.94043 0 1.15137 -0.969727 2.22949 -0.0966797 1.15137 -0.969727 1.85742 -0.946289 1.85742 -0.946289 1.15137 -0.969727 1.54394 -1.51172 1.15137 -0.969727 0.94043 -1.63184 1.54394 -1.51172 0.94043 -1.63184 1.24219 -1.86621 1.54394 -1.51172 1.24219 -1.86621 1.62598 -1.80469 1.54394 -1.51172 1.62598 -1.80469 1.93066 -1.51172 1.54394 -1.51172 1.93066 -1.51172 1.85742 -0.946289 1.54394 -1.51172 0 -1 0 0 0.999023 -0.000488281 1 -1 2 -0.987305 2 0 0 -1 0 -0.912109 2 -1 0 0</float_array>
+					<technique_common>
+						<accessor count="62" source="#model43601-uv-array" stride="2">
+							<param name="S" type="float"/>
+							<param name="T" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="model43601-vertices">
+					<input semantic="POSITION" source="#model43601-positions"/>
+				</vertices>
+				<triangles count="18" material="302_2-0-material">
+					<input offset="0" semantic="VERTEX" source="#model43601-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model43601-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model43601-uv" set="0"/>
+					<p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 9 9 9 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15 16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39 40 40 40 41 41 41 42 42 42 43 43 43 44 44 44 45 45 45 46 46 46 47 47 47 48 48 48 49 49 49 50 50 50 51 51 51</p>
+				</triangles>
+				<triangles count="2" material="331_2-0-material">
+					<input offset="0" semantic="VERTEX" source="#model43601-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model43601-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model43601-uv" set="0"/>
+					<p>52 52 52 53 53 53 54 54 54 52 52 52 54 54 54 55 55 55</p>
+				</triangles>
+				<triangles count="2" material="331_0-0-material">
+					<input offset="0" semantic="VERTEX" source="#model43601-vertices" set="0"/>
+					<input offset="1" semantic="NORMAL" source="#model43601-normals" set="0"/>
+					<input offset="2" semantic="TEXCOORD" source="#model43601-uv" set="0"/>
+					<p>56 56 56 57 57 57 58 58 58 59 59 59 60 60 60 61 61 61</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_images>
+		<image id="302_2-0" height="0" width="0">
+			<init_from>textures/302_2-0.png</init_from>
+		</image>
+		<image id="331_2-0" height="0" width="0">
+			<init_from>textures/331_2-0.png</init_from>
+		</image>
+		<image id="331_0-0" height="0" width="0">
+			<init_from>textures/331_0-0.png</init_from>
+		</image>
+	</library_images>
+	<library_effects>
+		<effect id="302_2-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>302_2-0</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="331_2-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>331_2-0</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="331_0-0-effect">
+			<profile_COMMON>
+				<newparam sid="surface">
+					<surface type="2D">
+						<init_from>331_0-0</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="sampler">
+					<sampler2D>
+						<source>surface</source>
+						<minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="common">
+					<phong>
+						<diffuse>
+							<texture texture="sampler" texcoord="uv0"/>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_materials>
+		<material id="302_2-0-material">
+			<instance_effect url="#302_2-0-effect"/>
+		</material>
+		<material id="331_2-0-material">
+			<instance_effect url="#331_2-0-effect"/>
+		</material>
+		<material id="331_0-0-material">
+			<instance_effect url="#331_0-0-effect"/>
+		</material>
+	</library_materials>
+	<library_visual_scenes>
+		<visual_scene id="model43601-scene">
+			<node id="model43601-node">
+				<rotate>1 0 0 90</rotate>
+				<instance_geometry url="#model43601">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="302_2-0-material" target="#302_2-0-material">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+							<instance_material symbol="331_2-0-material" target="#331_2-0-material">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+							<instance_material symbol="331_0-0-material" target="#331_0-0-material">
+								<bind_vertex_input semantic="uv0" input_semantic="TEXCOORD" input_set="0"/>
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#model43601-scene"/>
+	</scene>
+</COLLADA>
