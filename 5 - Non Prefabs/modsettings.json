@@ -1,0 +1,29 @@
+{
+    "Version": "1.0",
+    "Sections": [
+        {
+            "Name": "UpdateOptions",
+            "Description": "Options related to checking for updates.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "DisableUpdateCheck",
+                    "Description": "Stops the mod from doing any checks for updates.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Min": 0,
+                    "Max": 30,
+                    "Value": 3,
+                    "Name": "UpdateInterval",
+                    "Description": "Set the minimum delay (in days) between update checks. 0 means it checks for updates every time the game starts.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}

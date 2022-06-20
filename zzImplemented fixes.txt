@@ -4,6 +4,9 @@
 	- Made the non-doorway portions of the model able to be affected by texture replacers.
 
 ==== Fixed Dungeon Block Records ====
+N0000005.RDB
+	- Moved dungeon exit forward slightly to prevent Z-buffer fighting with the brick wall behind it.
+
 W0000007.RDB
 	- Moved a brick wall so that there is no longer a gap between it and it's doorway which the void could be seen through.
 
