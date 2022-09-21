@@ -1,4 +1,5 @@
-﻿// This source code is or was originally a part of the "Unofficial Block, Location and Model Fixes" mod for Daggerfall Unity.
+﻿// ReSharper disable once CommentTypo
+// This source code is or was originally a part of the "Unofficial Block, Location and Model Fixes" mod for Daggerfall Unity.
 //
 // This source code is provided under the following license:
 // https://github.com/XJDHDR/DFU_UBLaMF/blob/master/License-MIT.txt
@@ -7,43 +8,50 @@ using System;
 using System.Collections;
 using System.Globalization;
 using System.Text;
-using UnityEngine;
 using DaggerfallWorkshop.Game;
 using DaggerfallWorkshop.Game.Serialization;
 using DaggerfallWorkshop.Game.UserInterfaceWindows;
 using DaggerfallWorkshop.Game.Utility;
 using DaggerfallWorkshop.Game.Utility.ModSupport;
 using DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings;
+using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Windows;
 
-// ReSharper disable once CheckNamespace
 namespace UBLAMFMod
 {
+    // ReSharper disable once InconsistentNaming
+    // ReSharper disable once IdentifierTypo
     public class UBLAMF : MonoBehaviour
     {
         // ==== Fields ====
-        private const string VersionNumberForThisRelease = "2021.09.00";
+        private const string VERSION_NUMBER_FOR_THIS_RELEASE = "2021.09.00";
 
+        // ReSharper disable once InconsistentNaming
+        private static bool dfuVersionIs0_14_2orLater;
         private static bool dontCheckForUpdates;
+        private static int dfuVersionMajor;
+        private static int dfuVersionMinor;
+        private static int dfuVersionRevision;
         private static int updateInterval;
         private static string downloadedVersionNumber = string.Empty;
-        
+
         private static Mod mod;
         private static ModSettings settings;
-        
-        
+
+
         // ==== DFU and Unity initialisation methods ====
+        // ReSharper disable once UnusedMember.Global
         [Invoke(StateManager.StateTypes.Start, 0)]
-        public static void Init(InitParams initParams)
+        public static void Init(InitParams InitParams)
         {
-            mod = initParams.Mod;
-            
+            mod = InitParams.Mod;
+
             settings = mod.GetSettings();
             dontCheckForUpdates = settings.GetValue<bool>("UpdateOptions", "DisableUpdateCheck");
             updateInterval = settings.GetValue<int>("UpdateOptions", "UpdateInterval");
 
-            var go = new GameObject("UBLaMF manager");
+            GameObject go = new GameObject("UBLaMF manager");
             go.AddComponent<UBLAMF>();
 
             mod.IsReady = true;
@@ -51,15 +59,21 @@ namespace UBLAMFMod
 
         private void Start()
         {
-#if !UNITY_EDITOR
+            if (Application.isEditor)
+                return;
+
+            string[] versionParts = VersionInfo.DaggerfallUnityVersion.Split('.');
+            dfuVersionMajor = Convert.ToInt32(versionParts[0]);
+            dfuVersionMinor = Convert.ToInt32(versionParts[1]);
+            dfuVersionRevision = Convert.ToInt32(versionParts[2]);
+
             if (!dontCheckForUpdates)
-                StartCoroutine(GetLatestVersionNumberFromRepo());
-#endif
+                StartCoroutine(getLatestVersionNumberFromRepo());
         }
 
-        
+
         // ==== Private methods ====
-        private static IEnumerator GetLatestVersionNumberFromRepo()
+        private static IEnumerator getLatestVersionNumberFromRepo()
         {
             // Retrieve the last update time (UTC) from the PersistentDataDirectory.
             DateTime lastUpdateTime;
@@ -80,13 +94,13 @@ namespace UBLAMFMod
                 Directory.CreateDirectory(mod.PersistentDataDirectory);
                 lastUpdateTime = DateTime.MinValue;
             }
-            
+
             // Compare the retrieved last update time against the current time and date.
             // Abort if it's still too soon for another check.
             TimeSpan timeSinceLastCheck = DateTime.UtcNow - lastUpdateTime;
             if (timeSinceLastCheck.Days < updateInterval)
                 yield break;
-            
+
             // Download the text file containing the version number for the latest release.
             UnityWebRequest webRequest = UnityWebRequest.Get("https://raw.githubusercontent.com/XJDHDR/DFU_UBLaMF/master/Latest_version.txt");
             yield return webRequest.SendWebRequest();
@@ -118,30 +132,47 @@ namespace UBLAMFMod
                 ++fullByteArrayIndexCounter;
             }
             downloadedVersionNumber = downloadedVersionNumberStrippedStringBuilder.ToString();
-            
+
             // Is the version number for this installed copy of the mod equal to the processed version number?
-            if (!downloadedVersionNumber.Equals(VersionNumberForThisRelease, StringComparison.Ordinal))
+            if (!downloadedVersionNumber.Equals(VERSION_NUMBER_FOR_THIS_RELEASE, StringComparison.Ordinal))
             {
                 File.WriteAllBytes($"{mod.PersistentDataDirectory}/LastUpdateTime.txt", BitConverter.GetBytes(DateTime.UtcNow.ToBinary()));
                 yield break;
             }
 
-            // Populate the version number field for the messagebox, and register for the New Game and Load Save events.
-            SaveLoadManager.OnLoad += SaveGameLoaded;
-            StartGameBehaviour.OnNewGame += NewGameStarted;
+            // Create appropriate event registrations so that a messagebox can be displayed at the correct moment.
+            // Is the version of DFU being used equal to 0.14.2 or later.
+            if ((dfuVersionMajor > 0) || (dfuVersionMajor == 0 && dfuVersionMinor > 14) ||
+                (dfuVersionMajor == 0 && dfuVersionMinor == 14 && dfuVersionRevision > 1))
+            {
+                // If so, use the main menu event that was added in that version.
+                dfuVersionIs0_14_2orLater = true;
+                DaggerfallStartWindow.OnStartFirstVisible += newGameStartedOrMainMenuReached;
+            }
+            else
+            {
+                // Otherwise, register for the New Game and Load Save events that exist in previous versions.
+                SaveLoadManager.OnLoad += saveGameLoaded;
+                StartGameBehaviour.OnNewGame += newGameStartedOrMainMenuReached;
+            }
         }
 
-        private static void SaveGameLoaded(SaveData_v1 saveData)
-        {
-            NewGameStarted();
-        }
+        private static void saveGameLoaded(SaveData_v1 SaveData) =>
+	        newGameStartedOrMainMenuReached();
 
-        private static void NewGameStarted()
+        private static void newGameStartedOrMainMenuReached()
         {
-            SaveLoadManager.OnLoad -= SaveGameLoaded;
-            StartGameBehaviour.OnNewGame -= NewGameStarted;
+            if (dfuVersionIs0_14_2orLater)
+            {
+                DaggerfallStartWindow.OnStartFirstVisible -= newGameStartedOrMainMenuReached;
+            }
+            else
+            {
+                SaveLoadManager.OnLoad -= saveGameLoaded;
+                StartGameBehaviour.OnNewGame -= newGameStartedOrMainMenuReached;
+            }
             File.WriteAllBytes($"{mod.PersistentDataDirectory}/LastUpdateTime.txt", BitConverter.GetBytes(DateTime.UtcNow.ToBinary()));
-            
+
             DaggerfallMessageBox messageBox = new DaggerfallMessageBox(DaggerfallUI.UIManager, DaggerfallUI.UIManager.TopWindow, true)
             {
                 ClickAnywhereToClose = true
@@ -152,14 +183,14 @@ namespace UBLAMFMod
                 "Message from the Unofficial Block, Locations and Model Fixes mod:",
                 "",
                 "You are using an outdated version.",
-                $"The latest version available is {downloadedVersionNumber}, but you are using version {VersionNumberForThisRelease}",
+                $"The latest version available is {downloadedVersionNumber}, but you are using version {VERSION_NUMBER_FOR_THIS_RELEASE}",
                 "It is recommended that you download the latest version from Nexus Mods:",
                 "https://www.nexusmods.com/daggerfallunity/mods/100",
                 "",
                 "Unless you disable update checking or change the waiting period in the mod's settings, ",
                 $"the next update check will happen after {nextUpdateCheck.ToString(CultureInfo.CurrentCulture)}.",
                 "",
-                "Press Esc or click any mouse button to close this message."
+                "Press Esc, Enter, or click any mouse button to close this message."
             };
             messageBox.SetText(messageLines);
             messageBox.Show();
