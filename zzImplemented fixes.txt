@@ -3,18 +3,46 @@
 	- Removed excess vertices (from 62 to ?)
 	- Made the non-doorway portions of the model able to be affected by texture replacers.
 
+
 ==== Fixed Dungeon Block Records ====
 N0000005.RDB
-	- Moved dungeon exit forward slightly to prevent Z-buffer fighting with the brick wall behind it.
+	- Moved dungeon exit forward slightly to prevent Z-buffer fighting with the brick wall behind it. https://forums.dfworkshop.net/viewtopic.php?p=61674#p61674
+	
+
+N0000013.RDB
+	- Fixed rotation data of switch that was making it rotate sideways out of it's casing instead of within it. https://forums.dfworkshop.net/viewtopic.php?p=62028#p62028
+
 
 W0000007.RDB
 	- Moved a brick wall so that there is no longer a gap between it and it's doorway which the void could be seen through.
 
 
 ==== Fixed Locations ====
-	
+Wayrest City, Wayrest
+	- Location 23-601
+	- Line 543: NameSeed: 29655 --> 19397
+	- Two Taverns were both named "The Queen’s Hedgehog". Renamed the one near the South wall to "The Lucky Dog". https://forums.dfworkshop.net/viewtopic.php?p=61668#p61668	
+
+
 
 ==== Fixed Map Block Records ====
+ARMRAM00.RMB
+	- Fixed Armorer/Smith interior models not being aligned with the exterior model. https://forums.dfworkshop.net/viewtopic.php?p=61730#p61730
+	- This bug is only visible with the Transparent Windows mod installed.
+	- Each XPos parameter for every interior object was set to +50 of their original value.
+	- Each ZPos parameter for every interior object was set to -50 of their original value.
+
+
+ARMRAM01.RMB (and associated locations)
+	- Fixed tavern that was incorrectly labelled as a house. https://forums.dfworkshop.net/viewtopic.php?p=62004#p62004
+
+
+CUSTAA05.RMB
+	- Fix was done entirely by Cliffworms. https://forums.dfworkshop.net/viewtopic.php?t=4969
+	- Gaps between floor parts have been closed.
+	- Grounded all floating objects.
+	- Moved stair segments to their correct positions.
+
 
 
 ==== Fixed Materials ====
@@ -26,6 +54,13 @@ W0000007.RDB
 
 173_3-0
 	Added missing emission map for windows.
+
+
+
+==== Other changes ====
+- Bumped minimum DFU version required from 0.11.3 to 0.13.4. Changes made to the Shader system meant that the Material fixes needed to target this version to be compatible with future DFU versions.
+- Added an update checker script. 
+
 
 
 ==== Known issues ====

@@ -2,9 +2,30 @@ M0000004.RDB
 	Floating torch (SAVE - Floating dungeon torch.zip)
 
 
+N0000000, N0000002, W0000001, and S000999
+	Floating candle.
+	https://forums.dfworkshop.net/viewtopic.php?p=61918#p61918
+
+
+N0000004.RDB
+	Floating candle.
+	Reported on Discord by Syndicate.
+
+S0000080.RDB, S0000081.RDB, S0000160.RDB, S0000040.RDB, and S0000041.RDB
+	Banners and torches are not against the wall.
+	https://forums.dfworkshop.net/viewtopic.php?p=61933#p61933
+
+
+S0000200.RDB, S0000201.RDB, and S0000202.RDB
+	Numerous models are the wrong sizes and/or badly placed.
+	https://forums.dfworkshop.net/viewtopic.php?p=62182#p62182
+
+
 W0000016.RDB
 	Floating treasure and candle on pillar
 	https://forums.dfworkshop.net/viewtopic.php?p=51330#p51330 and https://forums.dfworkshop.net/viewtopic.php?p=14740#p14740
+
+
 
 
 GRVEAS20.RMB
@@ -14,10 +35,22 @@ GRVEAS20.RMB
 MAGEAA02.RMB
 	Hanging flower pot is floating in midair in the middle of a road.
 	https://forums.dfworkshop.net/viewtopic.php?p=61530#p61530
+	
+
+PAWNGL00.RMB
+	Two camels and a fencepost are inside a building.
+	https://forums.dfworkshop.net/viewtopic.php?p=61872#p61872
+
+
+TEMPAAE0.RMB
+	Hanging potted plant floating in the middle of the street.
+	https://forums.dfworkshop.net/viewtopic.php?p=61967#p61967
 
 
 THIEAM00.RMB
 	Building #1 has model 41004 (Model entry #17, 3rd from bottom) that needs rotating.
+
+
 
 
 Model 239
@@ -58,9 +91,23 @@ Model 41313
 
 Model 41409
 	Retexture and fix up ladder model. Collider must be convex?
+
+
+Model 59016
+	Walls of corridors have stretched textures.
+	Reported on Discord by Syndicate.
+
+	
+Model 61204
+	Ceiling portion's edges don't line up with neighbouring models.
+	https://forums.dfworkshop.net/viewtopic.php?p=62234&sid=918bed4d7d0340d93ec9db5e1e4940fb#p62234
+	
 	
 Model 67016
 	Staircase has gaps between stairs and walls.
+	https://forums.dfworkshop.net/viewtopic.php?p=61715#p61715
+
+
 
 
 Check UV mapping and vertices count of all fixed models.
