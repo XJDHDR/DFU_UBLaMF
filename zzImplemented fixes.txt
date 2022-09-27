@@ -1,7 +1,16 @@
 ==== Fixed Models ====
+12506
+	- Removed excess vertices (from 157 to 80)
+	- Closed holes in model between roof and it's trusses.
+
 43601
 	- Removed excess vertices (from 62 to ?)
 	- Made the non-doorway portions of the model able to be affected by texture replacers.
+
+59016
+	- Removed excess vertices (from 117 to 64)
+	- Fixed stretched and badly mapped textures on walls.
+	Reported on Discord by Syndicate.
 
 
 ==== Fixed Dungeon Block Records ====
