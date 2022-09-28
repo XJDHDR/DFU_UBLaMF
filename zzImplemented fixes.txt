@@ -12,6 +12,18 @@
 	- Fixed stretched and badly mapped textures on walls.
 	Reported on Discord by Syndicate.
 
+60203
+	- Removed excess vertices (from 240 to 102)
+	- Improved UV mapping of every albedo map used in this model.
+
+63034
+	- Removed excess vertices (from 76 to 72)
+	- Fixed gap between the inner circle's ceiling and adjacent corridor model.
+
+63041
+	- Removed excess vertices (from 24 to 20)
+	- Improved UV mapping for albedo map of the lower portion of the walls.
+
 
 ==== Fixed Dungeon Block Records ====
 N0000005.RDB
@@ -55,6 +67,9 @@ CUSTAA05.RMB
 
 
 ==== Fixed Materials ====
+147_5-0
+	Removed black seam at the bottom of the albedo map.
+
 171_2-0
 	Added missing emission map for windows.
 
