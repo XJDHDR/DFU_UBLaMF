@@ -10,15 +10,22 @@
 59016
 	- Removed excess vertices (from 117 to 64)
 	- Fixed stretched and badly mapped textures on walls.
-	Reported on Discord by Syndicate.
+	- Reported on Discord by Syndicate.
 
 60203
 	- Removed excess vertices (from 240 to 102)
 	- Improved UV mapping of every albedo map used in this model.
 
+63032
+	- Removed excess vertices (from 75 to 57)
+	- Fixed bad UV mapping on floor.
+	- Fixed face on ceiling that was incorrectly assigned a wall texture.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62475#p62475
+
 63034
 	- Removed excess vertices (from 76 to 72)
 	- Fixed gap between the inner circle's ceiling and adjacent corridor model.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62473#p62473
 
 63041
 	- Removed excess vertices (from 24 to 20)
@@ -68,16 +75,20 @@ CUSTAA05.RMB
 
 ==== Fixed Materials ====
 147_5-0
-	Removed black seam at the bottom of the albedo map.
+	- Removed black seam at the bottom of the albedo map.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62442#p62442
 
 171_2-0
-	Added missing emission map for windows.
+	- Added missing emission map for windows.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?t=5213
 
 172_3-0
-	Added missing emission map for windows.
+	- Added missing emission map for windows.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?t=5213
 
 173_3-0
-	Added missing emission map for windows.
+	- Added missing emission map for windows.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?t=5213
 
 
 
