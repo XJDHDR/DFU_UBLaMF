@@ -9,18 +9,28 @@
 
 59016
 	- Removed excess vertices (from 117 to 64)
-	- Fixed stretched and badly mapped textures on walls.
+	- Fixed stretched and badly mapped UV mapping on walls.
 	- Reported on Discord by Syndicate.
 
 60203
 	- Removed excess vertices (from 240 to 102)
-	- Improved UV mapping of every albedo map used in this model.
+	- Improved UV mapping for whole model.
 
+61204
+	- Removed excess vertices (from 78 to 48)
+	- Fixed gap between the outer circle's ceiling and adjacent corridor models.
+	- Improved UV mapping for the ceiling.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62234#p62234
+	
 63032
 	- Removed excess vertices (from 75 to 57)
 	- Fixed bad UV mapping on floor.
 	- Fixed face on ceiling that was incorrectly assigned a wall texture.
 	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62475#p62475
+
+63038
+	- Removed excess vertices (from 84 to 68)
+	- Fixed bad UV mapping on ceiling.
 
 63034
 	- Removed excess vertices (from 76 to 72)
@@ -29,7 +39,17 @@
 
 63041
 	- Removed excess vertices (from 24 to 20)
-	- Improved UV mapping for albedo map of the lower portion of the walls.
+	- Improved UV mapping for the lower portion of the walls.
+	
+63134
+	- Removed excess vertices (from 76 to 56)
+	- Fixed gap between the inner circle's ceiling and adjacent corridor model.
+	- Improved UV mapping for the lower portion of the walls.
+
+67016
+	- Closed holes between steps and walls.
+	- Improved UV mapping for steps.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61715#p61715
 
 
 ==== Fixed Dungeon Block Records ====
