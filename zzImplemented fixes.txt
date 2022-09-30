@@ -3,6 +3,12 @@
 	- Removed excess vertices (from 157 to 80)
 	- Closed holes in model between roof and it's trusses.
 
+41001
+	- Removed excess vertices (from 88 to 72)
+	- Added missing face to bottom of bed.
+	- Closed hole between pillow and matress.
+	- Switched certain faces from using a solid brown texture to one of the game's wood textures.
+
 41313
 	- Removed excess vertices (from 188 to 144)
 	- Added missing face to bottom of cage.
@@ -60,6 +66,15 @@
 
 
 ==== Fixed Dungeon Block Records ====
+N0000004.RDB
+	- Floating candle was grounded on pedestal.
+	- Line 382: "YPos": -1603 -> -1590
+	- Line 366: "XPos": 317 -> 319
+	- Line 367: "YPos": -1616 -> -1603
+	- Line 368: "ZPos": 767 -> 768
+	- Reported on Discord by Syndicate.
+
+
 N0000005.RDB
 	- Moved dungeon exit forward slightly to prevent Z-buffer fighting with the brick wall behind it. https://forums.dfworkshop.net/viewtopic.php?p=61674#p61674
 	
@@ -97,6 +112,14 @@ CUSTAA05.RMB
 	- Gaps between floor parts have been closed.
 	- Grounded all floating objects.
 	- Moved stair segments to their correct positions.
+
+
+MAGEAA02.RMB
+	- Hanging flower pot floating in midair was replaced with a shrub and moved off the road.
+	- Line 11789: "TextureRecord": 14 -> 17
+	- Line 11786: "YPos": -44 -> -4
+	- Line 11787: "ZPos": -2087 -> -1935
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61530#p61530
 
 
 
