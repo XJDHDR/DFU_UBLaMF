@@ -4,8 +4,11 @@ Repositioning objects:
 	- YPos: Move object up and down. +ve moves down, -ve moves up.
 
 	Check if this is correct:
+		(Correct for flats and models with rotation (not part of building))
 		- XPos: Move object along West-East axis. +ve moves East, -ve moves West,
 		- ZPos: Move object along North-South axis. +ve moves North, -ve moves South.
+
+
 	or:
 		- XPos: Move object along it's Z-axis. +ve moves it away from the red arrow's direction. -ve moves it in the red arrow's direction.
 		- ZPos: Move object along it's X-axis. +ve moves it in the blue arrow's direction. -ve moves it away from the blue arrow's direction.

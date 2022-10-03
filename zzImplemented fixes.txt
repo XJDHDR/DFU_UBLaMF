@@ -3,11 +3,25 @@
 	- Removed excess vertices (from 157 to 80)
 	- Closed holes in model between roof and it's trusses.
 
+31022
+	- Removed excess vertices (from 171 to 135)
+	- Closed hole between room wall and balcony wall.
+	- Touched up the wall UV mapping.
+	- Assigned a wood texture for the top of the balcony wall.
+
 41001
 	- Removed excess vertices (from 88 to 72)
-	- Added missing face to bottom of bed.
-	- Closed hole between pillow and matress.
+	- Added missing faces to bottom of bed.
+	- Closed hole between pillow and mattress.
 	- Switched certain faces from using a solid brown texture to one of the game's wood textures.
+
+41312
+	- Removed excess vertices (from 188 to 136)
+	- Added missing faces to bottom of cage.
+	- Made top of cage a thicker chunk of wood.
+	- Moved bars to close holes between them and the cage's floor.
+	- Flipped UV mapping of corner bars to reduce visual artifacts.
+	- Thickened most of the bars, so they are no longer wafer-thin.
 
 41313
 	- Removed excess vertices (from 188 to 144)
@@ -15,10 +29,7 @@
 	- Made top of cage a thicker chunk of wood.
 	- Moved bars to close holes between them and the cage's floor.
 	- Flipped UV mapping of corner bars to reduce visual artifacts.
-
-43601
-	- Removed excess vertices (from 62 to ?)
-	- Made the non-doorway portions of the model able to be affected by texture replacers.
+	- Thickened most of the bars, so they are no longer wafer-thin.
 
 59016
 	- Removed excess vertices (from 117 to 64)
@@ -41,14 +52,14 @@
 	- Fixed face on ceiling that was incorrectly assigned a wall texture.
 	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62475#p62475
 
-63038
-	- Removed excess vertices (from 84 to 68)
-	- Fixed bad UV mapping on ceiling.
-
 63034
 	- Removed excess vertices (from 76 to 72)
 	- Fixed gap between the inner circle's ceiling and adjacent corridor model.
 	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62473#p62473
+
+63038
+	- Removed excess vertices (from 84 to 68)
+	- Fixed bad UV mapping on ceiling.
 
 63041
 	- Removed excess vertices (from 24 to 20)
@@ -81,6 +92,13 @@ N0000005.RDB
 
 N0000013.RDB
 	- Fixed rotation data of switch that was making it rotate sideways out of it's casing instead of within it. https://forums.dfworkshop.net/viewtopic.php?p=62028#p62028
+
+
+N0000028.RDB
+	- Fixed position and rotation of corridor corner model to close gaps between it and it's adjacent corridor models.
+	- Line 4285, "Position": 14455, "ModelIndex": 12,
+	- "YRotation": 511 -> 512
+	- "XPos": 705 -> 704
 
 
 W0000007.RDB
@@ -120,6 +138,20 @@ MAGEAA02.RMB
 	- Line 11786: "YPos": -44 -> -4
 	- Line 11787: "ZPos": -2087 -> -1935
 	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61530#p61530
+
+
+PAWNGL00.RMB
+	- Moved 4 camels and a fence that were inside building models into alleys next to those buildings.
+	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61872#p61872
+
+
+TEMPAAE0.RMB
+	- Hanging flower pot floating in midair was moved up so it touched the roof it's supposed to hang from. "Position": 52347
+	- Line 11789: "YPos": -44 -> -83
+
+
+THIEAM00.RMB
+	- Rotated cupboard that was showing it's rear.
 
 
 
