@@ -94,6 +94,13 @@ N0000013.RDB
 	- Fixed rotation data of switch that was making it rotate sideways out of it's casing instead of within it. https://forums.dfworkshop.net/viewtopic.php?p=62028#p62028
 
 
+N0000024.RDB
+	- Fixed position of marker so that it spawns it's treasure behind a throne platform rather than inside it. Also grounded it as it was floating in the air.
+	- Line 3539, "Position": 14046, "TextureArchive": 199, "TextureRecord": 19
+	- ZPos: 1671 -> 1750
+	- YPos: -1076 -> -1060
+
+
 N0000028.RDB
 	- Fixed position and rotation of corridor corner model to close gaps between it and it's adjacent corridor models.
 	- Line 4285, "Position": 14455, "ModelIndex": 12,
