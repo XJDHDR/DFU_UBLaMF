@@ -7,6 +7,7 @@
 using System;
 using System.Collections;
 using System.Globalization;
+using System.Reflection;
 using System.Text;
 using DaggerfallWorkshop.Game;
 using DaggerfallWorkshop.Game.Serialization;
@@ -39,6 +40,9 @@ namespace UBLAMFMod
         private static Mod mod;
         private static ModSettings settings;
 
+        private static Delegate newGameStartedOrMainMenuReachedDelegate;
+        private static EventInfo onStartFirstVisibleEvent;
+
 
         // ==== DFU and Unity initialisation methods ====
         // ReSharper disable once UnusedMember.Global
@@ -59,6 +63,7 @@ namespace UBLAMFMod
 
         private void Start()
         {
+	        // Skip this version check if the mod is running inside the editor
             if (Application.isEditor)
                 return;
 
@@ -134,7 +139,7 @@ namespace UBLAMFMod
             downloadedVersionNumber = downloadedVersionNumberStrippedStringBuilder.ToString();
 
             // Is the version number for this installed copy of the mod equal to the processed version number?
-            if (!downloadedVersionNumber.Equals(VERSION_NUMBER_FOR_THIS_RELEASE, StringComparison.Ordinal))
+            if (downloadedVersionNumber.Equals(VERSION_NUMBER_FOR_THIS_RELEASE, StringComparison.Ordinal))
             {
                 File.WriteAllBytes($"{mod.PersistentDataDirectory}/LastUpdateTime.txt", BitConverter.GetBytes(DateTime.UtcNow.ToBinary()));
                 yield break;
@@ -147,7 +152,9 @@ namespace UBLAMFMod
             {
                 // If so, use the main menu event that was added in that version.
                 dfuVersionIs0_14_2orLater = true;
-                DaggerfallStartWindow.OnStartFirstVisible += newGameStartedOrMainMenuReached;
+                // TODO: Uncomment this line and remove reflection logic if mod's minimum version ever becomes 0.14.2 or later
+                //DaggerfallStartWindow.OnStartFirstVisible += newGameStartedOrMainMenuReached;
+                addMethodToOnStartFirstVisibleEventWithReflection(newGameStartedOrMainMenuReached);
             }
             else
             {
@@ -157,6 +164,14 @@ namespace UBLAMFMod
             }
         }
 
+        private static void addMethodToOnStartFirstVisibleEventWithReflection(Action MethodToUseAsEventHandler)
+        {
+	        onStartFirstVisibleEvent = typeof(DaggerfallStartWindow).GetEvent("OnStartFirstVisible",
+		        BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly);
+	        newGameStartedOrMainMenuReachedDelegate = Delegate.CreateDelegate(onStartFirstVisibleEvent.EventHandlerType, MethodToUseAsEventHandler.Method);
+	        onStartFirstVisibleEvent.AddEventHandler(null, newGameStartedOrMainMenuReachedDelegate);
+        }
+
         private static void saveGameLoaded(SaveData_v1 SaveData) =>
 	        newGameStartedOrMainMenuReached();
 
@@ -164,7 +179,9 @@ namespace UBLAMFMod
         {
             if (dfuVersionIs0_14_2orLater)
             {
-                DaggerfallStartWindow.OnStartFirstVisible -= newGameStartedOrMainMenuReached;
+	            // TODO: Uncomment this line and remove reflection logic if mod's minimum version ever becomes 0.14.2 or later
+                //DaggerfallStartWindow.OnStartFirstVisible -= newGameStartedOrMainMenuReached;
+                onStartFirstVisibleEvent.RemoveEventHandler(null, newGameStartedOrMainMenuReachedDelegate);
             }
             else
             {
