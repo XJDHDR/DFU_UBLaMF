@@ -108,6 +108,10 @@ N0000028.RDB
 	- "XPos": 705 -> 704
 
 
+S0000080.RDB
+	- Corrected positions of a huge number of torches, tapestries, carpets, switches, and axes. 
+
+
 W0000007.RDB
 	- Moved a brick wall so that there is no longer a gap between it and it's doorway which the void could be seen through.
 
@@ -139,6 +143,10 @@ CUSTAA05.RMB
 	- Moved stair segments to their correct positions.
 
 
+DARKAA00.RMB
+	- Corrected data that caused the owner of a house in this block to be identified as Thaik.
+
+
 MAGEAA02.RMB
 	- Hanging flower pot floating in midair was replaced with a shrub and moved off the road.
 	- Line 11789: "TextureRecord": 14 -> 17
@@ -147,9 +155,17 @@ MAGEAA02.RMB
 	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61530#p61530
 
 
+MARKAA01.RMB
+	- Corrected data that caused one man in this block's north tavern to be identified as Thaik.
+
+
 PAWNGL00.RMB
 	- Moved 4 camels and a fence that were inside building models into alleys next to those buildings.
 	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61872#p61872
+
+
+RESIAS02.RMB
+	- Corrected data that caused the owner of one house in this block to be identified as Lord Kain, ruler of Lainlyn.
 
 
 TEMPAAE0.RMB
@@ -160,6 +176,9 @@ TEMPAAE0.RMB
 THIEAM00.RMB
 	- Rotated cupboard that was showing it's rear.
 
+
+TVRNAS08.RMB
+	- Corrected data that caused the owner of one house in this block to be identified as Lord Kain, ruler of Lainlyn.
 
 
 ==== Fixed Materials ====
