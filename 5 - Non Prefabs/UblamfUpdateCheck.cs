@@ -22,8 +22,6 @@ namespace UBLAMFMod
 	internal struct UblamfUpdateCheck
 	{
 		// ==== Fields ====
-		private const string VERSION_NUMBER_FOR_THIS_RELEASE = "2021.09.00";
-
 		// ReSharper disable once InconsistentNaming
 		private static bool dfuVersionIs0_14_2orLater;
 		private static int dfuVersionMajor;
@@ -201,7 +199,7 @@ namespace UBLAMFMod
 		        Ublamf._ModStringBuilder.Clear();
 
 		        // Is the version number for this installed copy of the mod equal to the processed version number?
-		        if (downloadedVersionNumber.Equals(VERSION_NUMBER_FOR_THIS_RELEASE, StringComparison.Ordinal))
+		        if (downloadedVersionNumber.Equals(Ublamf._UblamfModInstance.ModInfo.ModVersion, StringComparison.OrdinalIgnoreCase))
 		        {
 			        File.WriteAllBytes($"{Ublamf._UblamfModInstance.PersistentDataDirectory}/LastUpdateTime.txt",
 				        BitConverter.GetBytes(DateTime.UtcNow.ToBinary()));
@@ -293,7 +291,7 @@ namespace UBLAMFMod
 	            Ublamf._ModStringBuilder.AppendLine();
 	            Ublamf._ModStringBuilder.AppendLine("You are using an outdated version.");
 	            Ublamf._ModStringBuilder.Append($"The latest version available is {downloadedVersionNumber},");
-	            Ublamf._ModStringBuilder.AppendLine($" but you are using version {VERSION_NUMBER_FOR_THIS_RELEASE}");
+	            Ublamf._ModStringBuilder.AppendLine($" but you are using version {Ublamf._UblamfModInstance.ModInfo.ModVersion}");
 	            Ublamf._ModStringBuilder.AppendLine("It is recommended that you download the latest version from Nexus Mods:");
 	            Ublamf._ModStringBuilder.AppendLine("https://www.nexusmods.com/daggerfallunity/mods/100");
 	            Ublamf._ModStringBuilder.AppendLine("");
