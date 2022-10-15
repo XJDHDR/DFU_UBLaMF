@@ -1,208 +1,24 @@
 ==== Fixed Models ====
-12506
-	- Removed excess vertices (from 157 to 80)
-	- Closed holes in model between roof and it's trusses.
 
-31022
-	- Removed excess vertices (from 171 to 135)
-	- Closed hole between room wall and balcony wall.
-	- Touched up the wall UV mapping.
-	- Assigned a wood texture for the top of the balcony wall.
-
-41001
-	- Removed excess vertices (from 88 to 72)
-	- Added missing faces to bottom of bed.
-	- Closed hole between pillow and mattress.
-	- Switched certain faces from using a solid brown texture to one of the game's wood textures.
-
-41312
-	- Removed excess vertices (from 188 to 136)
-	- Added missing faces to bottom of cage.
-	- Made top of cage a thicker chunk of wood.
-	- Moved bars to close holes between them and the cage's floor.
-	- Flipped UV mapping of corner bars to reduce visual artifacts.
-	- Thickened most of the bars, so they are no longer wafer-thin.
-
-41313
-	- Removed excess vertices (from 188 to 144)
-	- Added missing face to bottom of cage.
-	- Made top of cage a thicker chunk of wood.
-	- Moved bars to close holes between them and the cage's floor.
-	- Flipped UV mapping of corner bars to reduce visual artifacts.
-	- Thickened most of the bars, so they are no longer wafer-thin.
-
-59016
-	- Removed excess vertices (from 117 to 64)
-	- Fixed stretched and badly mapped UV mapping on walls.
-	- Reported on Discord by Syndicate.
-
-60203
-	- Removed excess vertices (from 240 to 102)
-	- Improved UV mapping for whole model.
-
-61204
-	- Removed excess vertices (from 78 to 48)
-	- Fixed gap between the outer circle's ceiling and adjacent corridor models.
-	- Improved UV mapping for the ceiling.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62234#p62234
-	
-63032
-	- Removed excess vertices (from 75 to 57)
-	- Fixed bad UV mapping on floor.
-	- Fixed face on ceiling that was incorrectly assigned a wall texture.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62475#p62475
-
-63034
-	- Removed excess vertices (from 76 to 72)
-	- Fixed gap between the inner circle's ceiling and adjacent corridor model.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62473#p62473
-
-63038
-	- Removed excess vertices (from 84 to 68)
-	- Fixed bad UV mapping on ceiling.
-
-63041
-	- Removed excess vertices (from 24 to 20)
-	- Improved UV mapping for the lower portion of the walls.
-	
-63134
-	- Removed excess vertices (from 76 to 56)
-	- Fixed gap between the inner circle's ceiling and adjacent corridor model.
-	- Improved UV mapping for the lower portion of the walls.
-
-67016
-	- Closed holes between steps and walls.
-	- Improved UV mapping for steps.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61715#p61715
 
 
 ==== Fixed Dungeon Block Records ====
-N0000004.RDB
-	- Floating candle was grounded on pedestal.
-	- Line 382: "YPos": -1603 -> -1590
-	- Line 366: "XPos": 317 -> 319
-	- Line 367: "YPos": -1616 -> -1603
-	- Line 368: "ZPos": 767 -> 768
-	- Reported on Discord by Syndicate.
 
-
-N0000005.RDB
-	- Moved dungeon exit forward slightly to prevent Z-buffer fighting with the brick wall behind it. https://forums.dfworkshop.net/viewtopic.php?p=61674#p61674
-	
-
-N0000013.RDB
-	- Fixed rotation data of switch that was making it rotate sideways out of it's casing instead of within it. https://forums.dfworkshop.net/viewtopic.php?p=62028#p62028
-
-
-N0000024.RDB
-	- Fixed position of marker so that it spawns it's treasure behind a throne platform rather than inside it. Also grounded it as it was floating in the air.
-	- Line 3539, "Position": 14046, "TextureArchive": 199, "TextureRecord": 19
-	- ZPos: 1671 -> 1750
-	- YPos: -1076 -> -1060
-
-
-N0000028.RDB
-	- Fixed position and rotation of corridor corner model to close gaps between it and it's adjacent corridor models.
-	- Line 4285, "Position": 14455, "ModelIndex": 12,
-	- "YRotation": 511 -> 512
-	- "XPos": 705 -> 704
-
-
-S0000080.RDB
-	- Corrected positions of a huge number of torches, tapestries, carpets, switches, and axes. 
-
-
-W0000007.RDB
-	- Moved a brick wall so that there is no longer a gap between it and it's doorway which the void could be seen through.
 
 
 ==== Fixed Locations ====
-Wayrest City, Wayrest
-	- Location 23-601
-	- Line 543: NameSeed: 29655 --> 19397
-	- Two Taverns were both named "The Queen’s Hedgehog". Renamed the one near the South wall to "The Lucky Dog". https://forums.dfworkshop.net/viewtopic.php?p=61668#p61668	
 
 
 
 ==== Fixed Map Block Records ====
-ARMRAM00.RMB
-	- Fixed Armorer/Smith interior models not being aligned with the exterior model. https://forums.dfworkshop.net/viewtopic.php?p=61730#p61730
-	- This bug is only visible with the Transparent Windows mod installed.
-	- Each XPos parameter for every interior object was set to +50 of their original value.
-	- Each ZPos parameter for every interior object was set to -50 of their original value.
 
-
-ARMRAM01.RMB (and associated locations)
-	- Fixed tavern that was incorrectly labelled as a house. https://forums.dfworkshop.net/viewtopic.php?p=62004#p62004
-
-
-CUSTAA05.RMB
-	- Fix was done entirely by Cliffworms. https://forums.dfworkshop.net/viewtopic.php?t=4969
-	- Gaps between floor parts have been closed.
-	- Grounded all floating objects.
-	- Moved stair segments to their correct positions.
-
-
-DARKAA00.RMB
-	- Corrected data that caused the owner of a house in this block to be identified as Thaik.
-
-
-MAGEAA02.RMB
-	- Hanging flower pot floating in midair was replaced with a shrub and moved off the road.
-	- Line 11789: "TextureRecord": 14 -> 17
-	- Line 11786: "YPos": -44 -> -4
-	- Line 11787: "ZPos": -2087 -> -1935
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61530#p61530
-
-
-MARKAA01.RMB
-	- Corrected data that caused one man in this block's north tavern to be identified as Thaik.
-
-
-PAWNGL00.RMB
-	- Moved 4 camels and a fence that were inside building models into alleys next to those buildings.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=61872#p61872
-
-
-RESIAS02.RMB
-	- Corrected data that caused the owner of one house in this block to be identified as Lord Kain, ruler of Lainlyn.
-
-
-TEMPAAE0.RMB
-	- Hanging flower pot floating in midair was moved up so it touched the roof it's supposed to hang from. "Position": 52347
-	- Line 11789: "YPos": -44 -> -83
-
-
-THIEAM00.RMB
-	- Rotated cupboard that was showing it's rear.
-
-
-TVRNAS08.RMB
-	- Corrected data that caused the owner of one house in this block to be identified as Lord Kain, ruler of Lainlyn.
 
 
 ==== Fixed Materials ====
-147_5-0
-	- Removed black seam at the bottom of the albedo map.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?p=62442#p62442
-
-171_2-0
-	- Added missing emission map for windows.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?t=5213
-
-172_3-0
-	- Added missing emission map for windows.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?t=5213
-
-173_3-0
-	- Added missing emission map for windows.
-	- Reported here: https://forums.dfworkshop.net/viewtopic.php?t=5213
 
 
 
 ==== Other changes ====
-- Bumped minimum DFU version required from 0.11.3 to 0.13.4. Changes made to the Shader system meant that the Material fixes needed to target this version to be compatible with future DFU versions.
-- Added an update checker script. 
 
 
 

@@ -19,7 +19,7 @@ using UnityEngine.Networking;
 
 namespace UBLAMFMod
 {
-	internal struct UblamfUpdateCheck
+	public struct UblamfUpdateCheck
 	{
 		// ==== Fields ====
 		// ReSharper disable once InconsistentNaming
@@ -36,7 +36,7 @@ namespace UBLAMFMod
 
 
 		// ==== Internal methods ====
-		internal static void _GetDfuVersionNumberAndStartCheckerRoutine(Ublamf MangerInstance)
+		public static void _GetDfuVersionNumberAndStartCheckerRoutine(Ublamf MangerInstance)
 		{
 			try
 			{
@@ -57,7 +57,7 @@ namespace UBLAMFMod
 			catch (Exception e)
 			{
 				Ublamf._ModStringBuilder.Clear();
-				Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)}.");
+				Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)} - ");
 				Ublamf._ModStringBuilder.AppendLine($"{nameof(_GetDfuVersionNumberAndStartCheckerRoutine)} method.");
 				Ublamf._ModStringBuilder.AppendLine("Arguments:");
 				Ublamf._ModStringBuilder.AppendLine($"  Arg1: {nameof(Ublamf)}:{nameof(MangerInstance)} - {MangerInstance}.");
@@ -108,7 +108,7 @@ namespace UBLAMFMod
 	        catch (Exception e)
 	        {
 		        Ublamf._ModStringBuilder.Clear();
-		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)}.");
+		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)} - ");
 		        Ublamf._ModStringBuilder.AppendLine($"{nameof(doUpdateCheckInBackground)} method.");
 		        Ublamf._ModStringBuilder.AppendLine($"{e}");
 		        Debug.LogError(Ublamf._ModStringBuilder.ToString(), ublamfManagerInstance);
@@ -154,7 +154,7 @@ namespace UBLAMFMod
 	        catch (Exception e)
 	        {
 		        Ublamf._ModStringBuilder.Clear();
-		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)}.");
+		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)} - ");
 		        Ublamf._ModStringBuilder.AppendLine($"{nameof(getLastUpdateCheckTimeFromPersistentDirectoryAndCheckIfItIsTimeForAnotherCheck)} method.");
 		        Ublamf._ModStringBuilder.AppendLine($"{e}");
 		        Debug.LogError(Ublamf._ModStringBuilder.ToString(), ublamfManagerInstance);
@@ -211,7 +211,7 @@ namespace UBLAMFMod
 	        catch (Exception e)
 	        {
 		        Ublamf._ModStringBuilder.Clear();
-		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)}.");
+		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)} - ");
 		        Ublamf._ModStringBuilder.AppendLine($"{nameof(checkModVersionNumberForInstalledCopyAgainstDownloadedLatestVersionNumber)} method.");
 		        Ublamf._ModStringBuilder.AppendLine("Arguments:");
 		        Ublamf._ModStringBuilder.Append($"  Arg1: {nameof(UnityWebRequest)}:{nameof(DownloadedVersionNumberWebRequest)} - ");
@@ -249,7 +249,7 @@ namespace UBLAMFMod
 	        catch (Exception e)
 	        {
 		        Ublamf._ModStringBuilder.Clear();
-		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)}.");
+		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)} - ");
 		        Ublamf._ModStringBuilder.AppendLine($"{nameof(addMethodToOnStartFirstVisibleEventWithReflection)} method.");
 		        Ublamf._ModStringBuilder.AppendLine("Arguments:");
 		        Ublamf._ModStringBuilder.AppendLine($"  Arg1: {nameof(Action)}:{nameof(MethodToUseAsEventHandler)} - {MethodToUseAsEventHandler}.");
@@ -286,27 +286,28 @@ namespace UBLAMFMod
 	            };
 	            DateTime nextUpdateCheck = DateTime.Now + new TimeSpan(Ublamf._UpdateIntervalSetting, 0, 0, 0);
 
-	            Ublamf._ModStringBuilder.Clear();
-	            Ublamf._ModStringBuilder.AppendLine("Message from the Unofficial Block, Locations and Model Fixes mod:");
-	            Ublamf._ModStringBuilder.AppendLine();
-	            Ublamf._ModStringBuilder.AppendLine("You are using an outdated version.");
-	            Ublamf._ModStringBuilder.Append($"The latest version available is {downloadedVersionNumber},");
-	            Ublamf._ModStringBuilder.AppendLine($" but you are using version {Ublamf._UblamfModInstance.ModInfo.ModVersion}");
-	            Ublamf._ModStringBuilder.AppendLine("It is recommended that you download the latest version from Nexus Mods:");
-	            Ublamf._ModStringBuilder.AppendLine("https://www.nexusmods.com/daggerfallunity/mods/100");
-	            Ublamf._ModStringBuilder.AppendLine("");
-	            Ublamf._ModStringBuilder.AppendLine("Unless you disable update checking or change the waiting period in the mod's settings, ");
-	            Ublamf._ModStringBuilder.AppendLine($"the next update check will happen after {nextUpdateCheck.ToString(CultureInfo.CurrentCulture)}.");
-	            Ublamf._ModStringBuilder.AppendLine();
-	            Ublamf._ModStringBuilder.AppendLine("Press Esc, Enter, or click any mouse button to close this message.");
-	            messageBox.SetText(Ublamf._ModStringBuilder.ToString());
-	            Ublamf._ModStringBuilder.Clear();
+	            string[] messageLines =
+	            {
+		            "Message from the Unofficial Block, Locations and Model Fixes mod:",
+		            "",
+		            "You are using an outdated version.",
+		            $"The latest version available is {downloadedVersionNumber}, but you are using version {Ublamf._UblamfModInstance.ModInfo.ModVersion}",
+		            "It is recommended that you download the latest version from Nexus Mods:",
+		            "https://www.nexusmods.com/daggerfallunity/mods/100",
+		            "",
+		            "",
+		            "Unless you disable update checking or change the waiting period in the mod's settings, ",
+		            $"the next update check will happen after {nextUpdateCheck.ToString(CultureInfo.CurrentCulture)}.",
+		            "",
+		            "Press Esc, Enter, or click any mouse button to close this message."
+	            };
+	            messageBox.SetText(messageLines);
 	            messageBox.Show();
 	        }
 	        catch (Exception e)
 	        {
 		        Ublamf._ModStringBuilder.Clear();
-		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)}.");
+		        Ublamf._ModStringBuilder.Append($"UBLaMF: An exception occurred in the {nameof(UblamfUpdateCheck)} - ");
 		        Ublamf._ModStringBuilder.AppendLine($"{nameof(newGameStartedOrMainMenuReached)} method.");
 		        Ublamf._ModStringBuilder.AppendLine($"{e}");
 		        Debug.LogError(Ublamf._ModStringBuilder.ToString(), ublamfManagerInstance);
