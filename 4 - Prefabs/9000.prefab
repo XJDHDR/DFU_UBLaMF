@@ -107,7 +107,7 @@ MonoBehaviour:
   - Index: 1
     Archive: 74
     Record: 0
-    ApplyClimate: 0
+    ApplyClimate: 1
   UseDungeonTextureTable: 0
 --- !u!82 &6246937013725029747
 AudioSource:
@@ -258,6 +258,8 @@ MonoBehaviour:
   CloseSound: 93
   BashSound: 7
   PickedLockSound: 316
+  boxCollider: {fileID: 0}
+  meshCollider: {fileID: 0}
 --- !u!114 &1004586212816662486
 MonoBehaviour:
   m_ObjectHideFlags: 0
