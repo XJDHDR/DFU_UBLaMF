@@ -1,3 +1,6 @@
+This file lists fixes that have been pushed into this repo but are not present in the latest release of UBLaMF. The fixes here will be present in the next version that is released.
+
+
 ==== Fixed Models ====
 
 
@@ -7,11 +10,11 @@
 
 
 ==== Fixed Locations ====
-- Fixed all instances of Bhoriane being named "Bhoraine".
+- Fixed all instances of Bhoriane being incorrectly named "Bhoraine".
 
 
 ==== Fixed Map Block Records ====
-
+- TVRNAL10.RMB - Fixed house that was incorrectly labelled as a tavern.
 
 
 ==== Fixed Materials ====
