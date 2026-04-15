@@ -1,0 +1,7 @@
+Building Overrides	- 0.12.0	- Fixed a bug where map markers could become collidable objects: https://github.com/Interkarma/daggerfall-unity/issues/1706
+Dungeon Blocks		- 0.11.3	- Fixed a bug where mod added models didn't get appropriate shaders in the AutoMap: https://github.com/Interkarma/daggerfall-unity/pull/2075
+Locations			- 0.12.0	- Pin it at same version as that required for Building and Map modules.
+Map Blocks			- 0.12.0	- Fixed a bug where map markers could become collidable objects: https://github.com/Interkarma/daggerfall-unity/issues/1706
+Models				- 0.11.3	- Added support for using a MeshCollider on door models: https://github.com/Interkarma/daggerfall-unity/pull/2069
+Scripting			- 0.11.3	- Pin it at the lowest version required across all the modules.
+Textures			- 0.13.3	- Changes were made to DFU's shader system: https://github.com/Interkarma/daggerfall-unity/releases/tag/v0.13.3-beta
