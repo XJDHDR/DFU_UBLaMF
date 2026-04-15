@@ -493,11 +493,21 @@
 				"ModelId": "41002",
 				"ModelIdNum": 41002,
 				"Description": "XXX"
-			}
+			},
 			{
 				"ModelId": "80001",
 				"ModelIdNum": 80001,
 				"Description": "DOR"
+			},
+			{
+				"ModelId": "61026",
+				"ModelIdNum": 61026,
+				"Description": "C0Z"
+			},
+			{
+				"ModelId": "61028",
+				"ModelIdNum": 61028,
+				"Description": "L0Z"
 			}
 		],
 		"ObjectRootList": [
@@ -7568,7 +7578,64 @@
 				]
 			},
 			{
-				"RdbObjects": null
+				"RdbObjects": [
+					{
+						"Position": 35000,
+						"Index": 0,
+						"XPos": 1786,
+						"YPos": -1074,
+						"ZPos": 1093,
+						"Type": "Model",
+						"Resources": {
+							"ModelResource": {
+								"XRotation": 1024,
+								"YRotation": 0,
+								"ZRotation": 512,
+								"ModelIndex": 95,
+								"TriggerFlag_StartingLock": 0,
+								"SoundIndex": 0,
+								"ActionResource": {
+									"Position": 0,
+									"Axis": 0,
+									"Duration": 0,
+									"Magnitude": 0,
+									"NextObjectOffset": 0,
+									"PreviousObjectOffset": -1,
+									"NextObjectIndex": -1,
+									"Flags": 0
+								}
+							}
+						}
+					},
+					{
+						"Position": 35200,
+						"Index": 1,
+						"XPos": 1785,
+						"YPos": -1074,
+						"ZPos": 1093,
+						"Type": "Model",
+						"Resources": {
+							"ModelResource": {
+								"XRotation": 1024,
+								"YRotation": 0,
+								"ZRotation": 256,
+								"ModelIndex": 96,
+								"TriggerFlag_StartingLock": 2,
+								"SoundIndex": 72,
+								"ActionResource": {
+									"Position": 35300,
+									"Axis": 6,
+									"Duration": 18,
+									"Magnitude": 440,
+									"NextObjectOffset": 22866,
+									"PreviousObjectOffset": -1,
+									"NextObjectIndex": -1,
+									"Flags": 8
+								}
+							}
+						}
+					}
+				]
 			},
 			{
 				"RdbObjects": null
